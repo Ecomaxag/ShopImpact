@@ -161,6 +161,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_G9pXKW": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"product-offer bg-gray-100 py-10 px-6 rounded-lg shadow-lg text-center max-w-xl mx-auto\">\n  <h2 class=\"text-xl font-bold uppercase text-gray-700 mb-2\">Basic (48% Off)</h2>\n  \n  <h3 class=\"text-2xl font-semibold text-black mb-1\">Renewa EyeLift</h3>\n  <p class=\"text-sm text-gray-600 mb-4\">(No Swiss Niacinamide Serum)</p>\n\n  <div class=\"flex justify-center mb-4\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_32.webp?v=1748470645\" alt=\"Renewa EyeLift Image 1\" class=\"w-48 rounded-lg\">\n  </div>\n\n  <div class=\"text-left mb-6\">\n    <h4 class=\"text-lg font-semibold mb-2\">Comes With</h4>\n    <ul class=\"list-none space-y-1 text-sm text-gray-700\">\n      <li>✔ Renewa EyeLift</li>\n      <li>✔ Charging Cable & Manual</li>\n      <li>✔ 90-Day Money-Back Guarantee</li>\n    </ul>\n  </div>\n\n  <div class=\"mb-2\">\n    <p class=\"text-sm text-gray-500 line-through\">It’s a $229 Value</p>\n    <p class=\"text-xl font-bold text-red-600\">TODAY ONLY</p>\n    <p class=\"text-3xl font-bold text-black mb-1\">$119.00</p>\n    <p class=\"text-sm text-teal-500\">YOU SAVE $110</p>\n  </div>\n\n  <a href=\"#purchase\" class=\"inline-block mt-4 bg-pink-500 text-white font-bold py-2 px-6 rounded-full hover:bg-pink-600 transition\">\n    BUY NOW\n  </a>\n\n  <div class=\"mt-6 grid grid-cols-2 gap-4\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/WhatsApp_Image_2025-05-28_at_22.44.49.jpg?v=1748470646\" alt=\"Renewa Image 2\" class=\"rounded-md\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_32.webp?v=1748470645\" alt=\"Renewa Image 3\" class=\"rounded-md\">\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -168,6 +181,7 @@
     "logo_list_qB4fMH",
     "rich_text_VGxAmJ",
     "image_with_text_overlay_QfzrA7",
-    "rich_text_LzBaBP"
+    "rich_text_LzBaBP",
+    "custom_liquid_G9pXKW"
   ]
 }
