@@ -174,10 +174,6 @@
     "featured_product_QE3WFb": {
       "type": "featured-product",
       "blocks": {
-        "vendor_FaaRrf": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_CMi6QX": {
           "type": "title",
           "settings": {
@@ -204,29 +200,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description_YJMj3q": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_B6BLAk": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_fabJjJ": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons_7PThdH": {
           "type": "buy_buttons",
           "settings": {
@@ -244,19 +217,14 @@
         }
       },
       "block_order": [
-        "vendor_FaaRrf",
         "title_CMi6QX",
         "badges_XgekHM",
         "price_P3VKnQ",
         "rating_Rx3PGa",
         "separator_Ci4qqg",
-        "description_YJMj3q",
-        "variant_picker_B6BLAk",
-        "quantity_selector_fabJjJ",
         "buy_buttons_7PThdH",
         "pickup_availability_JVaXnJ"
       ],
-      "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "dermalyse®-eyelifter-plus",
@@ -268,7 +236,7 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
