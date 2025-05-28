@@ -16,6 +16,11 @@ the underlying logic of the menu.
 <style>
   :root {
     --sticky-header-enabled: {%- if section.settings.enable_sticky -%}1{% else %}0{% endif %};
+      .banner-section {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
   }
 
   #shopify-section-{{ section.id }} {
