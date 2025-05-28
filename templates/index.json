@@ -12,12 +12,6 @@
     "image_with_text_overlay_TqFYB7": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_prcjEK": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_dc4GRk": {
           "type": "heading",
           "settings": {
@@ -27,10 +21,8 @@
         }
       },
       "block_order": [
-        "subheading_prcjEK",
         "heading_dc4GRk"
       ],
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -41,7 +33,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "logo_list_qB4fMH": {
@@ -86,7 +78,6 @@
         "logo_9qVati",
         "logo_yLCxT4"
       ],
-      "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -94,7 +85,7 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -102,10 +93,81 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
+    },
+    "rich_text_VGxAmJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HVFDxQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Dermalyse",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_HVFDxQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_QfzrA7": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_LzBaBP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YqqFnB": {
+          "type": "heading",
+          "settings": {
+            "text": "Résultat Avant/Après",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_YqqFnB"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_TqFYB7",
-    "logo_list_qB4fMH"
+    "logo_list_qB4fMH",
+    "rich_text_VGxAmJ",
+    "image_with_text_overlay_QfzrA7",
+    "rich_text_LzBaBP"
   ]
 }
