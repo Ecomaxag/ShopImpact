@@ -29,6 +29,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/ChatGPT_Image_28_mai_2025_a_22_27_58.png",
+        "mobile_image": "shopify://shop_images/Untitled_design.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
