@@ -10115,3 +10115,36 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+
+/* Masquer complètement tous les dropdowns */
+details[is="dropdown-disclosure"],
+details[is="mega-menu-disclosure"],
+.navigation-drawer,
+.dropdown-menu {
+  display: none !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Afficher les liens du menu principal horizontalement */
+.header__link-list ul.contents {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Style des liens */
+.header__link-list ul.contents li a {
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  color: inherit;
+  text-transform: none;
+}
