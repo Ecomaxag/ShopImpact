@@ -161,7 +161,6 @@
         },
         "liquid_X9dRCE": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<a id=\"acheter\"></a>"
           }
