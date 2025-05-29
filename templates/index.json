@@ -179,36 +179,6 @@
         "text_color": ""
       }
     },
-    "multiple_images_with_text_87XU6j": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_B38fgm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/masseur-oculaire-anti-cernes__42621.jpg",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Cernes prononcés, poches sous les yeux, regard fatigué.<br/>Un miroir qui reflète le stress et le manque de sommeil.</p><p><br/>Après 7 Jours avec Dermalyse EyeLift Plus<br/>✨ Grâce à la luminothérapie ciblée, les cernes s'estompent, les poches diminuent, et le regard retrouve éclat et vitalité.<br/><br/>Pourquoi ça fonctionne ?<br/>Stimulation de la microcirculation pour une meilleure oxygénation des tissus<br/>Activation cellulaire grâce à la lumière rouge/infra-rouge<br/>Sessions courtes, effets cumulatifs significatifs<br/>Non invasif, sans douleur ni produits chimiques<br/><br/> [Je veux transformer mon regard dès maintenant →]</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_B38fgm"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "custom_liquid_zdMaER": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -343,7 +313,6 @@
     "rich_text_VGxAmJ",
     "image_with_text_overlay_QfzrA7",
     "rich_text_LzBaBP",
-    "multiple_images_with_text_87XU6j",
     "custom_liquid_zdMaER",
     "custom_liquid_G9pXKW",
     "featured_product_QE3WFb"
