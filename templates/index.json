@@ -179,7 +179,6 @@
       "block_order": [
         "item_B38fgm"
       ],
-      "name": "Multiple images with text",
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
@@ -206,6 +205,12 @@
     "featured_product_QE3WFb": {
       "type": "featured-product",
       "blocks": {
+        "liquid_ADBDeP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>"
+          }
+        },
         "title_CMi6QX": {
           "type": "title",
           "settings": {
@@ -220,6 +225,12 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "liquid_4CCcFJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\n  En stock : 5 restants\n</div>"
           }
         },
         "rating_Rx3PGa": {
@@ -256,9 +267,11 @@
         }
       },
       "block_order": [
+        "liquid_ADBDeP",
         "title_CMi6QX",
         "badges_XgekHM",
         "price_P3VKnQ",
+        "liquid_4CCcFJ",
         "rating_Rx3PGa",
         "separator_Ci4qqg",
         "kaching_bundles_app_block_mfhzx4",
