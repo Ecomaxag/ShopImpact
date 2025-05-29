@@ -10115,3 +10115,23 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+.header__submenu,
+.header__menu-item:hover .header__submenu {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__menu-item {
+  padding: 0 10px;
+  font-weight: 500;
+  text-transform: none;
+}
