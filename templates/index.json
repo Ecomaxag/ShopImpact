@@ -19,21 +19,16 @@
             "heading_tag": "h2"
           }
         },
-        "button_jgnMa4": {
-          "type": "button",
+        "liquid_QjNj8Q": {
+          "type": "liquid",
           "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Illuminez votre regard",
-            "url": "#acheter",
-            "background": "#ff5c5c",
-            "text_color": ""
+            "liquid": "<a href=\"#acheter\" style=\"\n  display: inline-block;\n  background-color: #FF5C5C;\n  color: white;\n  font-weight: bold;\n  font-size: 16px;\n  padding: 14px 28px;\n  border-radius: 40px;\n  text-decoration: none;\n  box-shadow: 0 4px 14px rgba(255, 92, 92, 0.4);\n  transition: background 0.3s ease;\n\">\n  Illuminez votre regard\n</a>"
           }
         }
       },
       "block_order": [
         "heading_dc4GRk",
-        "button_jgnMa4"
+        "liquid_QjNj8Q"
       ],
       "settings": {
         "full_width": true,
