@@ -4,6 +4,39 @@
 <style>
   @media screen and (min-width: 1000px) {
     #shopify-section-{{ section.id }} {
+      {% if newsletter_block != blank %}
+        --footer-block-list-gap: var(--spacing-10);
+      {% endif %}
+
+      --footer-block-list-justify-content: space-between;
+    }
+  }
+
+  #shopify-section-{{ section.id }} .footer {
+    background-color: #064963;
+    color: white;
+  }
+
+  #shopify-section-{{ section.id }} .footer a,
+  #shopify-section-{{ section.id }} .footer p,
+  #shopify-section-{{ section.id }} .footer span,
+  #shopify-section-{{ section.id }} .footer li,
+  #shopify-section-{{ section.id }} .footer h1,
+  #shopify-section-{{ section.id }} .footer h2,
+  #shopify-section-{{ section.id }} .footer h3,
+  #shopify-section-{{ section.id }} .footer h4,
+  #shopify-section-{{ section.id }} .footer h5,
+  #shopify-section-{{ section.id }} .footer h6 {
+    color: white;
+  }
+  #shopify-section-{{ section.id }} .footer a:hover {
+  color: #b2ebf2;
+}
+</style>
+  
+  <style>
+  @media screen and (min-width: 1000px) {
+    #shopify-section-{{ section.id }} {
       {%- if newsletter_block != blank -%}
         --footer-block-list-gap: var(--spacing-10);
       {%- endif -%}
