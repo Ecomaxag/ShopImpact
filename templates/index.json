@@ -367,29 +367,53 @@
         "item_jCFdCM": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Le Dermalyse® EyeLift Plus convient-il à tous les types de peau ?",
+            "content": "<p>Oui. Il a été conçu pour s’adapter à tous les types de peau, même sensibles. Son action est douce, non invasive, et sans douleur.</p>"
           }
         },
         "item_KWgBqe": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Comment utiliser le Dermalyse® EyeLift Plus ?",
+            "content": "<p>Utilisez-le 1 à 2 fois par jour sur peau propre, en massant délicatement le contour des yeux. Chaque séance dure environ 5 minutes.</p>"
           }
         },
         "item_pWkyeC": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Quels sont les résultats attendus ?",
+            "content": "<p>Une peau plus ferme, un regard reposé et une réduction visible des poches et rides dès les premières semaines d’utilisation.</p>"
+          }
+        },
+        "item_A8Qn9Q": {
+          "type": "item",
+          "settings": {
+            "title": "En combien de temps les effets sont visibles ?",
+            "content": "<p>Les premiers résultats apparaissent en général après 2 semaines d’utilisation régulière. Les effets sont progressifs et durables.</p>"
+          }
+        },
+        "item_hHVmtb": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que vous livrez à l'étranger ?",
+            "content": "<p>Oui, nous livrons partout dans le monde.</p>"
+          }
+        },
+        "item_U8pJir": {
+          "type": "item",
+          "settings": {
+            "title": "Quel est le délai de la livraison ?",
+            "content": "<p>Les commandes sont généralement expédiées sous 24 heures. Les délais de livraison varient entre 5 et 10 jours ouvrables, selon votre pays de résidence.</p>"
           }
         }
       },
       "block_order": [
         "item_jCFdCM",
         "item_KWgBqe",
-        "item_pWkyeC"
+        "item_pWkyeC",
+        "item_A8Qn9Q",
+        "item_hHVmtb",
+        "item_U8pJir"
       ],
       "settings": {
         "full_width": true,
