@@ -10,6 +10,21 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+
+  <style>
+  #cookie-consent, .cookie-banner, .cookie-popup {
+    display: none !important;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.querySelector('.cookie-banner, #cookie-consent, .cookie-popup');
+    if (banner) {
+      banner.remove();
+    }
+  });
+</script>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
