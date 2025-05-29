@@ -10117,3 +10117,15 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   overflow: hidden;
 }
 
+.header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
