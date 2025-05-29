@@ -53,7 +53,6 @@
         "tab_ahkUyb",
         "tab_ypJpYP"
       ],
-      "name": "Tabs",
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -98,7 +97,6 @@
         "item_UdGBqn",
         "item_gCUHKJ"
       ],
-      "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -123,7 +121,6 @@
     },
     "contact_yDtGi6": {
       "type": "contact",
-      "name": "Contact form",
       "settings": {
         "full_width": true,
         "subheading": "Contact Us",
@@ -180,7 +177,10 @@
         ".footer {background-color: #064963 !important; color: white !important;}",
         ".footer {color: white !important; border-color: white !important;}",
         ".footer a {color: white !important; text-decoration: none;}",
-        ".footer a:hover {color: #b2ebf2 !important;}"
+        ".footer a:hover {color: #b2ebf2 !important;}",
+        ".footer__copyright p {color: white !important;}",
+        ".footer__block--text p,.footer__block--text strong,.footer__block--text b,.footer__block--text span {color: #cbd5e1 !important;}",
+        ".footer__block--text:last-child p.bold {color: white !important;}"
       ],
       "settings": {
         "show_social_media": true,
