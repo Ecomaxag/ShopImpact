@@ -160,6 +160,37 @@
         "text_color": ""
       }
     },
+    "multiple_images_with_text_87XU6j": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_B38fgm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/masseur-oculaire-anti-cernes__42621.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Fatiguée de ces poches sous les yeux et de ces cernes qui alourdissent votre regard ? Avec Dermalyse EyeLift Plus, votre contour des yeux retrouve toute sa fraîcheur. Après seulement 10 jours d’utilisation, les résultats sont visibles : les poches se dégonflent, les cernes s’estompent, la peau paraît plus lisse et éclatante. Sans maquillage ni solutions invasives, le regard s’ouvre, plus reposé, plus lumineux. Offrez à vos yeux la technologie qu’ils méritent et redécouvrez la légèreté d’un regard revitalisé.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_B38fgm"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "custom_liquid_G9pXKW": {
       "type": "custom-liquid",
       "settings": {
@@ -215,8 +246,8 @@
             "size": "xl",
             "style": "fill",
             "stretch": true,
-            "background": "",
-            "text_color": ""
+            "background": "#c6e9f5",
+            "text_color": "#000000"
           }
         },
         "pickup_availability_JVaXnJ": {
@@ -259,6 +290,7 @@
     "rich_text_VGxAmJ",
     "image_with_text_overlay_QfzrA7",
     "rich_text_LzBaBP",
+    "multiple_images_with_text_87XU6j",
     "custom_liquid_G9pXKW",
     "featured_product_QE3WFb"
   ]
