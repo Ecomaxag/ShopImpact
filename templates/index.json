@@ -163,7 +163,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "<div id=\"acheter\"> </div>"
+            "liquid": "<a id=\"acheter\"></a>"
           }
         }
       },
