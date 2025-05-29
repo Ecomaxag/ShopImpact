@@ -240,7 +240,7 @@
         "liquid_ADBDeP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>"
+            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
           }
         },
         "title_CMi6QX": {
