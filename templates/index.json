@@ -18,10 +18,22 @@
             "text": "Réduisez visiblement poches et cernes en 5 minutes",
             "heading_tag": "h2"
           }
+        },
+        "button_jgnMa4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Illuminez votre regard",
+            "url": "#acheter",
+            "background": "#ff5c5c",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
-        "heading_dc4GRk"
+        "heading_dc4GRk",
+        "button_jgnMa4"
       ],
       "settings": {
         "full_width": true,
@@ -146,10 +158,18 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "liquid_X9dRCE": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<section id=\"acheter\"> </section>"
+          }
         }
       },
       "block_order": [
-        "heading_YqqFnB"
+        "heading_YqqFnB",
+        "liquid_X9dRCE"
       ],
       "settings": {
         "full_width": true,
