@@ -311,24 +311,32 @@
         "tab_FQhN3b": {
           "type": "tab",
           "settings": {
-            "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "title": "Caractéristiques",
+            "content": "<p><strong>•</strong>Technologie LED rouge & proche infrarouge : stimule la circulation et la régénération cellulaire.<br/><strong>•</strong>Résultats visibles en 7 jours : réduction des cernes, poches et fatigue oculaire.<br/><strong>•</strong>Non-invasif & indolore : alternative naturelle aux injections ou crèmes chimiques.<br/><strong>•</strong>Sessions rapides (5-10 min/jour) : idéal pour les routines beauté express.<br/><strong>•</strong>Couvre toute la zone sous-orbitaire : action ciblée et homogène.</p>",
             "page": ""
           }
         },
         "tab_Xdw4qP": {
           "type": "tab",
           "settings": {
-            "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Essayez-le 30 jours gratuitement",
+            "content": "<p>Essayez le Brusheo Hair PRO sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Brusheo Hair PRO vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
             "page": ""
           }
         },
         "tab_zFVFg9": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "title": "Livraison gratuite à domicile",
+            "content": "<p>La livraison gratuite à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est estimé entre 5 et 10 jours ouvrés.</p>",
+            "page": ""
+          }
+        },
+        "tab_i9fwwb": {
+          "type": "tab",
+          "settings": {
+            "title": "Service client 7J/7",
+            "content": "<p>Votre équipe est à votre disposition pour répondre à vos questions sept jours sur sept.</p><p>Vous pouvez nous contacter par email ou téléphone aux horaires suivants : du lundi au vendredi de 9h à 12h et de 14h à 18h, et le samedi et dimanche de 10h à 12h. N'hésitez pas à nous joindre.</p>",
             "page": ""
           }
         }
@@ -336,14 +344,14 @@
       "block_order": [
         "tab_FQhN3b",
         "tab_Xdw4qP",
-        "tab_zFVFg9"
+        "tab_zFVFg9",
+        "tab_i9fwwb"
       ],
-      "name": "Tabs",
       "settings": {
         "full_width": true,
         "content_size": "medium",
-        "subheading": "Subheading",
-        "title": "Heading",
+        "subheading": "",
+        "title": "",
         "text_alignment": "center",
         "first_tab_open": false,
         "background": "",
@@ -383,15 +391,14 @@
         "item_KWgBqe",
         "item_pWkyeC"
       ],
-      "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
@@ -408,13 +415,12 @@
     },
     "contact_rjYdrA": {
       "type": "contact",
-      "name": "Contact form",
       "settings": {
         "full_width": true,
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
-        "content": "",
-        "text_position": "start",
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>",
+        "text_position": "center",
         "contact_form_size": "large",
         "background": "",
         "background_gradient": "",
