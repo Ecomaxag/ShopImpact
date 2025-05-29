@@ -105,20 +105,16 @@ the underlying logic of the menu.
             <nav class="header__link-list {% if section.settings.layout == 'logo_left_navigation_center' %}justify-center{% endif %} wrap" role="navigation">
               <ul class="contents" role="list">
                 {%- for link in section.settings.menu.links -%}
-                  {% liquid
-                    assign link_title_downcase = link.title | strip | downcase
-                    assign mega_menu_block = ''
+                 <ul class="contents" role="list">
+  {%- for link in section.settings.menu.links -%}
+    <li>
+      <a href="{{ link.url }}" class="bold link-faded-reverse" {% if link.current %}aria-current="page"{% endif %}>
+        {{ link.title }}
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>
 
-                    for block in section.blocks
-                      assign menu_item_downcase = block.settings.menu_item | strip | downcase
-
-                      if menu_item_downcase == link_title_downcase
-                        assign mega_menu_block = block
-                        break
-                      endif
-
-                    endfor
-                  %}
 
                   <li>
                     {%- if link.levels == 0 and mega_menu_block == '' -%}
