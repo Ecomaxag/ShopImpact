@@ -10115,15 +10115,14 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
-/* Masque uniquement le contenu des dropdowns sans casser la structure */
-details[is="dropdown-disclosure"],
-details[is="mega-menu-disclosure"] {
-  display: none !important;
+
+/* Réduire la hauteur du header */
+.header__wrapper {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
-.navigation-drawer {
-  display: none !important;
+.header__link-list a {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
 }
-
-/* NE CHANGE PAS l'alignement du menu */
-
