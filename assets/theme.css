@@ -6023,7 +6023,7 @@ product-rerender {
   grid-template: var(--header-grid-template);
   align-items: center;
   gap: var(--header-part-gap);
-  padding: var(--header-padding-block) max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  padding: 10px max(var(--container-gutter), 50% - var(--container-max-width) / 2);
   color: rgb(var(--text-color));
   background: rgb(var(--background) / var(--header-background-opacity));
   -webkit-backdrop-filter: blur(var(--header-background-blur-radius));
@@ -10116,13 +10116,3 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   overflow: hidden;
 }
 
-/* Réduire la hauteur du header */
-.header__wrapper {
-  padding-top: 4px !important;
-  padding-bottom: 4px !important;
-}
-
-.header__link-list a {
-  padding-top: 3px !important;
-  padding-bottom: 3px !important;
-}
