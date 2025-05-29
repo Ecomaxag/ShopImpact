@@ -6023,8 +6023,8 @@ product-rerender {
   grid-template: var(--header-grid-template);
   align-items: center;
   gap: var(--header-part-gap);
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   color: rgb(var(--text-color));
   background: rgb(var(--background) / var(--header-background-opacity));
   -webkit-backdrop-filter: blur(var(--header-background-blur-radius));
