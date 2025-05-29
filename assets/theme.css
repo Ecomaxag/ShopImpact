@@ -6023,7 +6023,7 @@ product-rerender {
   grid-template: var(--header-grid-template);
   align-items: center;
   gap: var(--header-part-gap);
-  padding: 10px max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  padding: 8px max(var(--container-gutter), 50% - var(--container-max-width) / 2);
   color: rgb(var(--text-color));
   background: rgb(var(--background) / var(--header-background-opacity));
   -webkit-backdrop-filter: blur(var(--header-background-blur-radius));
