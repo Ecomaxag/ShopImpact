@@ -13,13 +13,13 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
   <head>
     <style>
-  .shopify-pc__banner__wrapper {
+  #shopify-pc__banner {
     display: none !important;
   }
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const banner = document.querySelector('.shopify-pc__banner__wrapper');
+    const banner = document.querySelector('#shopify-pc__banner');
     if (banner) {
       banner.remove();
     }
