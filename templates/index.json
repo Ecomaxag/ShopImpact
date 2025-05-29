@@ -211,7 +211,7 @@
           "type": "button",
           "settings": {
             "link": "",
-            "text": "Button",
+            "text": "Acheter maintenant",
             "size": "xl",
             "style": "fill",
             "stretch": true,
