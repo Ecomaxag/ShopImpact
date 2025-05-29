@@ -13,25 +13,24 @@
   }
 
   #shopify-section-{{ section.id }} .footer {
-    background-color: #064963;
-    color: white;
+    background-color: #064963 !important;
+    color: white !important;
   }
 
-  #shopify-section-{{ section.id }} .footer a,
-  #shopify-section-{{ section.id }} .footer p,
-  #shopify-section-{{ section.id }} .footer span,
-  #shopify-section-{{ section.id }} .footer li,
-  #shopify-section-{{ section.id }} .footer h1,
-  #shopify-section-{{ section.id }} .footer h2,
-  #shopify-section-{{ section.id }} .footer h3,
-  #shopify-section-{{ section.id }} .footer h4,
-  #shopify-section-{{ section.id }} .footer h5,
-  #shopify-section-{{ section.id }} .footer h6 {
-    color: white;
+  #shopify-section-{{ section.id }} .footer * {
+    color: white !important;
+    border-color: white !important;
   }
+
+  #shopify-section-{{ section.id }} .footer a {
+    color: white !important;
+    text-decoration: underline;
+  }
+
   #shopify-section-{{ section.id }} .footer a:hover {
-  color: #b2ebf2;
-}
+    color: #b2ebf2 !important;
+  }
+
 </style>
   
 
