@@ -163,7 +163,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "<section id=\"acheter\"> </section>"
+            "liquid": "<section id=\"shopify-section-acheter\"> </section>"
           }
         }
       },
