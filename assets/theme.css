@@ -10118,11 +10118,11 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 /* Réduire la hauteur du header */
 .header__wrapper {
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
 }
 
 .header__link-list a {
-  padding-top: 6px !important;
-  padding-bottom: 6px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
 }
