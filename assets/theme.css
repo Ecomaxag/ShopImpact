@@ -10120,6 +10120,7 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 .header {
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #ffffff; /* À adapter selon la vraie couleur */ 
 }
 
 @media (max-width: 768px) {
@@ -10128,4 +10129,3 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
         padding-right: 12px;
     }
 }
-
