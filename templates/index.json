@@ -30,9 +30,9 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Button text",
+            "text": "Illuminez votre regard",
             "url": "#acheter",
-            "background": "",
+            "background": "#ff5c5c",
             "text_color": ""
           }
         }
