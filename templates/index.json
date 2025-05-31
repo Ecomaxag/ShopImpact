@@ -332,7 +332,7 @@
           "type": "tab",
           "settings": {
             "title": "Caractéristiques",
-            "content": "<p><strong>•</strong>Technologie LED rouge & proche infrarouge : stimule la circulation et la régénération cellulaire.<br/><strong>•</strong>Résultats visibles en 7 jours : réduction des cernes, poches et fatigue oculaire.<br/><strong>•</strong>Non-invasif & indolore : alternative naturelle aux injections ou crèmes chimiques.<br/><strong>•</strong>Sessions rapides (5-10 min/jour) : idéal pour les routines beauté express.<br/><strong>•</strong>Couvre toute la zone sous-orbitaire : action ciblée et homogène.</p>",
+            "content": "<ul><li><strong>Épilation express en quelques minutes</strong> : Obtenez une peau lisse et soyeuse sans douleur ni irritation, simplement en vaporisant et en essuyant.</li><li><strong>Formule naturelle et hypoallergénique</strong> : Composée d'ingrédients tels que l'aloès, l'allantoïne et le chrysanthellum, elle est douce pour tous les types de peau.</li><li><strong>Hydratation et soin de la peau</strong> : Enrichie en glycéryl stéarate, elle hydrate et nourrit la peau pendant l'épilation.</li><li><strong>Réduction de la repousse des poils</strong> : Utilisée régulièrement, elle ralentit le processus de repousse pour une peau lisse plus longtemps.</li><li><strong>Utilisation polyvalente</strong> : Convient pour les jambes, les bras, les aisselles, le dos et d'autres zones avec des poils indésirables.</li><li><strong>Testée et approuvée</strong> : Validée par plus de 3 687 professionnels de la santé.</li><li><strong>Garantie de satisfaction</strong> : Si vous n'êtes pas satisfait, une garantie de remboursement est offerte.</li></ul>",
             "page": ""
           }
         },
@@ -340,7 +340,7 @@
           "type": "tab",
           "settings": {
             "title": "Essayez-le 30 jours gratuitement",
-            "content": "<p>Essayez le <strong>Dermalyse® EyeLift Plus</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Brusheo Hair PRO vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
+            "content": "<p>Essayez le <strong>Dermalyse® HairOff™</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Dermalyse® HairOff™ vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
             "page": ""
           }
         },
@@ -387,29 +387,50 @@
         "item_jCFdCM": {
           "type": "item",
           "settings": {
-            "title": "Le Dermalyse® EyeLift Plus convient-il à tous les types de peau ?",
-            "content": "<p>Oui. Il a été conçu pour s’adapter à tous les types de peau, même sensibles. Son action est douce, non invasive, et sans douleur.</p>"
+            "title": "Qu'est-ce que le Dermalyse® HairOff™ Spray ?",
+            "content": "<p>Le Dermalyse® HairOff™ est une solution d'épilation naturelle et permanente sous forme de spray. Il élimine les poils indésirables en quelques minutes, simplement en vaporisant et en essuyant.</p>"
           }
         },
         "item_KWgBqe": {
           "type": "item",
           "settings": {
-            "title": "Comment utiliser le Dermalyse® EyeLift Plus ?",
-            "content": "<p>Utilisez-le 1 à 2 fois par jour sur peau propre, en massant délicatement le contour des yeux. Chaque séance dure environ 5 minutes.</p>"
+            "title": "Comment fonctionne-t-il ?",
+            "content": "<p>Sa formule unique agit en douceur pour éliminer les poils, laissant la peau douce et soyeuse. Il suffit de vaporiser sur la zone souhaitée, d'attendre quelques minutes, puis d'essuyer pour voir les poils disparaître.</p>"
           }
         },
         "item_pWkyeC": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les résultats attendus ?",
-            "content": "<p>Une peau plus ferme, un regard reposé et une réduction visible des poches et rides dès les premières semaines d’utilisation.</p>"
+            "title": "Est-ce vraiment indolore ?",
+            "content": "<p>Oui, le Dermalyse® HairOff™ offre une épilation sans douleur, contrairement au rasage ou à la cire.Il est conçu pour être doux sur la peau tout en étant efficace contre les poils.</p>"
           }
         },
         "item_A8Qn9Q": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps les effets sont visibles ?",
-            "content": "<p>Les premiers résultats apparaissent en général après 2 semaines d’utilisation régulière. Les effets sont progressifs et durables.</p>"
+            "title": "Est-ce sûr pour tous les types de peau ?",
+            "content": "<p>Oui, le Dermalyse® HairOff™ est hypoallergénique et convient à tous les types de peau.Il a été testé et vérifié par plus de 3 687 médecins.</p>"
+          }
+        },
+        "item_xQnrjK": {
+          "type": "item",
+          "settings": {
+            "title": "Où puis-je l'utiliser ?",
+            "content": "<p>Le Dermalyse® HairOff™ peut être utilisé sur diverses parties du corps, y compris les jambes, les bras, le dos et d'autres zones avec des poils indésirables.</p>"
+          }
+        },
+        "item_pCfKtx": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps faut-il pour voir les résultats ?",
+            "content": "<p>Les résultats sont visibles en quelques minutes après l'application.Une seule utilisation suffit pour éliminer les poils, laissant la peau lisse.</p>"
+          }
+        },
+        "item_6iLja9": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il une garantie ?",
+            "content": "<p>Oui, si vous n'obtenez pas de résultats, une garantie de remboursement est offerte.</p>"
           }
         },
         "item_hHVmtb": {
@@ -432,6 +453,9 @@
         "item_KWgBqe",
         "item_pWkyeC",
         "item_A8Qn9Q",
+        "item_xQnrjK",
+        "item_pCfKtx",
+        "item_6iLja9",
         "item_hHVmtb",
         "item_U8pJir"
       ],
