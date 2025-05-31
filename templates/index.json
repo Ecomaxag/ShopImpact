@@ -50,6 +50,65 @@
         "overlay_opacity": 30
       }
     },
+    "logo_list_qB4fMH": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_7rNKWd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vogue_png.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9KgQjh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_webp.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9qVati": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle_png.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_yLCxT4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_webp.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_7rNKWd",
+        "logo_9KgQjh",
+        "logo_9qVati",
+        "logo_yLCxT4"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "rich_text_VGxAmJ": {
       "type": "rich-text",
       "blocks": {
@@ -257,64 +316,6 @@
         "input_text_color": ""
       }
     },
-    "logo_list_qB4fMH": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_7rNKWd": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Vogue_png.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_9KgQjh": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Comopolitan_webp.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_9qVati": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Elle_png.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_yLCxT4": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_webp.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_7rNKWd",
-        "logo_9KgQjh",
-        "logo_9qVati",
-        "logo_yLCxT4"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Vu sur:",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "tabs_t4hLFM": {
       "type": "tabs",
       "blocks": {
@@ -322,7 +323,7 @@
           "type": "tab",
           "settings": {
             "title": "Caractéristiques",
-            "content": "<p><strong>•</strong>Technologie LED rouge & proche infrarouge : stimule la circulation et la régénération cellulaire.<br/><strong>•</strong>Résultats visibles en 7 jours : réduction des cernes, poches et fatigue oculaire.<br/><strong>•</strong>Non-invasif & indolore : alternative naturelle aux injections ou crèmes chimiques.<br/><strong>•</strong>Sessions rapides (5-10 min/jour) : idéal pour les routines beauté express.<br/><strong>•</strong>Couvre toute la zone sous-orbitaire : action ciblée et homogène.</p>",
+            "content": "<p><strong>Épilation express en quelques minutes</strong> : Obtenez une peau lisse et soyeuse sans douleur ni irritation, simplement en vaporisant et en essuyant.</p><p><strong>Formule naturelle et hypoallergénique</strong> : Composée d'ingrédients tels que l'aloès, l'allantoïne et le chrysanthellum, elle est douce pour tous les types de peau.</p><p><strong>Hydratation et soin de la peau</strong> : Enrichie en glycéryl stéarate, elle hydrate et nourrit la peau pendant l'épilation.</p><p><strong>Réduction de la repousse des poils</strong> : Utilisée régulièrement, elle ralentit le processus de repousse pour une peau lisse plus longtemps.</p><p><strong>Utilisation polyvalente</strong> : Convient pour les jambes, les bras, les aisselles, le dos et d'autres zones avec des poils indésirables.</p><p><strong>Testée et approuvée</strong> : Validée par plus de 3 687 professionnels de la santé aux Pays-Bas.</p><p><strong>Garantie de satisfaction</strong> : Si vous n'êtes pas satisfait, une garantie de remboursement est offerte.</p>",
             "page": ""
           }
         },
@@ -330,7 +331,7 @@
           "type": "tab",
           "settings": {
             "title": "Essayez-le 30 jours gratuitement",
-            "content": "<p>Essayez le <strong>Dermalyse® EyeLift Plus</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Brusheo Hair PRO vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
+            "content": "<p>Essayez le <strong>Dermalyse® HairOff™ </strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Dermalyse® HairOff™ vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
             "page": ""
           }
         },
@@ -377,29 +378,64 @@
         "item_jCFdCM": {
           "type": "item",
           "settings": {
-            "title": "Le Dermalyse® EyeLift Plus convient-il à tous les types de peau ?",
-            "content": "<p>Oui. Il a été conçu pour s’adapter à tous les types de peau, même sensibles. Son action est douce, non invasive, et sans douleur.</p>"
+            "title": "Qu'est-ce que le Dermalyse® HairOff™ Spray ?",
+            "content": "<p>Le Dermalyse® HairOff™ est une solution d'épilation naturelle et permanente sous forme de spray.Il élimine les poils indésirables en quelques minutes, simplement en vaporisant et en essuyant.</p>"
+          }
+        },
+        "item_htQ3Td": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_7fDw3f": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_hkEwgV": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_w4H9nj": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_KWgBqe": {
           "type": "item",
           "settings": {
-            "title": "Comment utiliser le Dermalyse® EyeLift Plus ?",
-            "content": "<p>Utilisez-le 1 à 2 fois par jour sur peau propre, en massant délicatement le contour des yeux. Chaque séance dure environ 5 minutes.</p>"
+            "title": "Comment fonctionne-t-il ?",
+            "content": "<p>Sa formule unique agit en douceur pour éliminer les poils, laissant la peau douce et soyeuse.Il suffit de vaporiser sur la zone souhaitée, d'attendre quelques minutes, puis d'essuyer pour voir les poils disparaître.</p>"
           }
         },
         "item_pWkyeC": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les résultats attendus ?",
-            "content": "<p>Une peau plus ferme, un regard reposé et une réduction visible des poches et rides dès les premières semaines d’utilisation.</p>"
+            "title": "Est-ce vraiment indolore ?",
+            "content": "<p>Oui, le Dermalyse® HairOff™ offre une épilation sans douleur, contrairement au rasage ou à la cire. Il est conçu pour être doux sur la peau tout en étant efficace contre les poils.</p>"
           }
         },
         "item_A8Qn9Q": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps les effets sont visibles ?",
-            "content": "<p>Les premiers résultats apparaissent en général après 2 semaines d’utilisation régulière. Les effets sont progressifs et durables.</p>"
+            "title": "Est-ce sûr pour tous les types de peau ?",
+            "content": "<p>Oui, le Dermalyse® HairOff™ est hypoallergénique et convient à tous les types de peau. Il a été testé et vérifié par plus de 3 687 médecins aux Pays-Bas.</p>"
+          }
+        },
+        "item_Qx9mLF": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il une garantie ?",
+            "content": "<p>Oui, si vous n'obtenez pas de résultats, une garantie de remboursement est offerte.</p>"
           }
         },
         "item_hHVmtb": {
@@ -419,9 +455,14 @@
       },
       "block_order": [
         "item_jCFdCM",
+        "item_htQ3Td",
+        "item_7fDw3f",
+        "item_hkEwgV",
+        "item_w4H9nj",
         "item_KWgBqe",
         "item_pWkyeC",
         "item_A8Qn9Q",
+        "item_Qx9mLF",
         "item_hHVmtb",
         "item_U8pJir"
       ],
@@ -470,13 +511,13 @@
   },
   "order": [
     "image_with_text_overlay_TqFYB7",
+    "logo_list_qB4fMH",
     "rich_text_VGxAmJ",
     "image_with_text_overlay_QfzrA7",
     "rich_text_LzBaBP",
     "custom_liquid_zdMaER",
     "custom_liquid_G9pXKW",
     "featured_product_QE3WFb",
-    "logo_list_qB4fMH",
     "tabs_t4hLFM",
     "faq_KNNWxz",
     "contact_rjYdrA"
