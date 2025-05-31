@@ -114,6 +114,7 @@
       "blocks": {
         "heading_HVFDxQ": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Pourquoi choisir Dermalyse",
             "heading_tag": "h3",
@@ -137,6 +138,7 @@
     },
     "image_with_text_overlay_QfzrA7": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -156,6 +158,7 @@
       "blocks": {
         "heading_YqqFnB": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Résultat Avant/Après",
             "heading_tag": "h3",
@@ -165,6 +168,7 @@
         },
         "liquid_X9dRCE": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<section id=\"acheter\"></section>"
           }
@@ -186,6 +190,7 @@
     },
     "custom_liquid_zdMaER": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -198,6 +203,7 @@
     },
     "custom_liquid_G9pXKW": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
