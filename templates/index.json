@@ -382,34 +382,6 @@
             "content": "<p>Le Dermalyse® HairOff™ est une solution d'épilation naturelle et permanente sous forme de spray.Il élimine les poils indésirables en quelques minutes, simplement en vaporisant et en essuyant.</p>"
           }
         },
-        "item_htQ3Td": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_7fDw3f": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_hkEwgV": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_w4H9nj": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
         "item_KWgBqe": {
           "type": "item",
           "settings": {
@@ -455,10 +427,6 @@
       },
       "block_order": [
         "item_jCFdCM",
-        "item_htQ3Td",
-        "item_7fDw3f",
-        "item_hkEwgV",
-        "item_w4H9nj",
         "item_KWgBqe",
         "item_pWkyeC",
         "item_A8Qn9Q",
