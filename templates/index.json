@@ -231,6 +231,136 @@
         "input_text_color": ""
       }
     },
+    "logo_list_qB4fMH": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_7rNKWd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vogue_png.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9KgQjh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_webp.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9qVati": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle_png.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_yLCxT4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_webp.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_7rNKWd",
+        "logo_9KgQjh",
+        "logo_9qVati",
+        "logo_yLCxT4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "custom_liquid_y6YjUY": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Éliminez les poils et obtenez une peau douce comme de la soie en quelques secondes !\n      </p>\n\n      <p>Vous en avez assez de perdre du temps à vous raser ou à vous épiler à la cire ? Ne cherchez plus ! <strong>Dermalyse® HairOff – Spray d’épilation naturelle et permanente</strong> est votre solution ultime.</p>\n\n      <p>La formule unique de ce spray révolutionnaire élimine les poils en douceur et efficacement, laissant votre peau incroyablement douce.</p>\n\n      <p>Avec un simple passage, regardez avec étonnement les poils indésirables disparaître en quelques minutes. C’est aussi rapide que facile !</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Accéder à l'offre exclusive\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_NatuurlijkePermanenteONTHARINGSSPRAY.png?v=1748723856\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_zdMaER": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/deuxieme_photo_site.webp?v=1748728269\" alt=\"Témoignage cliente HairOff\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #28a745; font-weight: bold; margin-bottom: 10px;\">\n        Fini la cire douloureuse et le rasage pénible !\n      </p>\n\n      <p style=\"font-style: italic;\">\"Avant, je détestais les séances de cire douloureuses et les heures interminables de rasage.</p>\n\n      <p style=\"font-style: italic;\">Mais après une seule application de ce spray miracle, les poils tenaces de mes jambes ont disparu sans la moindre douleur. En plus, elle ralentit la repousse — j’adore ça !</p>\n\n      <p style=\"font-style: italic;\">Maintenant, je peux montrer mes jambes à la piscine en toute confiance, sans me soucier des poils indésirables. Ce produit a vraiment changé ma vie, je ne pourrais pas être plus heureuse !\"</p>\n\n      <p style=\"font-weight: bold;\">– Linda D.</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Tester l’efficacité maintenant\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_C8Dpr3": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image redimensionnée -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_1.png?v=1748724963\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Dites adieu à l'épilation douloureuse et au rasage ennuyeux !\n      </p>\n\n      <p><strong>Découvrez la liberté d’afficher une peau lisse et sans poils grâce à Dermalyse® HairOff – le Spray d’épilation naturelle et permanente.</strong></p>\n\n      <p>Éliminez facilement et sans douleur les poils indésirables en quelques minutes seulement !</p>\n</br>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Oui, je veux une peau lisse\n        </a>\n      </div>\n\n    </div>\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_kmzaxK": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte déplacée à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Spray d’épilation indolore recommandé par des experts\n      </p>\n\n      <p><strong>Dermalyse® HairOff – Spray d’épilation naturelle et permanente est une formule hypoallergénique cliniquement prouvée pour éliminer sans douleur les poils indésirables en quelques minutes.</strong></p>\n\n      <p>Elle utilise des ingrédients naturels tels que des extraits d’aloe vera, de l’allantoïne, du chrysanthellum et du glycéryl stéarate pour adoucir et éliminer le poil dès la racine, offrant ainsi une expérience douce et confortable.</p>\n\n      <p>Oubliez la cire et les rasoirs — optez pour une épilation facile et sans douleur avec HairOff™ !</p>\n\n      <!-- Étoiles ajoutées -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Obtenir la crème exclusive\n        </a>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- Colonne image déplacée à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_2.png?v=1748726486\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_AFjpJU": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_3.png?v=1748727518\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        🧴 100 % indolore et freine le processus de repousse\n      </p>\n\n      <p><strong>Dermalyse® HairOff – Spray d’épilation naturelle et permanente</strong> utilise une formule scientifiquement développée qui combine les ingrédients naturels les plus puissants pour éliminer facilement et sans douleur les poils indésirables en quelques minutes.</p>\n\n      <p>Non seulement il élimine les poils sans effort, mais sa formule unique agit activement pour ralentir le processus de repousse. Résultat : une peau lisse qui dure jusqu’à <strong>8 semaines</strong> !</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Je veux ma crème avant la rupture de stock\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_G9pXKW": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  body, html {\n    margin: 0;\n    padding: 0;\n  }\n\n  .reviews-wrapper {\n    width: 100%;\n    background-color: #A7D7A4;\n  }\n\n  .reviews-section {\n    max-width: 100%;\n    padding: 20px 20px; /* Réduction du padding haut */\n    font-family: Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-section h2 {\n    font-size: 36px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .reviews-stars-title {\n    color: #FFA500;\n    font-size: 22px;\n    margin: 5px 0 15px;\n  }\n\n  .reviews-subtitle {\n    font-size: 18px;\n    color: #333;\n    margin-bottom: 40px;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 768px) {\n    .reviews-grid {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  .review-card {\n    background: white;\n    border-radius: 20px;\n    padding: 20px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    text-align: left;\n    height: 100%;\n    min-height: 540px;\n  }\n\n  .review-img {\n    width: 100%;\n    height: 240px;\n    object-fit: cover;\n    border-radius: 16px;\n    margin-bottom: 15px;\n  }\n\n  .review-img.bottom {\n    margin-top: auto;\n    margin-bottom: 0;\n  }\n\n  .review-stars {\n    background-color: #FFE5EF;\n    color: #FF4081;\n    display: inline-block;\n    padding: 5px 10px;\n    border-radius: 999px;\n    font-size: 16px;\n    margin-bottom: 10px;\n    font-weight: bold;\n  }\n\n  .review-text {\n    font-size: 15px;\n    color: #444;\n    margin-bottom: 15px;\n    flex-grow: 1;\n  }\n\n  .review-author {\n    font-weight: bold;\n    font-size: 15px;\n    color: #000;\n  }\n\n  .review-location {\n    font-size: 13px;\n    color: #888;\n  }\n</style>\n\n<div class=\"reviews-wrapper\">\n  <section class=\"reviews-section\">\n    <h2>Nos clientes en parlent le mieux</h2>\n    <div class=\"reviews-stars-title\">★★★★★</div>\n    <p class=\"reviews-subtitle\">Approuvé par plus de 2 000 clients</p>\n\n    <div class=\"reviews-grid\">\n      <!-- Review 1 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_1.webp?v=1748725479\" alt=\"Review 1\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Des résultats bluffants ! Ce produit me fait gagner un temps fou. J’adore la façon dont il élimine mes poils de jambes sans effort : peau lisse, aucune douleur.</p>\n        <div class=\"review-author\">Julie</div>\n        <div class=\"review-location\">Lyon, France</div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"review-card\">\n        <div>\n          <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n            <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n              ★★★★★\n            </div>\n          </div>\n          <p class=\"review-text\"> Ce produit me fait gagner du temps ! Il enlève rapidement les poils de ma poitrine sans aucun inconfort. Et en plus, la repousse est plus lente, un vrai soulagement. Je recommande à 100 % !</p>\n          <div class=\"review-author\">Nadia</div>\n          <div class=\"review-location\">Bruxelles, Belgique</div>\n        </div>\n        <img class=\"review-img bottom\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_3.webp?v=1748725479\" alt=\"Review 2\">\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_2.webp?v=1748725479\" alt=\"Review 3\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Fini les rasoirs pour moi ! Ce spray élimine mes poils des aisselles sans douleur. J’ai simplement vaporisé, et après 2 minutes, plus un poil. Je suis ravie !</p>\n        <div class=\"review-author\">Jean-François</div>\n        <div class=\"review-location\">Toulouse, France</div>\n      </div>\n    </div>\n  </section>\n</div>",
+        "background": "#a7d7a4",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_9jE67V": {
       "type": "featured-product",
       "blocks": {
@@ -333,136 +463,6 @@
         "input_text_color": ""
       }
     },
-    "logo_list_qB4fMH": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_7rNKWd": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Vogue_png.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_9KgQjh": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Comopolitan_webp.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_9qVati": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Elle_png.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_yLCxT4": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_webp.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_7rNKWd",
-        "logo_9KgQjh",
-        "logo_9qVati",
-        "logo_yLCxT4"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Vu sur:",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "custom_liquid_y6YjUY": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Éliminez les poils et obtenez une peau douce comme de la soie en quelques secondes !\n      </p>\n\n      <p>Vous en avez assez de perdre du temps à vous raser ou à vous épiler à la cire ? Ne cherchez plus ! <strong>HairOff™ – Spray d’épilation naturelle et permanente</strong> est votre solution ultime.</p>\n\n      <p>La formule unique de ce spray révolutionnaire élimine les poils en douceur et efficacement, laissant votre peau incroyablement douce.</p>\n\n      <p>Avec un simple passage, regardez avec étonnement les poils indésirables disparaître en quelques minutes. C’est aussi rapide que facile !</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Accéder à l'offre exclusive\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_NatuurlijkePermanenteONTHARINGSSPRAY.png?v=1748723856\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_zdMaER": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/deuxieme_photo_site.webp?v=1748728269\" alt=\"Témoignage cliente HairOff\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #28a745; font-weight: bold; margin-bottom: 10px;\">\n        Fini la cire douloureuse et le rasage pénible !\n      </p>\n\n      <p style=\"font-style: italic;\">\"Avant, je détestais les séances de cire douloureuses et les heures interminables de rasage.</p>\n\n      <p style=\"font-style: italic;\">Mais après une seule application de ce spray miracle, les poils tenaces de mes jambes ont disparu sans la moindre douleur. En plus, elle ralentit la repousse — j’adore ça !</p>\n\n      <p style=\"font-style: italic;\">Maintenant, je peux montrer mes jambes à la piscine en toute confiance, sans me soucier des poils indésirables. Ce produit a vraiment changé ma vie, je ne pourrais pas être plus heureuse !\"</p>\n\n      <p style=\"font-weight: bold;\">– Linda D.</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Tester l’efficacité maintenant\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_C8Dpr3": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image redimensionnée -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_1.png?v=1748724963\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Dites adieu à l'épilation douloureuse et au rasage ennuyeux !\n      </p>\n\n      <p><strong>Découvrez la liberté d’afficher une peau lisse et sans poils grâce à HairOff™ – le Spray d’épilation naturelle et permanente.</strong></p>\n\n      <p>Éliminez facilement et sans douleur les poils indésirables en quelques minutes seulement !</p>\n</br>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Oui, je veux une peau lisse\n        </a>\n      </div>\n\n    </div>\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_kmzaxK": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte déplacée à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Spray d’épilation indolore recommandé par des experts\n      </p>\n\n      <p><strong>HairOff™ – Spray d’épilation naturelle et permanente est une formule hypoallergénique cliniquement prouvée pour éliminer sans douleur les poils indésirables en quelques minutes.</strong></p>\n\n      <p>Elle utilise des ingrédients naturels tels que des extraits d’aloe vera, de l’allantoïne, du chrysanthellum et du glycéryl stéarate pour adoucir et éliminer le poil dès la racine, offrant ainsi une expérience douce et confortable.</p>\n\n      <p>Oubliez la cire et les rasoirs — optez pour une épilation facile et sans douleur avec HairOff™ !</p>\n\n      <!-- Étoiles ajoutées -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Obtenir la crème exclusive\n        </a>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- Colonne image déplacée à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_2.png?v=1748726486\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_AFjpJU": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_3.png?v=1748727518\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        🧴 100 % indolore et freine le processus de repousse\n      </p>\n\n      <p><strong>HairOff™ – Spray d’épilation naturelle et permanente</strong> utilise une formule scientifiquement développée qui combine les ingrédients naturels les plus puissants pour éliminer facilement et sans douleur les poils indésirables en quelques minutes.</p>\n\n      <p>Non seulement il élimine les poils sans effort, mais sa formule unique agit activement pour ralentir le processus de repousse. Résultat : une peau lisse qui dure jusqu’à <strong>8 semaines</strong> !</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Je veux ma crème avant la rupture de stock\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_G9pXKW": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  body, html {\n    margin: 0;\n    padding: 0;\n  }\n\n  .reviews-wrapper {\n    width: 100%;\n    background-color: #A7D7A4;\n  }\n\n  .reviews-section {\n    max-width: 100%;\n    padding: 20px 20px; /* Réduction du padding haut */\n    font-family: Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-section h2 {\n    font-size: 36px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .reviews-stars-title {\n    color: #FFA500;\n    font-size: 22px;\n    margin: 5px 0 15px;\n  }\n\n  .reviews-subtitle {\n    font-size: 18px;\n    color: #333;\n    margin-bottom: 40px;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 768px) {\n    .reviews-grid {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  .review-card {\n    background: white;\n    border-radius: 20px;\n    padding: 20px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    text-align: left;\n    height: 100%;\n    min-height: 540px;\n  }\n\n  .review-img {\n    width: 100%;\n    height: 240px;\n    object-fit: cover;\n    border-radius: 16px;\n    margin-bottom: 15px;\n  }\n\n  .review-img.bottom {\n    margin-top: auto;\n    margin-bottom: 0;\n  }\n\n  .review-stars {\n    background-color: #FFE5EF;\n    color: #FF4081;\n    display: inline-block;\n    padding: 5px 10px;\n    border-radius: 999px;\n    font-size: 16px;\n    margin-bottom: 10px;\n    font-weight: bold;\n  }\n\n  .review-text {\n    font-size: 15px;\n    color: #444;\n    margin-bottom: 15px;\n    flex-grow: 1;\n  }\n\n  .review-author {\n    font-weight: bold;\n    font-size: 15px;\n    color: #000;\n  }\n\n  .review-location {\n    font-size: 13px;\n    color: #888;\n  }\n</style>\n\n<div class=\"reviews-wrapper\">\n  <section class=\"reviews-section\">\n    <h2>Nos clientes en parlent le mieux</h2>\n    <div class=\"reviews-stars-title\">★★★★★</div>\n    <p class=\"reviews-subtitle\">Approuvé par plus de 2 000 clients</p>\n\n    <div class=\"reviews-grid\">\n      <!-- Review 1 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_1.webp?v=1748725479\" alt=\"Review 1\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Des résultats bluffants ! Ce produit me fait gagner un temps fou. J’adore la façon dont il élimine mes poils de jambes sans effort : peau lisse, aucune douleur.</p>\n        <div class=\"review-author\">Julie</div>\n        <div class=\"review-location\">Lyon, France</div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"review-card\">\n        <div>\n          <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n            <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n              ★★★★★\n            </div>\n          </div>\n          <p class=\"review-text\"> Ce produit me fait gagner du temps ! Il enlève rapidement les poils de ma poitrine sans aucun inconfort. Et en plus, la repousse est plus lente, un vrai soulagement. Je recommande à 100 % !</p>\n          <div class=\"review-author\">Nadia</div>\n          <div class=\"review-location\">Bruxelles, Belgique</div>\n        </div>\n        <img class=\"review-img bottom\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_3.webp?v=1748725479\" alt=\"Review 2\">\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_2.webp?v=1748725479\" alt=\"Review 3\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Fini les rasoirs pour moi ! Ce spray élimine mes poils des aisselles sans douleur. J’ai simplement vaporisé, et après 2 minutes, plus un poil. Je suis ravie !</p>\n        <div class=\"review-author\">Jean-François</div>\n        <div class=\"review-location\">Toulouse, France</div>\n      </div>\n    </div>\n  </section>\n</div>",
-        "background": "#a7d7a4",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "tabs_t4hLFM": {
       "type": "tabs",
       "blocks": {
@@ -478,7 +478,7 @@
           "type": "tab",
           "settings": {
             "title": "Essayez-le 30 jours gratuitement",
-            "content": "<p>Essayez le <strong>Dermalyse® HairOff™</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Dermalyse® HairOff™ vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
+            "content": "<p>Essayez le <strong>Dermalyse® HairOff</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Dermalyse® HairOff vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
             "page": ""
           }
         },
@@ -525,8 +525,8 @@
         "item_jCFdCM": {
           "type": "item",
           "settings": {
-            "title": "Qu'est-ce que le Dermalyse® HairOff™ Spray ?",
-            "content": "<p>Le Dermalyse® HairOff™ est une solution d'épilation naturelle et permanente sous forme de spray. Il élimine les poils indésirables en quelques minutes, simplement en vaporisant et en essuyant.</p>"
+            "title": "Qu'est-ce que le Dermalyse® HairOff Spray ?",
+            "content": "<p>Le Dermalyse® HairOff est une solution d'épilation naturelle et permanente sous forme de spray. Il élimine les poils indésirables en quelques minutes, simplement en vaporisant et en essuyant.</p>"
           }
         },
         "item_KWgBqe": {
@@ -540,21 +540,21 @@
           "type": "item",
           "settings": {
             "title": "Est-ce vraiment indolore ?",
-            "content": "<p>Oui, le Dermalyse® HairOff™ offre une épilation sans douleur, contrairement au rasage ou à la cire.Il est conçu pour être doux sur la peau tout en étant efficace contre les poils.</p>"
+            "content": "<p>Oui, le Dermalyse® HairOff offre une épilation sans douleur, contrairement au rasage ou à la cire.Il est conçu pour être doux sur la peau tout en étant efficace contre les poils.</p>"
           }
         },
         "item_A8Qn9Q": {
           "type": "item",
           "settings": {
             "title": "Est-ce sûr pour tous les types de peau ?",
-            "content": "<p>Oui, le Dermalyse® HairOff™ est hypoallergénique et convient à tous les types de peau.Il a été testé et vérifié par plus de 3 687 médecins.</p>"
+            "content": "<p>Oui, le Dermalyse® HairOff est hypoallergénique et convient à tous les types de peau.Il a été testé et vérifié par plus de 3 687 médecins.</p>"
           }
         },
         "item_xQnrjK": {
           "type": "item",
           "settings": {
             "title": "Où puis-je l'utiliser ?",
-            "content": "<p>Le Dermalyse® HairOff™ peut être utilisé sur diverses parties du corps, y compris les jambes, les bras, le dos et d'autres zones avec des poils indésirables.</p>"
+            "content": "<p>Le Dermalyse® HairOff peut être utilisé sur diverses parties du corps, y compris les jambes, les bras, le dos et d'autres zones avec des poils indésirables.</p>"
           }
         },
         "item_pCfKtx": {
