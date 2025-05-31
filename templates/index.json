@@ -231,6 +231,108 @@
         "input_text_color": ""
       }
     },
+    "featured_product_9jE67V": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_WNj6ib": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
+          }
+        },
+        "title_9B7tQD": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_yJtaLd": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_JC4mfV": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_cLfj4d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\n  En stock : 5 restants\n</div>"
+          }
+        },
+        "rating_6DNiUr": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_enUXw4": {
+          "type": "separator",
+          "settings": {}
+        },
+        "kaching_bundles_app_block_VxNxEP": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
+        "buy_buttons_3ErCcf": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "image_Xap4Gi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/badge_confianc_CTA_png.webp",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "pickup_availability_tQDGjc": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_WNj6ib",
+        "title_9B7tQD",
+        "badges_yJtaLd",
+        "price_JC4mfV",
+        "liquid_cLfj4d",
+        "rating_6DNiUr",
+        "separator_enUXw4",
+        "kaching_bundles_app_block_VxNxEP",
+        "buy_buttons_3ErCcf",
+        "image_Xap4Gi",
+        "pickup_availability_tQDGjc"
+      ],
+      "settings": {
+        "full_width": true,
+        "product": "dermalyse®-eyelifter-plus",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "logo_list_qB4fMH": {
       "type": "logo-list",
       "blocks": {
@@ -551,6 +653,7 @@
     "custom_liquid_kmzaxK",
     "custom_liquid_AFjpJU",
     "custom_liquid_G9pXKW",
+    "featured_product_9jE67V",
     "tabs_t4hLFM",
     "faq_KNNWxz",
     "contact_rjYdrA"
