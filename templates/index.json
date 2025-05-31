@@ -50,65 +50,6 @@
         "overlay_opacity": 30
       }
     },
-    "logo_list_qB4fMH": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_7rNKWd": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Vogue_png.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_9KgQjh": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Comopolitan_webp.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_9qVati": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Elle_png.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_yLCxT4": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_webp.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_7rNKWd",
-        "logo_9KgQjh",
-        "logo_9qVati",
-        "logo_yLCxT4"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Vu sur:",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "rich_text_VGxAmJ": {
       "type": "rich-text",
       "blocks": {
@@ -316,6 +257,64 @@
         "input_text_color": ""
       }
     },
+    "logo_list_qB4fMH": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_7rNKWd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vogue_png.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9KgQjh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_webp.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9qVati": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle_png.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_yLCxT4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_webp.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_7rNKWd",
+        "logo_9KgQjh",
+        "logo_9qVati",
+        "logo_yLCxT4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "tabs_t4hLFM": {
       "type": "tabs",
       "blocks": {
@@ -471,13 +470,13 @@
   },
   "order": [
     "image_with_text_overlay_TqFYB7",
-    "logo_list_qB4fMH",
     "rich_text_VGxAmJ",
     "image_with_text_overlay_QfzrA7",
     "rich_text_LzBaBP",
     "custom_liquid_zdMaER",
     "custom_liquid_G9pXKW",
     "featured_product_QE3WFb",
+    "logo_list_qB4fMH",
     "tabs_t4hLFM",
     "faq_KNNWxz",
     "contact_rjYdrA"
