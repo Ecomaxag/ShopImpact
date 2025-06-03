@@ -41,8 +41,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_28_mai_2025_a_22_27_58.png",
-        "mobile_image": "shopify://shop_images/Untitled_design.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -85,8 +83,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Untitled_design.jpg",
-        "mobile_image": "shopify://shop_images/Untitled_design.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -157,7 +153,13 @@
         "liquid_4CCcFJ": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\n  En stock : 5 restants\n</div>"
+            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
+          }
+        },
+        "kaching_bundles_app_block_wDFcTp": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
           }
         },
         "rating_Rx3PGa": {
@@ -169,12 +171,6 @@
         "separator_Ci4qqg": {
           "type": "separator",
           "settings": {}
-        },
-        "kaching_bundles_app_block_mfhzx4": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
         },
         "buy_buttons_97dXJN": {
           "type": "buy_buttons",
@@ -190,7 +186,6 @@
         "image_WkR7hU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/badge_confianc_CTA_png.webp",
             "alignment": "start",
             "max_width": 500
           }
@@ -206,16 +201,16 @@
         "badges_XgekHM",
         "price_P3VKnQ",
         "liquid_4CCcFJ",
+        "kaching_bundles_app_block_wDFcTp",
         "rating_Rx3PGa",
         "separator_Ci4qqg",
-        "kaching_bundles_app_block_mfhzx4",
         "buy_buttons_97dXJN",
         "image_WkR7hU",
         "pickup_availability_JVaXnJ"
       ],
       "settings": {
         "full_width": true,
-        "product": "dermalyse®-eyelifter-plus",
+        "product": "livya®-semelle-orthopedique-magnetique",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -237,7 +232,6 @@
         "logo_7rNKWd": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Vogue_png.png",
             "logo_width": 120,
             "link": ""
           }
@@ -245,7 +239,6 @@
         "logo_9KgQjh": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Comopolitan_webp.png",
             "logo_width": 120,
             "link": ""
           }
@@ -253,7 +246,6 @@
         "logo_9qVati": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Elle_png.png",
             "logo_width": 120,
             "link": ""
           }
@@ -261,7 +253,6 @@
         "logo_yLCxT4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_webp.png",
             "logo_width": 120,
             "link": ""
           }
@@ -402,12 +393,6 @@
           "type": "separator",
           "settings": {}
         },
-        "kaching_bundles_app_block_VxNxEP": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "buy_buttons_3ErCcf": {
           "type": "buy_buttons",
           "settings": {
@@ -422,7 +407,6 @@
         "image_Xap4Gi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/badge_confianc_CTA_png.webp",
             "alignment": "start",
             "max_width": 500
           }
@@ -440,7 +424,6 @@
         "liquid_cLfj4d",
         "rating_6DNiUr",
         "separator_enUXw4",
-        "kaching_bundles_app_block_VxNxEP",
         "buy_buttons_3ErCcf",
         "image_Xap4Gi",
         "pickup_availability_tQDGjc"
@@ -638,6 +621,110 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "featured_product_3FJqYF": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_fxVVGk": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_8kzam3": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_FYzTDa": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_XjMRJg": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_BWpLnw": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_BUpCtm": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_fdYdzY": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_XwWKkJ": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_tRGVtY": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_GtNnfQ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_3ncb6a": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_fxVVGk",
+        "title_8kzam3",
+        "badges_FYzTDa",
+        "price_XjMRJg",
+        "rating_BWpLnw",
+        "separator_BUpCtm",
+        "description_fdYdzY",
+        "variant_picker_XwWKkJ",
+        "quantity_selector_tRGVtY",
+        "buy_buttons_GtNnfQ",
+        "pickup_availability_3ncb6a"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -656,6 +743,7 @@
     "featured_product_9jE67V",
     "tabs_t4hLFM",
     "faq_KNNWxz",
-    "contact_rjYdrA"
+    "contact_rjYdrA",
+    "featured_product_3FJqYF"
   ]
 }
