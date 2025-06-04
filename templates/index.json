@@ -286,7 +286,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Éliminez les douleurs et retrouvez votre mobilité!\n      </p>\n\n      <p>Vous souffrez de douleurs aux pieds, genoux ou dos ? Marre des traitements coûteux et inefficaces ? Ne cherchez plus ! <strong>Livya® Semelles magnétiques</strong> sont la solution naturelle et innovante dont vous avez besoin.</p>\n</br>\n<p>Grâce à leur technologie de magnétothérapie, ces semelles stimulent les points de pression et améliorent la circulation sanguine.</p> \n</br>\n<p>Résultat : vos douleurs diminuent progressivement et votre confort de marche est retrouvé.</p>\n</br>\n<p>Avec une utilisation quotidienne, ressentez un réel soulagement sans médicaments ni effets secondaires. C’est aussi simple que de glisser les semelles dans vos chaussures !</p>\n\n      \n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Accéder à l'offre exclusive\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_NatuurlijkePermanenteONTHARINGSSPRAY.png?v=1748723856\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Éliminez les douleurs et retrouvez votre mobilité!\n      </p>\n\n      <p>Vous souffrez de douleurs aux pieds, genoux ou dos ? Marre des traitements coûteux et inefficaces ? Ne cherchez plus ! <strong>Livya® Semelles magnétiques</strong> sont la solution naturelle et innovante dont vous avez besoin.</p>\n</br>\n<p>Grâce à leur technologie de magnétothérapie, ces semelles stimulent les points de pression et améliorent la circulation sanguine.</p> \n</br>\n<p>Résultat : vos douleurs diminuent progressivement et votre confort de marche est retrouvé.</p>\n</br>\n<p>Avec une utilisation quotidienne, ressentez un réel soulagement sans médicaments ni effets secondaires. C’est aussi simple que de glisser les semelles dans vos chaussures !</p>\n\n      \n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Accéder à l'offre exclusive\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/Untitled_design_15.gif?v=1749002619\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -298,7 +298,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/deuxieme_photo_site.webp?v=1748728269\" alt=\"Témoignage cliente HairOff\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #1E90FF; font-weight: bold; margin-bottom: 10px;\">\n        Fini les douleurs articulaires et les journées pénibles !\n      </p>\n\n      <p style=\"font-style: italic;\">\"Avant je souffrais de douleurs constantes aux pieds et aux genoux, chaque pas était un supplice.</br>\nMais après seulement quelques jours avec les semelles Livya®, j’ai ressenti un soulagement incroyable.</br>\nJe peux marcher, rester debout et même faire de longues balades sans douleur.</br>\nElles sont confortables, faciles à utiliser et vraiment efficaces — c’est bluffant !\nMerci Livya®, ma vie a changé.\"</p>\n\n     \n\n      <p style=\"font-weight: bold;\">– Linda D.</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Tester l’efficacité maintenant\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/Esm_GaTN0.jpg?v=1749002754\" alt=\"Témoignage cliente HairOff\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #1E90FF; font-weight: bold; margin-bottom: 10px;\">\n        Fini les douleurs articulaires et les journées pénibles !\n      </p>\n\n      <p style=\"font-style: italic;\">\"Avant je souffrais de douleurs constantes aux pieds et aux genoux, chaque pas était un supplice.</br>\nMais après seulement quelques jours avec les semelles Livya®, j’ai ressenti un soulagement incroyable.</br>\nJe peux marcher, rester debout et même faire de longues balades sans douleur.</br>\nElles sont confortables, faciles à utiliser et vraiment efficaces — c’est bluffant !\nMerci Livya®, ma vie a changé.\"</p>\n\n     \n\n      <p style=\"font-weight: bold;\">– Linda D.</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Tester l’efficacité maintenant\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -310,7 +310,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image redimensionnée -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_1.png?v=1748724963\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Dites adieu aux douleurs chroniques et inconforts au quotidien !\n      </p>\n\n      <p><strong>Découvrez le confort de marcher sans douleur grâce aux semelles magnétiques thérapeutiques Livya® — la solution naturelle pour le soulagement articulaire.</strong></p>\n</br>\n      <p>Soulagez vos pieds, genoux et dos grâce à une stimulation magnétique efficace, en toute simplicité.\n\nGlissez-les dans vos chaussures et ressentez un bien-être durable au fil des jours !</p>\n</br>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Oui, je veux soulager mes douleurs\n        </a>\n      </div>\n\n    </div>\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image redimensionnée -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/Untitled_design_13_cf00fc49-ad68-4bb3-be30-66a59332e109.gif?v=1749002680\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Dites adieu aux douleurs chroniques et inconforts au quotidien !\n      </p>\n\n      <p><strong>Découvrez le confort de marcher sans douleur grâce aux semelles magnétiques thérapeutiques Livya® — la solution naturelle pour le soulagement articulaire.</strong></p>\n</br>\n      <p>Soulagez vos pieds, genoux et dos grâce à une stimulation magnétique efficace, en toute simplicité.\n\nGlissez-les dans vos chaussures et ressentez un bien-être durable au fil des jours !</p>\n</br>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Oui, je veux soulager mes douleurs\n        </a>\n      </div>\n\n    </div>\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -322,7 +322,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte déplacée à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Semelles magnétiques recommandées par les experts en santé articulaire\n      </p>\n\n      <p><strong> Livya® – Semelles magnétiques de thérapie naturelle sont une solution innovante, non invasive, cliniquement testée pour soulager les douleurs chroniques des pieds, genoux et lombaires en quelques jours seulement.</strong></p>\n</br>\n      <p>Elles utilisent le pouvoir de la <strong>magnétothérapie</strong> combiné à un design ergonomique pour stimuler la circulation sanguine, réduire l’inflammation et rétablir votre confort de marche.</p>\n</br>\n      <p>Oubliez les crèmes et médicaments — optez pour un <strong>soulagement durable et 100 % naturel avec Livya</strong> !</p>\n\n      <!-- Étoiles ajoutées -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Obtenir le confort dès maintenant\n\n        </a>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- Colonne image déplacée à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_2.png?v=1748726486\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte déplacée à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Semelles magnétiques recommandées par les experts en santé articulaire\n      </p>\n\n      <p><strong> Livya® – Semelles magnétiques de thérapie naturelle sont une solution innovante, non invasive, cliniquement testée pour soulager les douleurs chroniques des pieds, genoux et lombaires en quelques jours seulement.</strong></p>\n</br>\n      <p>Elles utilisent le pouvoir de la <strong>magnétothérapie</strong> combiné à un design ergonomique pour stimuler la circulation sanguine, réduire l’inflammation et rétablir votre confort de marche.</p>\n</br>\n      <p>Oubliez les crèmes et médicaments — optez pour un <strong>soulagement durable et 100 % naturel avec Livya</strong> !</p>\n\n      <!-- Étoiles ajoutées -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Obtenir le confort dès maintenant\n\n        </a>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- Colonne image déplacée à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/strazoro-acupressuur-magnetische-inlegzolen-unisex_3.jpg?v=1749003246\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -334,7 +334,20 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/HAIROFF_Natuurlijke_Permanente_ONTHARINGSSPRAY_3.png?v=1748727518\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        100 % naturel et soulage durablement les douleurs articulaires\n      </p>\n\n      <p><strong>Livya® – Semelles magnétiques</strong> utilisent une technologie magnétique avancée, conçue pour stimuler les zones réflexes et améliorer la circulation sanguine afin de réduire les douleurs aux pieds, genoux et lombaires.</p>\n</br>\n      <p>Dès les premiers jours, vous ressentez une différence : moins de tension, plus de confort et un bien-être global retrouvé.\n</p>\n</br>\n<p>Non seulement elles soulagent instantanément, mais elles aident aussi à prévenir le retour des douleurs à long terme.</p>\n</br>\n<p><strong>\nRésultat : un confort retrouvé qui dure jusqu’à plusieurs semaines !</strong></p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Je veux mes semelles avant la rupture de stock\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/sgyw7ipldmdnqmxwqamu.png?v=1749003626\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        100 % naturel et soulage durablement les douleurs articulaires\n      </p>\n\n      <p><strong>Livya® – Semelles magnétiques</strong> utilisent une technologie magnétique avancée, conçue pour stimuler les zones réflexes et améliorer la circulation sanguine afin de réduire les douleurs aux pieds, genoux et lombaires.</p>\n</br>\n      <p>Dès les premiers jours, vous ressentez une différence : moins de tension, plus de confort et un bien-être global retrouvé.\n</p>\n</br>\n<p>Non seulement elles soulagent instantanément, mais elles aident aussi à prévenir le retour des douleurs à long terme.</p>\n</br>\n<p><strong>\nRésultat : un confort retrouvé qui dure jusqu’à plusieurs semaines !</strong></p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Je veux mes semelles avant la rupture de stock\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_fceJ8V": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"background-color: #E6F7FB; padding: 40px 20px; border-radius: 12px;\">\n  <div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 40px; justify-content: center; max-width: 1200px; margin: 0 auto;\">\n\n    <!-- Texte à gauche -->\n    <div style=\"flex: 1; min-width: 300px;\">\n      <h2 style=\"font-size: 28px; font-weight: bold; margin-bottom: 20px;\">Comment ça fonctionne</h2>\n      <p style=\"margin-bottom: 16px;\"><strong>Étape 1</strong> : Découpez les semelles à votre taille pour un ajustement parfait.</p>\n      <p style=\"margin-bottom: 16px;\"><strong>Étape 2</strong> : Glissez-les dans vos baskets, chaussures de ville ou même vos pantoufles.</p>\n      <p style=\"margin-bottom: 16px;\"><strong>Étape 3</strong> : Portez-les quotidiennement pour réduire la douleur, améliorer la circulation sanguine et ressentir du confort à chaque pas.</p>\n      <p style=\"margin-top: 24px;\">Pour une fraction du coût des traitements ou des médicaments coûteux, ressentez un soulagement et un confort quotidiens — dans vos propres chaussures.</p>\n    </div>\n\n    <!-- Image à droite -->\n    <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/dt2fta9jgipyygsq8o4w.png?v=1749004385\" alt=\"ReliveX Semelles magnétiques\" style=\"max-width: 100%; height: auto; border-radius: 12px;\">\n    </div>\n\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -346,60 +359,60 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  body, html {\n    margin: 0;\n    padding: 0;\n  }\n\n  .reviews-wrapper {\n    width: 100%;\n    background-color: #E6F7FB;\n  }\n\n  .reviews-section {\n    max-width: 100%;\n    padding: 20px 20px; /* Réduction du padding haut */\n    font-family: Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-section h2 {\n    font-size: 36px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .reviews-stars-title {\n    color: #FFA500;\n    font-size: 22px;\n    margin: 5px 0 15px;\n  }\n\n  .reviews-subtitle {\n    font-size: 18px;\n    color: #333;\n    margin-bottom: 40px;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 768px) {\n    .reviews-grid {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  .review-card {\n    background: white;\n    border-radius: 20px;\n    padding: 20px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    text-align: left;\n    height: 100%;\n    min-height: 540px;\n  }\n\n  .review-img {\n    width: 100%;\n    height: 240px;\n    object-fit: cover;\n    border-radius: 16px;\n    margin-bottom: 15px;\n  }\n\n  .review-img.bottom {\n    margin-top: auto;\n    margin-bottom: 0;\n  }\n\n  .review-stars {\n    background-color: #FFE5EF;\n    color: #FF4081;\n    display: inline-block;\n    padding: 5px 10px;\n    border-radius: 999px;\n    font-size: 16px;\n    margin-bottom: 10px;\n    font-weight: bold;\n  }\n\n  .review-text {\n    font-size: 15px;\n    color: #444;\n    margin-bottom: 15px;\n    flex-grow: 1;\n  }\n\n  .review-author {\n    font-weight: bold;\n    font-size: 15px;\n    color: #000;\n  }\n\n  .review-location {\n    font-size: 13px;\n    color: #888;\n  }\n</style>\n\n<div class=\"reviews-wrapper\">\n  <section class=\"reviews-section\">\n    <h2>Nos clientes en parlent le mieux</h2>\n    <div class=\"reviews-stars-title\">★★★★★</div>\n    <p class=\"reviews-subtitle\">Approuvé par plus de 2 000 clients</p>\n\n    <div class=\"reviews-grid\">\n      <!-- Review 1 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_1.webp?v=1748725479\" alt=\"Review 1\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Des résultats bluffants ! Ce produit me fait gagner un temps fou. J’adore la façon dont il élimine mes poils de jambes sans effort : peau lisse, aucune douleur.</p>\n        <div class=\"review-author\">Julie</div>\n        <div class=\"review-location\">Lyon, France</div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"review-card\">\n        <div>\n          <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n            <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n              ★★★★★\n            </div>\n          </div>\n          <p class=\"review-text\"> Ce produit me fait gagner du temps ! Il enlève rapidement les poils de ma poitrine sans aucun inconfort. Et en plus, la repousse est plus lente, un vrai soulagement. Je recommande à 100 % !</p>\n          <div class=\"review-author\">Nadia</div>\n          <div class=\"review-location\">Bruxelles, Belgique</div>\n        </div>\n        <img class=\"review-img bottom\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_3.webp?v=1748725479\" alt=\"Review 2\">\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0914/0921/9918/files/image_com_2.webp?v=1748725479\" alt=\"Review 3\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Fini les rasoirs pour moi ! Ce spray élimine mes poils des aisselles sans douleur. J’ai simplement vaporisé, et après 2 minutes, plus un poil. Je suis ravie !</p>\n        <div class=\"review-author\">Jean-François</div>\n        <div class=\"review-location\">Toulouse, France</div>\n      </div>\n    </div>\n  </section>\n</div>",
+        "liquid": "<style>\n  body, html {\n    margin: 0;\n    padding: 0;\n  }\n\n  .reviews-wrapper {\n    width: 100%;\n    background-color: #E6F7FB;\n  }\n\n  .reviews-section {\n    max-width: 100%;\n    padding: 20px 20px; /* Réduction du padding haut */\n    font-family: Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-section h2 {\n    font-size: 36px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .reviews-stars-title {\n    color: #FFA500;\n    font-size: 22px;\n    margin: 5px 0 15px;\n  }\n\n  .reviews-subtitle {\n    font-size: 18px;\n    color: #333;\n    margin-bottom: 40px;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 768px) {\n    .reviews-grid {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  .review-card {\n    background: white;\n    border-radius: 20px;\n    padding: 20px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    text-align: left;\n    height: 100%;\n    min-height: 540px;\n  }\n\n  .review-img {\n    width: 100%;\n    height: 240px;\n    object-fit: cover;\n    border-radius: 16px;\n    margin-bottom: 15px;\n  }\n\n  .review-img.bottom {\n    margin-top: auto;\n    margin-bottom: 0;\n  }\n\n  .review-stars {\n    background-color: #FFE5EF;\n    color: #FF4081;\n    display: inline-block;\n    padding: 5px 10px;\n    border-radius: 999px;\n    font-size: 16px;\n    margin-bottom: 10px;\n    font-weight: bold;\n  }\n\n  .review-text {\n    font-size: 15px;\n    color: #444;\n    margin-bottom: 15px;\n    flex-grow: 1;\n  }\n\n  .review-author {\n    font-weight: bold;\n    font-size: 15px;\n    color: #000;\n  }\n\n  .review-location {\n    font-size: 13px;\n    color: #888;\n  }\n</style>\n\n<div class=\"reviews-wrapper\">\n  <section class=\"reviews-section\">\n    <h2>Nos clientes en parlent le mieux</h2>\n    <div class=\"reviews-stars-title\">★★★★★</div>\n    <p class=\"reviews-subtitle\">Approuvé par plus de 2 000 clients</p>\n\n    <div class=\"reviews-grid\">\n      <!-- Review 1 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/ZTgHujZ9J.jpg?v=1749004350\" alt=\"Review 1\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Je ne m’attendais pas à un tel résultat ! En à peine quelques jours, mes douleurs aux talons ont presque disparu. J’ai repris mes promenades sans avoir mal aux pieds. Une vraie libération !\"</p>\n        <div class=\"review-author\">Sylvie</div>\n        <div class=\"review-location\">Lyon, France</div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"review-card\">\n        <div>\n          <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n            <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n              ★★★★★\n            </div>\n          </div>\n          <p class=\"review-text\"> Souffrant de douleurs chroniques au genou depuis des années, j’étais sceptique… Mais après une semaine avec Livya®, je ressens un soulagement incroyable à chaque pas. Je recommande à tous mes proches !</p>\n          <div class=\"review-author\">Sophie</div>\n          <div class=\"review-location\">Bruxelles, Belgique</div>\n        </div>\n        <img class=\"review-img bottom\" src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/kOE0nJnik.jpg?v=1749004350\" alt=\"Review 2\">\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"review-card\">\n        <img class=\"review-img\" src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/qQv85-GKZ.jpg?v=1749004350\" alt=\"Review 3\">\n        <div style=\"display: flex; justify-content: center; margin-bottom: 10px;\">\n          <div style=\"background-color: #fde8f0; padding: 4px 12px; border-radius: 20px; font-size: 16px; color: #ff1a75;\">\n            ★★★★★\n          </div>\n        </div>\n        <p class=\"review-text\"> Enfin un produit naturel qui fonctionne ! Je les porte tous les jours au travail. Mes douleurs lombaires se sont largement atténuées, je me sens plus léger et détendu. Bravo pour cette innovation !</p>\n        <div class=\"review-author\">Marc</div>\n        <div class=\"review-location\">Toulouse, France</div>\n      </div>\n    </div>\n  </section>\n</div>",
         "background": "#e6f7fb",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "featured_product_9jE67V": {
+    "featured_product_W9TGgH": {
       "type": "featured-product",
       "blocks": {
-        "liquid_WNj6ib": {
+        "liquid_mtQfKj": {
           "type": "liquid",
           "settings": {
             "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
           }
         },
-        "title_9B7tQD": {
+        "title_b3eybj": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
-        "badges_yJtaLd": {
+        "badges_mei6KL": {
           "type": "badges",
           "settings": {}
         },
-        "price_JC4mfV": {
+        "price_kV7n3K": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
         },
-        "liquid_cLfj4d": {
+        "liquid_d88qm7": {
           "type": "liquid",
           "settings": {
             "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
           }
         },
-        "kaching_bundles_app_block_pEmBQX": {
+        "kaching_bundles_app_block_An97nt": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{section.settings.product}}"
           }
         },
-        "rating_6DNiUr": {
+        "rating_kRfPYY": {
           "type": "rating",
           "settings": {
             "show_empty": false
           }
         },
-        "separator_enUXw4": {
+        "separator_4T6pCT": {
           "type": "separator",
           "settings": {}
         },
-        "buy_buttons_3ErCcf": {
+        "buy_buttons_htNMBW": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
@@ -410,30 +423,30 @@
             "payment_button_text_color": ""
           }
         },
-        "image_Xap4Gi": {
+        "image_kmq4Fd": {
           "type": "image",
           "settings": {
             "alignment": "start",
             "max_width": 500
           }
         },
-        "pickup_availability_tQDGjc": {
+        "pickup_availability_6wPUb9": {
           "type": "pickup_availability",
           "settings": {}
         }
       },
       "block_order": [
-        "liquid_WNj6ib",
-        "title_9B7tQD",
-        "badges_yJtaLd",
-        "price_JC4mfV",
-        "liquid_cLfj4d",
-        "kaching_bundles_app_block_pEmBQX",
-        "rating_6DNiUr",
-        "separator_enUXw4",
-        "buy_buttons_3ErCcf",
-        "image_Xap4Gi",
-        "pickup_availability_tQDGjc"
+        "liquid_mtQfKj",
+        "title_b3eybj",
+        "badges_mei6KL",
+        "price_kV7n3K",
+        "liquid_d88qm7",
+        "kaching_bundles_app_block_An97nt",
+        "rating_kRfPYY",
+        "separator_4T6pCT",
+        "buy_buttons_htNMBW",
+        "image_kmq4Fd",
+        "pickup_availability_6wPUb9"
       ],
       "settings": {
         "full_width": true,
@@ -460,7 +473,7 @@
           "type": "tab",
           "settings": {
             "title": "Caractéristiques",
-            "content": "<ul><li><strong>Épilation express en quelques minutes</strong> : Obtenez une peau lisse et soyeuse sans douleur ni irritation, simplement en vaporisant et en essuyant.</li><li><strong>Formule naturelle et hypoallergénique</strong> : Composée d'ingrédients tels que l'aloès, l'allantoïne et le chrysanthellum, elle est douce pour tous les types de peau.</li><li><strong>Hydratation et soin de la peau</strong> : Enrichie en glycéryl stéarate, elle hydrate et nourrit la peau pendant l'épilation.</li><li><strong>Réduction de la repousse des poils</strong> : Utilisée régulièrement, elle ralentit le processus de repousse pour une peau lisse plus longtemps.</li><li><strong>Utilisation polyvalente</strong> : Convient pour les jambes, les bras, les aisselles, le dos et d'autres zones avec des poils indésirables.</li><li><strong>Testée et approuvée</strong> : Validée par plus de 3 687 professionnels de la santé.</li><li><strong>Garantie de satisfaction</strong> : Si vous n'êtes pas satisfait, une garantie de remboursement est offerte.</li></ul>",
+            "content": "<ul><li><strong>Soulagement rapide des douleurs</strong> : Agissent efficacement sur les douleurs plantaires, articulaires et lombaires dès les premiers jours.</li><li><strong>Technologie magnétique intégrée</strong> : Stimule les points de pression pour améliorer la circulation sanguine et réduire l'inflammation.</li><li><strong>Adaptables à toutes les tailles</strong> : Les semelles sont découpables pour s’ajuster parfaitement à vos pieds (tailles S/M/L).</li><li><strong>Utilisation quotidienne facile</strong> : Glissez-les simplement dans vos baskets, chaussures ou pantoufles.</li><li><strong>Confort ergonomique</strong> : Leur design épouse parfaitement la forme du pied pour un soutien optimal à chaque pas.</li><li><strong>Sans médicament ni effets secondaires</strong> : Solution 100 % naturelle, non invasive et testée cliniquement.</li><li><strong>Économique et durable</strong> : Réutilisables et lavables, elles vous évitent des traitements coûteux.</li><li><strong>Garantie de satisfaction</strong> : Si vous n'êtes pas satisfait, une garantie de remboursement est offerte.</li></ul>",
             "page": ""
           }
         },
@@ -468,7 +481,7 @@
           "type": "tab",
           "settings": {
             "title": "Essayez-le 30 jours gratuitement",
-            "content": "<p>Essayez le <strong>Dermalyse® HairOff</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre Dermalyse® HairOff vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
+            "content": "<p>Essayez le <strong>Livya®</strong> sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfaite de votre semelle Livya® vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
             "page": ""
           }
         },
@@ -515,50 +528,43 @@
         "item_jCFdCM": {
           "type": "item",
           "settings": {
-            "title": "Qu'est-ce que le Dermalyse® HairOff Spray ?",
-            "content": "<p>Le Dermalyse® HairOff est une solution d'épilation naturelle et permanente sous forme de spray. Il élimine les poils indésirables en quelques minutes, simplement en vaporisant et en essuyant.</p>"
+            "title": "Qu’est-ce que les semelles Livya® ?",
+            "content": "<p>ReliveX™ sont des semelles magnétiques conçues pour stimuler les points de pression sous vos pieds, afin de soulager naturellement les douleurs articulaires, musculaires et lombaires.</p>"
           }
         },
         "item_KWgBqe": {
           "type": "item",
           "settings": {
-            "title": "Comment fonctionne-t-il ?",
-            "content": "<p>Sa formule unique agit en douceur pour éliminer les poils, laissant la peau douce et soyeuse. Il suffit de vaporiser sur la zone souhaitée, d'attendre quelques minutes, puis d'essuyer pour voir les poils disparaître.</p>"
+            "title": "Comment fonctionnent-elles ?",
+            "content": "<p>Elles utilisent la magnétothérapie : les aimants intégrés agissent sur la circulation sanguine et les nerfs plantaires, réduisant l’inflammation et la sensation de douleur.</p>"
           }
         },
         "item_pWkyeC": {
           "type": "item",
           "settings": {
-            "title": "Est-ce vraiment indolore ?",
-            "content": "<p>Oui, le Dermalyse® HairOff offre une épilation sans douleur, contrairement au rasage ou à la cire.Il est conçu pour être doux sur la peau tout en étant efficace contre les poils.</p>"
+            "title": "Est-ce indolore ?",
+            "content": "<p>Oui, complètement. Elles s’utilisent comme des semelles classiques, sans aucune gêne. Vous ressentez uniquement un effet de confort progressif.</p>"
           }
         },
         "item_A8Qn9Q": {
           "type": "item",
           "settings": {
-            "title": "Est-ce sûr pour tous les types de peau ?",
-            "content": "<p>Oui, le Dermalyse® HairOff est hypoallergénique et convient à tous les types de peau.Il a été testé et vérifié par plus de 3 687 médecins.</p>"
+            "title": "Sont-elles adaptées à tous les types de pieds ?",
+            "content": "<p>Oui ! Les semelles Livya® sont ajustables : vous pouvez les découper facilement selon votre pointure (S, M, L).</p>"
           }
         },
         "item_xQnrjK": {
           "type": "item",
           "settings": {
-            "title": "Où puis-je l'utiliser ?",
-            "content": "<p>Le Dermalyse® HairOff peut être utilisé sur diverses parties du corps, y compris les jambes, les bras, le dos et d'autres zones avec des poils indésirables.</p>"
+            "title": "Où puis-je les utiliser ?",
+            "content": "<p>Dans toutes vos chaussures : baskets, chaussures de ville, pantoufles… Elles sont discrètes, souples et efficaces partout.</p>"
           }
         },
         "item_pCfKtx": {
           "type": "item",
           "settings": {
-            "title": "Combien de temps faut-il pour voir les résultats ?",
-            "content": "<p>Les résultats sont visibles en quelques minutes après l'application.Une seule utilisation suffit pour éliminer les poils, laissant la peau lisse.</p>"
-          }
-        },
-        "item_6iLja9": {
-          "type": "item",
-          "settings": {
             "title": "Y a-t-il une garantie ?",
-            "content": "<p>Oui, si vous n'obtenez pas de résultats, une garantie de remboursement est offerte.</p>"
+            "content": "<p>Oui, Livya® est couvert par une garantie satisfaction 30 jours. Essayez-les sans risque.</p>"
           }
         },
         "item_hHVmtb": {
@@ -583,7 +589,6 @@
         "item_A8Qn9Q",
         "item_xQnrjK",
         "item_pCfKtx",
-        "item_6iLja9",
         "item_hHVmtb",
         "item_U8pJir"
       ],
@@ -628,110 +633,6 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "featured_product_3FJqYF": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_fxVVGk": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title_8kzam3": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_FYzTDa": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_XjMRJg": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_BWpLnw": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_BUpCtm": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_fdYdzY": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_XwWKkJ": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_tRGVtY": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_GtNnfQ": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_3ncb6a": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "vendor_fxVVGk",
-        "title_8kzam3",
-        "badges_FYzTDa",
-        "price_XjMRJg",
-        "rating_BWpLnw",
-        "separator_BUpCtm",
-        "description_fdYdzY",
-        "variant_picker_XwWKkJ",
-        "quantity_selector_tRGVtY",
-        "buy_buttons_GtNnfQ",
-        "pickup_availability_3ncb6a"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
     }
   },
   "order": [
@@ -746,11 +647,11 @@
     "custom_liquid_C8Dpr3",
     "custom_liquid_kmzaxK",
     "custom_liquid_AFjpJU",
+    "custom_liquid_fceJ8V",
     "custom_liquid_G9pXKW",
-    "featured_product_9jE67V",
+    "featured_product_W9TGgH",
     "tabs_t4hLFM",
     "faq_KNNWxz",
-    "contact_rjYdrA",
-    "featured_product_3FJqYF"
+    "contact_rjYdrA"
   ]
 }
