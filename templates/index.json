@@ -232,6 +232,7 @@
         "logo_7rNKWd": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Elle_png.png",
             "logo_width": 120,
             "link": ""
           }
@@ -239,6 +240,7 @@
         "logo_9KgQjh": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Vogue_png.png",
             "logo_width": 120,
             "link": ""
           }
@@ -246,6 +248,7 @@
         "logo_pQGbhY": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Comopolitan_webp.png",
             "logo_width": 120,
             "link": ""
           }
@@ -253,13 +256,7 @@
         "logo_9qVati": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_yLCxT4": {
-          "type": "logo",
-          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_webp.png",
             "logo_width": 120,
             "link": ""
           }
@@ -269,8 +266,7 @@
         "logo_7rNKWd",
         "logo_9KgQjh",
         "logo_pQGbhY",
-        "logo_9qVati",
-        "logo_yLCxT4"
+        "logo_9qVati"
       ],
       "settings": {
         "full_width": true,
