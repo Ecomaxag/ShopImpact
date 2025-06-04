@@ -156,6 +156,12 @@
             "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
           }
         },
+        "kaching_bundles_app_block_wDFcTp": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "rating_Rx3PGa": {
           "type": "rating",
           "settings": {
@@ -195,6 +201,7 @@
         "badges_XgekHM",
         "price_P3VKnQ",
         "liquid_4CCcFJ",
+        "kaching_bundles_app_block_wDFcTp",
         "rating_Rx3PGa",
         "separator_Ci4qqg",
         "buy_buttons_97dXJN",
@@ -203,7 +210,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "cire-seve®-redonnez-vie-a-vos-meubles-en-bois-sans-les-renover",
+        "product": "livya®-semelle-orthopedique-magnetique",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -225,6 +232,7 @@
         "logo_7rNKWd": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Elle_png.png",
             "logo_width": 120,
             "link": ""
           }
@@ -232,6 +240,7 @@
         "logo_9KgQjh": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Vogue_png.png",
             "logo_width": 120,
             "link": ""
           }
@@ -239,6 +248,7 @@
         "logo_pQGbhY": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Comopolitan_webp.png",
             "logo_width": 120,
             "link": ""
           }
@@ -246,6 +256,7 @@
         "logo_9qVati": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_webp.png",
             "logo_width": 120,
             "link": ""
           }
@@ -279,7 +290,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #DAA520; font-weight: bold; margin-bottom: 10px;\">\n        Redonnez vie à vos meubles en bois, sans les rénover !\n      </p>\n\n      <p><strong>Cire & Sève®</strong> est une cire d’abeille 100 % naturelle qui nourrit, répare et protège vos meubles en bois. En un simple geste, elle comble les rayures, ravive la teinte naturelle du bois et lui redonne son éclat d’origine.</p>\n      </br>\n      <p>Idéale pour les surfaces ternes, rayées ou anciennes, cette solution simple et rapide prolonge la durée de vie de vos meubles tout en leur offrant un aspect neuf.</p>\n      </br>\n      <p><strong>Aucune rénovation nécessaire — un chiffon, un peu de cire, et le tour est joué.</strong></p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CTA -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #DAA520;\n          color: #fff;\n          padding: 12px 22px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#8C6A1D'\"\n        onmouseout=\"this.style.backgroundColor='#FF5C5C'\">\n          Découvrir la cire naturelle Cire & Sève®\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Formule naturelle testée et approuvée pour tous types de bois.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0910/2639/1426/files/rt_3.webp?v=1749064616\" alt=\"Cire & Sève pot de cire\" style=\"max-width: 100%; max-height: 480px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Éliminez les douleurs et retrouvez votre mobilité!\n      </p>\n\n      <p>Vous souffrez de douleurs aux pieds, genoux ou dos ? Marre des traitements coûteux et inefficaces ? Ne cherchez plus ! <strong>Livya® Semelles magnétiques</strong> sont la solution naturelle et innovante dont vous avez besoin.</p>\n</br>\n<p>Grâce à leur technologie de magnétothérapie, ces semelles stimulent les points de pression et améliorent la circulation sanguine.</p> \n</br>\n<p>Résultat : vos douleurs diminuent progressivement et votre confort de marche est retrouvé.</p>\n</br>\n<p>Avec une utilisation quotidienne, ressentez un réel soulagement sans médicaments ni effets secondaires. C’est aussi simple que de glisser les semelles dans vos chaussures !</p>\n\n      \n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Accéder à l'offre exclusive\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/Untitled_design_15.gif?v=1749002619\" alt=\"HairOff Spray épilation\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -291,7 +302,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0910/2639/1426/files/ezgif.com-webp-to-gif-converter_1.webp?v=1749066216\" alt=\"Cire & Sève – résultat bois\" style=\"max-width: 100%; max-height: 480px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #DAA520; font-weight: bold; margin-bottom: 10px;\">\n        Redonnez une seconde vie à vos meubles en bois !\n      </p>\n\n      <p><strong>Cire & Sève®</strong> est une cire d’abeille 100 % naturelle qui nourrit, protège et ravive le bois instantanément. En un seul passage, elle comble les rayures, redonne de la brillance et fait disparaître l’aspect terne et usé.</p>\n      </br>\n      <p>Adaptée à tous les types de bois (tables, chaises, escaliers, buffets...), elle est idéale pour restaurer vos meubles sans travaux, sans ponçage ni produits chimiques.</p>\n      </br>\n      <p><strong>Un résultat visible en quelques secondes. Facile à appliquer, durable et sans odeur.</strong></p>\n\n      <!-- Étoiles -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 12px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CTA -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 12px 22px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#8C6A1D'\"\n        onmouseout=\"this.style.backgroundColor='#FF5C5C'\">\n          Découvrir la cire naturelle Cire & Sève®\n        </a>\n      </div>\n\n      <!-- Note info -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Formule testée, efficace sur tous types de bois.\n      </p>\n\n    </div>\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne image à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/Esm_GaTN0.jpg?v=1749002754\" alt=\"Témoignage cliente HairOff\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne texte à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #1E90FF; font-weight: bold; margin-bottom: 10px;\">\n        Fini les douleurs articulaires et les journées pénibles !\n      </p>\n\n      <p style=\"font-style: italic;\">\"Avant je souffrais de douleurs constantes aux pieds et aux genoux, chaque pas était un supplice.</br>\nMais après seulement quelques jours avec les semelles Livya®, j’ai ressenti un soulagement incroyable.</br>\nJe peux marcher, rester debout et même faire de longues balades sans douleur.</br>\nElles sont confortables, faciles à utiliser et vraiment efficaces — c’est bluffant !\nMerci Livya®, ma vie a changé.\"</p>\n\n     \n\n      <p style=\"font-weight: bold;\">– Linda D.</p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Tester l’efficacité maintenant\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -303,7 +314,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 520px;\">\n\n      <p style=\"color: #D2691E; font-weight: bold; margin-bottom: 10px;\">\n        Cire naturelle recommandée pour restaurer et protéger le bois\n      </p>\n\n      <p><strong>Cire & Sève®</strong> est une solution naturelle, rapide et efficace pour entretenir tous vos meubles en bois, sans produits chimiques ni rénovations coûteuses.</p>\n</br>\n      <p>Grâce à sa formule 100 % à base de cire d’abeille, elle comble les rayures, ravive l’éclat naturel du bois et protège les surfaces contre l’usure du quotidien.</p>\n</br>\n      <p>Que ce soit pour une table, une commode ou un escalier, appliquez simplement la cire avec un chiffon et admirez le résultat en quelques secondes.</p>\n\n      <p><strong>Un bois comme neuf, sans effort.</strong></p>\n\n      <!-- Étoiles -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 16px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CTA -->\n      <div style=\"margin-top: 20px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 12px 22px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#8C6A1D'\"\n        onmouseout=\"this.style.backgroundColor='#FF5C5C'\">\n          Obtenir la cire dès maintenant\n        </a>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0910/2639/1426/files/rt_4.webp?v=1749066113\" alt=\"Avant / Après cire naturelle bois\" style=\"max-width: 100%; max-height: 480px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Semelles magnétiques recommandées par les experts en santé articulaire\n      </p>\n\n      <p><strong>Livya® – Semelles magnétiques de thérapie naturelle sont une solution innovante, non invasive, cliniquement testée pour soulager les douleurs chroniques des pieds, genoux et lombaires en quelques jours seulement.</strong></p>\n      </br>\n      <p>Elles utilisent le pouvoir de la <strong>magnétothérapie</strong> combiné à un design ergonomique pour stimuler la circulation sanguine, réduire l’inflammation et rétablir votre confort de marche.</p>\n      </br>\n      <p>Oubliez les crèmes et médicaments — optez pour un <strong>soulagement durable et 100 % naturel avec Livya</strong> !</p>\n\n      <!-- Étoiles -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Obtenir le confort dès maintenant\n        </a>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- Colonne GIF à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://relivex.nl/cdn/shop/files/asdasd_1-ezgif.com-optimize.gif\" alt=\"Animation semelles Livya\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -328,6 +339,19 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        100 % naturel et soulage durablement les douleurs articulaires\n      </p>\n\n      <p><strong>Livya® – Semelles magnétiques</strong> utilisent une technologie magnétique avancée, conçue pour stimuler les zones réflexes et améliorer la circulation sanguine afin de réduire les douleurs aux pieds, genoux et lombaires.</p>\n      </br>\n      <p>Dès les premiers jours, vous ressentez une différence : moins de tension, plus de confort et un bien-être global retrouvé.</p>\n      </br>\n      <p>Non seulement elles soulagent instantanément, mais elles aident aussi à prévenir le retour des douleurs à long terme.</p>\n      </br>\n      <p><strong>Résultat : un confort retrouvé qui dure jusqu’à plusieurs semaines !</strong></p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Je veux mes semelles avant la rupture de stock\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Tous nos produits ont été testés et validés par plus de 3687 médecins en Europe.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/Votre_texte_de_paragraphe_1.png?v=1749023705\" alt=\"Livya Semelles magnétiques\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_fceJ8V": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"background-color: #E6F7FB; padding: 40px 20px; border-radius: 12px;\">\n  <div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 40px; justify-content: center; max-width: 1200px; margin: 0 auto;\">\n\n    <!-- Texte à gauche -->\n    <div style=\"flex: 1; min-width: 300px;\">\n      <h2 style=\"font-size: 28px; font-weight: bold; margin-bottom: 20px;\">Comment ça fonctionne</h2>\n      <p style=\"margin-bottom: 16px;\"><strong>Étape 1</strong> : Découpez les semelles à votre taille pour un ajustement parfait.</p>\n      <p style=\"margin-bottom: 16px;\"><strong>Étape 2</strong> : Glissez-les dans vos baskets, chaussures de ville ou même vos pantoufles.</p>\n      <p style=\"margin-bottom: 16px;\"><strong>Étape 3</strong> : Portez-les quotidiennement pour réduire la douleur, améliorer la circulation sanguine et ressentir du confort à chaque pas.</p>\n      <p style=\"margin-top: 24px;\">Pour une fraction du coût des traitements ou des médicaments coûteux, ressentez un soulagement et un confort quotidiens — dans vos propres chaussures.</p>\n    </div>\n\n    <!-- Image à droite -->\n    <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/dt2fta9jgipyygsq8o4w.png?v=1749004385\" alt=\"ReliveX Semelles magnétiques\" style=\"max-width: 100%; height: auto; border-radius: 12px;\">\n    </div>\n\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -376,6 +400,12 @@
             "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
           }
         },
+        "kaching_bundles_app_block_An97nt": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "rating_kRfPYY": {
           "type": "rating",
           "settings": {
@@ -415,6 +445,7 @@
         "badges_mei6KL",
         "price_kV7n3K",
         "liquid_d88qm7",
+        "kaching_bundles_app_block_An97nt",
         "rating_kRfPYY",
         "separator_4T6pCT",
         "buy_buttons_htNMBW",
@@ -620,6 +651,7 @@
     "custom_liquid_kmzaxK",
     "custom_liquid_C8Dpr3",
     "custom_liquid_AFjpJU",
+    "custom_liquid_fceJ8V",
     "custom_liquid_G9pXKW",
     "featured_product_W9TGgH",
     "tabs_t4hLFM",
