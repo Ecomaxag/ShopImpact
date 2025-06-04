@@ -46,7 +46,7 @@
         "text_AVckdw"
       ],
       "custom_css": [
-        ".footer {background-color: #12325e !important; color: white !important;}",
+        ".footer {background-color: #8C6A1D !important; color: white !important;}",
         ".footer {color: white !important; border-color: white !important;}",
         ".footer a {color: white !important; text-decoration: none;}",
         ".footer a:hover {color: #b2ebf2 !important;}",
