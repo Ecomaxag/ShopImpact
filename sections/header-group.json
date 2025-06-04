@@ -56,7 +56,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#8c6a1d",
+        "background": "#0d3b66",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -66,7 +66,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/ChatGPT_Image_4_juin_2025_a_21_01_02.png",
         "logo_max_width": 50,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
