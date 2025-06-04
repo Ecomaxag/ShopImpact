@@ -243,6 +243,13 @@
             "link": ""
           }
         },
+        "logo_pQGbhY": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
         "logo_9qVati": {
           "type": "logo",
           "settings": {
@@ -261,6 +268,7 @@
       "block_order": [
         "logo_7rNKWd",
         "logo_9KgQjh",
+        "logo_pQGbhY",
         "logo_9qVati",
         "logo_yLCxT4"
       ],
