@@ -1,0 +1,774 @@
+{% comment %}
+  /**
+   * Incredible Apps (IA) - Video Carousel v1
+   * --------------------------------------------
+   * website: https://incredible-apps.com/
+   * Description: A responsive video carousel section for Shopify stores
+   *
+   * @version: 1.0.0
+   * @author: Incredible Apps (IA)
+   * @requires Shopify Online Store 2.0+
+   */
+{% endcomment %}
+
+<div class="ia-section-video-1" id="video-carousel-{{ section.id }}">
+  <div class="ia-video-container">
+    <div
+      class="ia-video-heading"
+      style="font-size: {{ section.settings.heading_font_size }}px; color: {{ section.settings.heading_color }};"
+    >
+      {{ section.settings.heading }}
+    </div>
+    <div class="ia-video-slider">
+      {% for block in section.blocks %}
+        {% if block.type == 'video' %}
+          <div class="ia-video-item" {{ block.shopify_attributes }}>
+            <div class="ia-video-thumbnail">
+              <div class="ia-video-overlay"></div>
+
+              {% if block.settings.video_url != blank %}
+                <video
+                  class="ia-video-player"
+                  preload="metadata"
+                  playsinline
+                  muted
+                  {% if block.settings.cover_image != blank %}
+                    poster="{{ block.settings.cover_image | img_url: '800x', scale: 2 }}"
+                  {% endif %}
+                  data-video-type="mp4"
+                >
+                  <source src="{{ block.settings.video_url }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              {% else %}
+                <div class="ia-video-empty">
+                  <p>Please add a video URL</p>
+                </div>
+              {% endif %}
+
+              <button type="button" class="ia-video-play" aria-label="Play video">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <circle cx="12" cy="12" r="12" fill="#04C7FF"/>
+                  <polygon points="10,8 16,12 10,16" fill="white"/>
+                </svg>
+              </button>
+              <button type="button" class="ia-video-unmute" aria-label="Unmute video">
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" fill="white"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  #video-carousel-{{ section.id }} {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+
+  #video-carousel-{{ section.id }} .ia-video-container {
+    margin: 0 auto;
+    width: {{ section.settings.container_width }}%;
+    max-width: 100%;
+    padding: 0 {{ section.settings.padding_horizontal }}px;
+    letter-spacing: -0.3px;
+  }
+
+  .ia-video-heading {
+    margin-bottom: 16px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+
+  .ia-video-heading p {
+    margin: 0;
+  }
+
+  .ia-video-slider {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+    scrollbar-color: #e64a19 transparent;
+    justify-content: flex-start;
+    scroll-padding-left: 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -5px;
+    padding: 0 5px 8px 5px;
+  }
+
+  .ia-video-slider::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .ia-video-slider::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+  }
+
+  .ia-video-slider::-webkit-scrollbar-thumb {
+    background: #e64a19;
+    border-radius: 3px;
+  }
+
+  .ia-video-slider::-webkit-scrollbar-thumb:hover {
+    background: #d13700;
+  }
+
+  .ia-video-item {
+    flex: 0 0 auto;
+    width: {{ section.settings.video_width }}px;
+    position: relative;
+    scroll-snap-align: start;
+    padding: 0 5px;
+    contain: layout paint;
+  }
+
+  .ia-video-thumbnail {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    {% if section.settings.aspect_ratio == "16:9" %}
+      height: {{ section.settings.video_width | times: 9 | divided_by: 16 }}px;
+    {% elsif section.settings.aspect_ratio == "9:16" %}
+      height: {{ section.settings.video_width | times: 16 | divided_by: 9 }}px;
+    {% elsif section.settings.aspect_ratio == "4:3" %}
+      height: {{ section.settings.video_width | times: 3 | divided_by: 4 }}px;
+    {% elsif section.settings.aspect_ratio == "1:1" %}
+      height: {{ section.settings.video_width }}px;
+    {% else %}
+      height: {{ section.settings.video_width | times: 16 | divided_by: 9 }}px;
+    {% endif %}
+  }
+
+  .ia-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .ia-video-player {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    background-color: #f0f0f0;
+  }
+
+  .ia-video-empty {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .ia-video-play {
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    z-index: 3;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+
+  .ia-video-play:hover {
+    transform: scale(1.1);
+  }
+
+  .ia-video-play:active {
+    transform: scale(0.95);
+  }
+
+  .ia-video-play svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  .ia-video-unmute {
+    position: absolute;
+    bottom: 9px;
+    right: 9px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease;
+    z-index: 4;
+    color: #e4e4e4 !important;
+  }
+
+  .ia-video-unmute.visible {
+    opacity: 0.8;
+    visibility: visible;
+  }
+
+  .ia-video-unmute:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .ia-video-unmute:active {
+    transform: scale(0.95);
+  }
+
+  .ia-video-unmute.unmuted {
+    background-color: #a8a8a8;
+  }
+
+  .ia-video-error {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    z-index: 5;
+  }
+
+  .ia-video-error p {
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .ia-video-youtube-placeholder {
+    display: none;
+  }
+
+  .ia-video-youtube-player {
+    display: none;
+  }
+
+  iframe.active {
+    z-index: 3;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ia-video-container {
+      width: 100% !important;
+      padding: 0 10px !important;
+    }
+
+    .ia-video-slider {
+      gap: 8px;
+      padding: 0 5px 12px 5px;
+      scroll-padding: 0 10px;
+    }
+
+    .ia-video-item {
+      width: calc({{ section.settings.video_width }}px * 0.9);
+    }
+
+    {% if section.settings.aspect_ratio == "16:9" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width | times: 9 | divided_by: 16 }}px * 0.9);
+      }
+    {% elsif section.settings.aspect_ratio == "9:16" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width | times: 16 | divided_by: 9 }}px * 0.9);
+      }
+    {% elsif section.settings.aspect_ratio == "4:3" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width | times: 3 | divided_by: 4 }}px * 0.9);
+      }
+    {% elsif section.settings.aspect_ratio == "1:1" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width }}px * 0.9);
+      }
+    {% endif %}
+
+    .ia-video-play {
+      bottom: 12px;
+      left: 12px;
+      width: 36px;
+      height: 36px;
+      padding: 6px;
+    }
+
+    .ia-video-play svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .ia-video-unmute {
+      bottom: 12px;
+      right: 12px;
+      width: 36px;
+      height: 36px;
+      padding: 6px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .ia-video-item {
+      width: calc({{ section.settings.video_width }}px * 0.7);
+    }
+
+    {% if section.settings.aspect_ratio == "16:9" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width | times: 9 | divided_by: 16 }}px * 0.7);
+      }
+    {% elsif section.settings.aspect_ratio == "9:16" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width | times: 16 | divided_by: 9 }}px * 0.7);
+      }
+    {% elsif section.settings.aspect_ratio == "4:3" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width | times: 3 | divided_by: 4 }}px * 0.7);
+      }
+    {% elsif section.settings.aspect_ratio == "1:1" %}
+      .ia-video-thumbnail {
+        height: calc({{ section.settings.video_width }}px * 0.7);
+      }
+    {% endif %}
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const videoStates = new Map();
+    const videoContainer = document.querySelector('.ia-video-slider');
+    const observer = new IntersectionObserver(onIntersection, {
+      root: videoContainer,
+      rootMargin: '50px 100px',
+      threshold: 0.1,
+    });
+
+    // Enable smooth scrolling behavior for touch devices
+    if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+      videoContainer.style.scrollBehavior = 'smooth';
+    }
+
+    // Observe all video items
+    document.querySelectorAll('.ia-video-item').forEach((item) => {
+      observer.observe(item);
+    });
+
+    function onIntersection(entries) {
+      entries.forEach((entry) => {
+        const videoItem = entry.target;
+        const video = videoItem.querySelector('.ia-video-player');
+
+        if (!video) return;
+
+        if (entry.isIntersecting) {
+          // Load video metadata when visible
+          if (video.preload === 'none') {
+            video.preload = 'metadata';
+          }
+
+          // Preload first frame
+          if (video.readyState === 0) {
+            video.load();
+          }
+        }
+      });
+    }
+
+    // Ensure first frame is shown for each video
+    document.querySelectorAll('.ia-video-player').forEach((video) => {
+      // Only handle HTML5 video elements
+      if (video.tagName.toLowerCase() === 'video') {
+        // Set initial preload to none and let intersection observer manage it
+        video.preload = 'none';
+
+        // Load enough of the video to show the first frame
+        video.addEventListener('loadeddata', function () {
+          // Set current time to 0.1 to ensure first frame is displayed
+          if (video.currentTime === 0) {
+            video.currentTime = 0.1;
+          }
+        });
+
+        // Handle error cases
+        video.addEventListener('error', function (e) {
+          console.error('Video error:', e);
+          const videoItem = video.closest('.ia-video-item');
+          if (videoItem) {
+            const errorOverlay = document.createElement('div');
+            errorOverlay.className = 'ia-video-error';
+            errorOverlay.innerHTML = '<p>Video could not be loaded</p>';
+            videoItem.querySelector('.ia-video-thumbnail').appendChild(errorOverlay);
+          }
+        });
+
+        // Store state
+        videoStates.set(video, { isPlaying: false, isProcessing: false, isMuted: true, type: 'mp4' });
+      }
+    });
+
+    document.querySelectorAll('.ia-video-item').forEach((item, index) => {
+      const video = item.querySelector('.ia-video-player');
+
+      if (!video) return; // Skip if no video element found
+
+      const playButton = item.querySelector('.ia-video-play');
+      const unmuteButton = item.querySelector('.ia-video-unmute');
+      const thumbnail = item.querySelector('.ia-video-thumbnail');
+
+      playButton.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        togglePlay(video);
+      });
+
+      thumbnail.addEventListener('click', function (e) {
+        if (!e.target.closest('.ia-video-play') && !e.target.closest('.ia-video-unmute')) {
+          togglePlay(video);
+        }
+      });
+
+      video.addEventListener('ended', function () {
+        const state = videoStates.get(video);
+        if (!state) return;
+
+        playButton.style.display = 'block';
+        unmuteButton.classList.remove('visible');
+        unmuteButton.classList.remove('unmuted');
+        state.isPlaying = false;
+        video.currentTime = 0;
+      });
+
+      unmuteButton.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleMute(video, this);
+      });
+    });
+
+    function togglePlay(videoElement) {
+      const state = videoStates.get(videoElement);
+      if (!state || state.isProcessing) return;
+
+      state.isProcessing = true;
+
+      const videoItem = videoElement.closest('.ia-video-item');
+      const playButton = videoItem.querySelector('.ia-video-play');
+      const unmuteButton = videoItem.querySelector('.ia-video-unmute');
+
+      if (!state.isPlaying) {
+        // Pause all other videos
+        pauseAllOtherVideos(videoElement);
+
+        // Handle MP4 video
+        videoElement.muted = true;
+        state.isMuted = true;
+        videoElement.setAttribute('playsinline', '');
+
+        // Ensure video is visible in scroll container
+        const rect = videoItem.getBoundingClientRect();
+        const containerRect = videoContainer.getBoundingClientRect();
+
+        if (rect.left < containerRect.left || rect.right > containerRect.right) {
+          videoItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+
+        videoElement
+          .play()
+          .then(() => {
+            playButton.style.display = 'none';
+            state.isPlaying = true;
+
+            setTimeout(() => {
+              unmuteButton.classList.add('visible');
+            }, 500);
+          })
+          .catch((error) => {
+            console.error('Video play error:', error);
+
+            // Try again with user interaction flag for iOS
+            videoElement.setAttribute('playsinline', '');
+            videoElement.setAttribute('webkit-playsinline', '');
+
+            // Retry play with a delay (helps with some mobile browsers)
+            setTimeout(() => {
+              videoElement
+                .play()
+                .then(() => {
+                  playButton.style.display = 'none';
+                  state.isPlaying = true;
+
+                  setTimeout(() => {
+                    unmuteButton.classList.add('visible');
+                  }, 500);
+                })
+                .catch((e) => {
+                  console.error('Video play retry error:', e);
+                  state.isProcessing = false;
+
+                  // Show error message for persistent failures
+                  if (!videoItem.querySelector('.ia-video-error')) {
+                    const errorMsg = document.createElement('div');
+                    errorMsg.className = 'ia-video-error';
+                    errorMsg.innerHTML = '<p>Tap to try again</p>';
+                    videoItem.querySelector('.ia-video-thumbnail').appendChild(errorMsg);
+
+                    // Remove error after 3 seconds
+                    setTimeout(() => {
+                      if (errorMsg.parentNode) {
+                        errorMsg.parentNode.removeChild(errorMsg);
+                      }
+                    }, 3000);
+                  }
+                });
+            }, 100);
+          })
+          .finally(() => {
+            state.isProcessing = false;
+          });
+      } else {
+        videoElement.pause();
+        playButton.style.display = 'block';
+        unmuteButton.classList.remove('visible');
+        unmuteButton.classList.remove('unmuted');
+        state.isPlaying = false;
+        state.isProcessing = false;
+      }
+    }
+
+    function toggleMute(videoElement, buttonElement) {
+      const state = videoStates.get(videoElement);
+      if (!state) return;
+
+      if (state.isMuted) {
+        videoElement.muted = false;
+
+        const currentTime = videoElement.currentTime;
+        videoElement.load();
+        videoElement.currentTime = currentTime;
+        videoElement.muted = false;
+        videoElement.play();
+
+        state.isMuted = false;
+        buttonElement.classList.add('unmuted');
+        buttonElement.innerHTML = `
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path d="M3,9H7L12,4V20L7,15H3V9Z" fill="white"/>
+            <path d="M16.5,12C16.5,10.23 15.48,8.71 14,7.97V16.02C15.48,15.29 16.5,13.77 16.5,12Z" fill="white"/>
+            <path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.85 14,18.71V20.77C18.01,19.86 21,16.28 21,12C21,7.72 18.01,4.14 14,3.23Z" fill="white"/>
+          </svg>
+        `;
+        buttonElement.ariaLabel = 'Mute video';
+      } else {
+        videoElement.muted = true;
+
+        state.isMuted = true;
+        buttonElement.classList.remove('unmuted');
+        buttonElement.innerHTML = `
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" fill="white"/>
+          </svg>
+        `;
+        buttonElement.ariaLabel = 'Unmute video';
+      }
+    }
+
+    function pauseAllOtherVideos(currentVideoElement) {
+      // Pause all other MP4 videos
+      document.querySelectorAll('.ia-video-player').forEach((v) => {
+        if (v !== currentVideoElement && v.tagName.toLowerCase() === 'video') {
+          const otherState = videoStates.get(v);
+          if (otherState && otherState.isPlaying) {
+            v.pause();
+            const videoItem = v.closest('.ia-video-item');
+            if (videoItem) {
+              const playButton = videoItem.querySelector('.ia-video-play');
+              const unmuteButton = videoItem.querySelector('.ia-video-unmute');
+              if (playButton) playButton.style.display = 'block';
+              if (unmuteButton) unmuteButton.classList.remove('visible');
+            }
+            otherState.isPlaying = false;
+          }
+        }
+      });
+    }
+
+    // Optimization: Handle scroll events to load videos on demand
+    let scrollTimeout;
+    videoContainer.addEventListener('scroll', function () {
+      if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+      }
+
+      scrollTimeout = setTimeout(function () {
+        // Find videos in viewport and preload metadata
+        document.querySelectorAll('.ia-video-item').forEach((item) => {
+          const rect = item.getBoundingClientRect();
+          const containerRect = videoContainer.getBoundingClientRect();
+
+          // If item is visible in container
+          if (rect.left < containerRect.right && rect.right > containerRect.left) {
+            const video = item.querySelector('.ia-video-player');
+            if (video && video.preload === 'none') {
+              video.preload = 'metadata';
+              if (video.readyState === 0) {
+                video.load();
+              }
+            }
+          }
+        });
+      }, 100);
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "IA - Videos #1",
+  "class": "ia-section-video-1",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<p>Heading</p>"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Container width",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Horizontal padding",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "video_width",
+      "min": 100,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Video width",
+      "default": 180
+    },
+    {
+      "type": "select",
+      "id": "aspect_ratio",
+      "label": "Aspect ratio",
+      "options": [
+        {
+          "value": "16:9",
+          "label": "16:9 (Widescreen)"
+        },
+        {
+          "value": "9:16",
+          "label": "9:16 (Vertical)"
+        },
+        {
+          "value": "4:3",
+          "label": "4:3 (Standard)"
+        },
+        {
+          "value": "1:1",
+          "label": "1:1 (Square)"
+        }
+      ],
+      "default": "9:16",
+      "info": "Choose the aspect ratio for all videos"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Video URL"
+        },
+        {
+          "type": "text",
+          "id": "video_url",
+          "label": "Video URL",
+          "info": "Enter a direct MP4 file URL",
+          "default": "/"
+        },
+        {
+          "type": "image_picker",
+          "id": "cover_image",
+          "label": "Cover image",
+          "info": "Shown until video is played"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "IA - Videos #1",
+      "category": "Video",
+      "blocks": [
+        {
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
