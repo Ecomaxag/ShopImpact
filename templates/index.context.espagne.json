@@ -12,5 +12,12 @@
   "context": {
     "market": "espagne"
   },
-  "sections": {}
+  "sections": {
+    "custom_liquid_XnRFPd": {
+      "settings": {
+        "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne gauche - Image (mise à jour) -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/IMAGE_HAIR_HAIR_HAIR.jpg?v=1749477050\" alt=\"Avant\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n\n  <!-- Colonne droite - Image -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/IMAGE_SECTION_2.jpg?v=1749429762\" alt=\"Après\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>\n\n<!-- Étoiles -->\n<div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n  ★★★★★\n</div>\n\n<!-- Bouton -->\n<div style=\"margin-top: 24px; text-align: center;\">\n  <a href=\"#produit\" style=\"\n    background-color: #FD9031;\n    color: #fff;\n    padding: 10px 20px;\n    text-decoration: none;\n    border-radius: 999px;\n    font-weight: bold;\n    transition: background-color 0.3s ease;\n    display: inline-block;\n  \"\n  onmouseover=\"this.style.backgroundColor='#cc6f25'\"\n  onmouseout=\"this.style.backgroundColor='#FD9031'\">\n    Descubre el polvo mágico\n  </a>\n</div>\n\n<!-- Réassurance -->\n<p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n  *Más de 34.000 clientes satisfechos en toda Europa.\n</p>"
+      },
+      "blocks": {}
+    }
+  }
 }
