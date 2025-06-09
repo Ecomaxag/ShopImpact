@@ -390,6 +390,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_fceJ8V": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"background-color: #ffffff; padding: 40px 20px; border-radius: 12px;\">\n  <div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 40px; justify-content: center; max-width: 1200px; margin: 0 auto;\">\n\n    <!-- Texte à gauche -->\n    <div style=\"flex: 1; min-width: 300px; color: #1a1a1a;\">\n      <h2 style=\"font-size: 28px; font-weight: bold; margin-bottom: 20px;\">¿Cómo funciona?</h2>\n      \n      <p style=\"margin-bottom: 16px;\"><strong>Paso 1:</strong> Prepara<br>\n      Asegúrate de que tu cuero cabelludo y cabello estén limpios y secos. El polvo capilar funciona mejor sobre el cabello seco.</p>\n\n      <p style=\"margin-bottom: 16px;\"><strong>Paso 2:</strong> Carga el cepillo<br>\n      Retira el cepillo incorporado de la parte inferior y presiónalo suavemente sobre el polvo. Aplica la cantidad necesaria según el área que deseas cubrir.</p>\n\n      <p style=\"margin-bottom: 16px;\"><strong>Paso 3:</strong> Aplica en las zonas deseadas<br>\n      Aplica suavemente el cepillo sobre las zonas con poco cabello o calvicie, ya sea en el cuero cabelludo, barba o entradas. Concéntrate en las áreas donde deseas más densidad.</p>\n\n      <p style=\"margin-bottom: 16px;\"><strong>Paso 4:</strong> Resultado instantáneo<br>\n      Observa tu cabello visiblemente más denso al instante. Déjalo secar naturalmente durante 2-3 minutos o utiliza laca para fijarlo si lo prefieres.</p>\n    </div>\n\n    <!-- Vidéo à droite -->\n    <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n      <video controls style=\"max-width: 100%; border-radius: 12px;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/9dc6692b24af4d0683ed4ae8b12d8054.mp4\" type=\"video/mp4\">\n        Tu navegador no soporta el video.\n      </video>\n    </div>\n\n  </div>\n</div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_kmzaxK": {
       "type": "custom-liquid",
       "settings": {
@@ -421,19 +434,6 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 24px;\">\n\n  <!-- Colonne texte à gauche -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;\">\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #1a1a1a; max-width: 500px;\">\n\n      <p style=\"color: #D80000; font-weight: bold; margin-bottom: 10px;\">\n        Approuvé par des milliers d’utilisateurs conquis\n      </p>\n\n      <p><strong>Plus de 32 000 clients satisfaits</strong> utilisent déjà HairBear™ pour redonner du volume à leur chevelure et camoufler les zones clairsemées avec un rendu naturel bluffant.</p>\n      </br>\n      <p>Que ce soit pour les tempes, la raie centrale ou la couronne, la poudre s’applique en un geste et reste parfaitement en place toute la journée.</p>\n      </br>\n      <p>Résultat ? Des commentaires enthousiastes, des photos avant/après impressionnantes, et une confiance retrouvée à chaque utilisation.</p>\n      </br>\n      <p><strong>Rejoignez celles et ceux qui ne peuvent plus s’en passer !</strong></p>\n\n      <!-- Étoiles jaunes -->\n      <div style=\"font-size: 20px; color: #FFA500; margin-top: 20px; text-align: center;\">\n        ★★★★★\n      </div>\n\n      <!-- BOUTON CENTRÉ -->\n      <div style=\"margin-top: 24px; text-align: center;\">\n        <a href=\"#produit\" style=\"\n          background-color: #FF5C5C;\n          color: #fff;\n          padding: 10px 20px;\n          text-decoration: none;\n          border-radius: 999px;\n          font-weight: bold;\n          transition: background-color 0.3s ease;\n          display: inline-block;\n        \"\n        onmouseover=\"this.style.backgroundColor='#a60000'\"\n        onmouseout=\"this.style.backgroundColor='#D80000'\">\n          Je veux mon avant/après maintenant\n        </a>\n      </div>\n\n      <!-- Texte en dessous du bouton -->\n      <p style=\"font-size: 13px; color: #666; text-align: center; margin-top: 10px;\">\n        *Les résultats peuvent varier, mais la majorité de nos utilisateurs constatent une différence visible dès la première application.\n      </p>\n\n    </div>\n  </div>\n\n  <!-- Colonne image à droite -->\n  <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/avis_client_derniere_section.webp?v=1749420094\" alt=\"Avis client HairBear avant après\" style=\"max-width: 100%; max-height: 500px; height: auto; border-radius: 8px;\">\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_fceJ8V": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"background-color: #ffffff; padding: 40px 20px; border-radius: 12px;\">\n  <div style=\"display: flex; flex-wrap: wrap; align-items: center; gap: 40px; justify-content: center; max-width: 1200px; margin: 0 auto;\">\n\n    <!-- Texte à gauche -->\n    <div style=\"flex: 1; min-width: 300px; color: #1a1a1a;\">\n      <h2 style=\"font-size: 28px; font-weight: bold; margin-bottom: 20px;\">¿Cómo funciona?</h2>\n      \n      <p style=\"margin-bottom: 16px;\"><strong>Paso 1:</strong> Prepara<br>\n      Asegúrate de que tu cuero cabelludo y cabello estén limpios y secos. El polvo capilar funciona mejor sobre el cabello seco.</p>\n\n      <p style=\"margin-bottom: 16px;\"><strong>Paso 2:</strong> Carga el cepillo<br>\n      Retira el cepillo incorporado de la parte inferior y presiónalo suavemente sobre el polvo. Aplica la cantidad necesaria según el área que deseas cubrir.</p>\n\n      <p style=\"margin-bottom: 16px;\"><strong>Paso 3:</strong> Aplica en las zonas deseadas<br>\n      Aplica suavemente el cepillo sobre las zonas con poco cabello o calvicie, ya sea en el cuero cabelludo, barba o entradas. Concéntrate en las áreas donde deseas más densidad.</p>\n\n      <p style=\"margin-bottom: 16px;\"><strong>Paso 4:</strong> Resultado instantáneo<br>\n      Observa tu cabello visiblemente más denso al instante. Déjalo secar naturalmente durante 2-3 minutos o utiliza laca para fijarlo si lo prefieres.</p>\n    </div>\n\n    <!-- Vidéo à droite -->\n    <div style=\"flex: 1; min-width: 300px; display: flex; justify-content: center;\">\n      <video controls style=\"max-width: 100%; border-radius: 12px;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/9dc6692b24af4d0683ed4ae8b12d8054.mp4\" type=\"video/mp4\">\n        Tu navegador no soporta el video.\n      </video>\n    </div>\n\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -732,11 +732,11 @@
     "custom_liquid_y6YjUY",
     "slideshow_Yeb6Nc",
     "custom_liquid_XnRFPd",
+    "custom_liquid_fceJ8V",
     "custom_liquid_zdMaER",
     "custom_liquid_kmzaxK",
     "custom_liquid_C8Dpr3",
     "custom_liquid_AFjpJU",
-    "custom_liquid_fceJ8V",
     "custom_liquid_G9pXKW",
     "featured_product_W9TGgH",
     "tabs_t4hLFM",
