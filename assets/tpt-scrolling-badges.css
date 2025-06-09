@@ -1,0 +1,50 @@
+.tpt-scrolling-badges .marquee {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 1rem 0;
+  }
+  
+@keyframes marquee {
+	0%   { transform: translateX(0); }
+	100% { transform: translateX(-100%); }
+}
+  
+.tpt-scrolling-badges .marquee:hover .marquee__item {
+	animation-play-state: var(--pause_on_hover);
+}
+
+.tpt-scrolling-badges .marquee__item a,
+.tpt-scrolling-badges .marquee__item p{
+	display: inline;
+}
+  
+.tpt-scrolling-badges .marquee__item {
+	display: inline-block;
+	will-change: transform;
+	animation: marquee var(--speed_marquee) linear infinite;
+	display: inline-flex !important;
+	flex-direction: row;
+	align-items: center;
+}
+
+.tpt-scrolling-badges .marquee__content{
+	display: inline-flex !important;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 var(--image-gap);
+}
+
+.tpt-scrolling-badges .marquee-image-wrapper{
+	display: inline-flex !important;
+	flex-direction: row;
+	align-items: center;
+	height: var(--image-height);
+	width: auto;
+}
+
+.tpt-scrolling-badges .marquee-image-wrapper img{
+	width: auto;
+	max-height: 100%;
+	object-fit: cover;
+}
