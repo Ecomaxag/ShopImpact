@@ -1,0 +1,1098 @@
+{% comment %} Variables  {% endcomment %}
+{% assign settings = section.settings %}
+<style>
+    {% comment %}
+    Render heading & body font family
+{% endcomment %}
+{%- if settings.override_font != blank -%}
+    {%- capture font_settings_list -%}
+        {{ settings.heading_font | font_face: font_display: 'swap' }};;
+        {{ settings.heading_font | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }};;
+        {{ settings.heading_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }};;
+        {{ settings.heading_font | font_modify: 'style', 'italic' | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }}
+        {{ settings.body_font | font_face: font_display: 'swap' }};;
+        {{ settings.body_font | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }};;
+        {{ settings.body_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }};;
+        {{ settings.body_font | font_modify: 'style', 'italic' | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }};;
+        {{ settings.hightlight_font | font_face: font_display: 'swap' }};;
+        {{ settings.hightlight_font | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }};;
+        {{ settings.hightlight_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }};;
+        {{ settings.hightlight_font | font_modify: 'style', 'italic' | font_modify: 'weight', 'bolder' | font_face: font_display: 'swap' }};;
+    {%- endcapture -%}
+    {%- assign font_array = font_settings_list | split: ';;' -%}
+{% endif %}
+{%- if settings.override_font != blank -%}
+    {%- for font in font_array -%}
+        {%- unless font contains 'error' -%}
+            {{ font }}{%- endunless -%}
+    {%- endfor -%}
+    #sp-{{ section.id }} {
+    --sp-heading-font-family: {{ settings.heading_font.family }},{{ settings.heading_font.fallback_families }};
+    --sp-heading-font-weight: {{ settings.heading_font.weight }};
+    --sp-heading-font-style: {{ settings.heading_font.style }};
+    --sp-body-font-family: {{ settings.body_font.family }},{{ settings.body_font.fallback_families }};
+    --sp-body-font-weight: {{ settings.body_font.weight }};
+    --sp-body-font-style: {{ settings.body_font.style }};
+    --sp-highlight-font-family: {{ settings.highlight_font.family }},{{ settings.highlight_font.fallback_families }};
+    --sp-highlight-font-weight: {{ settings.highlight_font.weight }};
+    --sp-highlight-font-style: {{ settings.highlight_font.style }};
+    }
+    {% if custom_selector != blank %}
+        {{ custom_selector }} {
+        --sp-heading-font-family: {{ settings.heading_font.family }},{{ settings.heading_font.fallback_families }};
+        --sp-heading-font-weight: {{ settings.heading_font.weight }};
+        --sp-heading-font-style: {{ settings.heading_font.style }};
+        --sp-body-font-family: {{ settings.body_font.family }},{{ settings.body_font.fallback_families }};
+        --sp-body-font-weight: {{ settings.body_font.weight }};
+        --sp-body-font-style: {{ settings.body_font.style }};
+        --sp-highlight-font-family: {{ settings.highlight_font.family }},{{ settings.highlight_font.fallback_families }};
+        --sp-highlight-font-weight: {{ settings.highlight_font.weight }};
+        --sp-highlight-font-style: {{ settings.highlight_font.style }};
+        }
+    {% endif %}
+{% endif %}
+    {% comment %}
+    Render padding section, heading content max width
+{% endcomment %}
+
+    #sp-{{ section.id }} .sp-section {
+    {% if settings.section_top_padding_mobile and  settings.section_bottom_padding_mobile %}
+        --sp-section-top-padding: {{ settings.section_top_padding_mobile | divided_by: 10.0 | round: 0 }}rem;
+        --sp-section-bottom-padding: {{ settings.section_bottom_padding_mobile | divided_by: 10.0 | round: 0 }}rem;
+    {% else %}
+        --sp-section-top-padding: {{ settings.section_top_padding | divided_by: 10.0 | times: 0.5 | round: 0 }}rem;
+        --sp-section-bottom-padding: {{ settings.section_bottom_padding | divided_by: 10.0 | times: 0.5 | round: 0 }}rem;
+    {% endif %}
+        }
+
+    @media (min-width: 768px) {
+        #sp-{{ section.id }} .sp-section {
+            --sp-section-top-padding: {{ settings.section_top_padding | divided_by: 10.0 | times: 0.7 | round: 0 }}rem;
+            --sp-section-bottom-padding: {{ settings.section_bottom_padding | divided_by: 10.0 | times: 0.7 | round: 0 }}rem;
+        }
+    }
+
+    @media (min-width: 1260px) {
+        #sp-{{ section.id }} .sp-section {
+            --sp-section-top-padding: {{ settings.section_top_padding | divided_by: 10.0 | round: 0 }}rem;
+            --sp-section-bottom-padding: {{ settings.section_bottom_padding | divided_by: 10.0 | round: 0 }}rem;
+        }
+    }
+
+
+    #sp-{{ section.id }} {
+        --sp-section-background-color: {{ settings.section_background_color | default: "transparent" }};
+    {% if settings.section_background_gradient_color != blank %} --sp-section-background-color: "transparent";
+    {% endif %} --sp-section-background-gradient-color: {{ settings.section_background_gradient_color | default: "null" }};
+        --sp-section-background-overlay-color: {{ settings.section_background_overlay_color | default: "null" }};
+        --sp-section-text-color: {{ settings.section_text_color | default: "transparent" }};
+    }
+
+
+    #sp-{{ section.id }} .sp-section {
+        background-color: var(--sp-section-background-color);
+        background-image: var(--sp-section-background-gradient-color);
+    }
+
+    #sp-{{ section.id }} .sp-section .sp-content-inner {
+        --sp-item-gap: {{ settings.item_gap }}px;
+    }
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-image-mobile{
+        --sp-featured-image-max-width: {{ settings.featured_image_max_width }}px;
+        --sp-featured-image-radius: {{ settings.featured_image_radius }}px;
+    }
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items {
+        --sp-featured-image-max-width: {{ settings.featured_image_max_width }}px;
+        --sp-featured-image-radius: {{ settings.featured_image_radius }}px;
+        --sp-item-gap: {{ settings.feature_item_gap }}px;
+    }
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-image-mobile,
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-image{
+        --sp-featured-image-border-size: {{ settings.featured_image_border_size }}px;
+        --sp-featured-image-border-color: {{ settings.featured_image_border_color | default: "transparent" }};
+    }
+
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text {
+        --sp-item-max-width: {{ settings.feature_item_image_max_width }}px;
+        --sp-image-radius: {{ settings.feature_item_image_radius }}px;
+    {% if settings.feature_item_image_radius == 60 %} --sp-image-radius: 50%;
+    {% endif %}
+    }
+
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__title {
+        --sp-text-size: {{ settings.feature_item_title_size_desktop }}px;
+        --sp-text-letter-spacing: {{ settings.feature_item_text_title_spacing }}px;
+        --sp-text-color: {{ settings.feature_item_title_text_color }};
+    }
+
+    #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__description {
+        --sp-text-size: {{ settings.feature_item_description_size_desktop }}px;
+        --sp-text-letter-spacing: {{ settings.feature_item_text_description_spacing }}px;
+        --sp-text-color: {{ settings.feature_item_description_text_color }};
+    }
+
+    @media (max-width: 767px) {
+        #sp-{{ section.id }} .sp-section .sp-content-inner {
+            --sp-item-gap: {{ settings.item_gap_mobile }}px;
+        }
+
+        #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items {
+            --sp-featured-image-max-width: {{ settings.featured_image_max_width_mobile }}px;
+        }
+
+        #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text {
+            --sp-item-max-width: {{ settings.feature_item_image_max_width_mobile }}px;
+        }
+
+        #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__title {
+            --sp-text-size: {{ settings.feature_item_title_size_mobile }}px;
+        }
+
+        #sp-{{ section.id }} .sp-section .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__description {
+            --sp-text-size: {{ settings.feature_item_description_size_mobile }}px;
+        }
+    }
+
+</style>
+<div id="sp-{{ section.id }}" class="sp-{{ section.id }} sp-section-image-with-text-5" data-section="image-with-text-5"
+     data-variant="variant-2">
+    <div class="sp-section-outer">
+        <div class="sp-section" data-border="{{ settings.section_border }}">
+            <div class="{% case settings.section_width %}{% when 'boxed' %}sp-container{% when 'full_width' %}sp-container-fluid{% else %}sp-container-fluid sp-container-no-gap{% endcase %}">
+                <div class="sp-section-inner" data-lazy="sp-{% if settings.lazy_load %}lazy-section{% endif %}"
+                     data-cascade>
+                    <div class="sp-content-outer" data-content-position="{{ settings.content_position }}"
+                         data-item-alignment="{{ settings.item_alignment }}"
+                         data-item-alignment-mobile="{{ settings.item_alignment_mobile }}"
+                    >
+                        <div class="sp-content-inner">
+                            {% assign heading_block = section.blocks | where: 'type', 'heading_item' %}
+                            {% for block in heading_block %}
+                                {% assign setting = block.settings %}
+                                {% if setting.heading != empty or setting.description != empty or setting.subheading != empty %}
+                                    <div class="sp-content-alignment-top-{{ setting.heading_position }}"
+                                         style="width: 100%">
+                                        <div id="sp-{{ block.id }}"
+                                             class="sp-heading-item" {{ block.shopify_attributes }}>
+                                            <style>
+                                                #sp-{{ section.id }} .sp-content-inner .sp-heading-item {
+                                                    --sp-content-max-width: {{ setting.heading_max_width }}px;
+                                                    --sp-text-gap: {{ setting.text_gap }}px;
+                                                    --sp-heading-text-color: {{ setting.heading_text_color }};
+                                                    --sp-description-text-color: {{ setting.description_text_color }};
+                                                    --sp-subheading-text-color: {{ setting.subheading_text_color }};
+                                                }
+
+                                                #sp-{{ section.id }} .sp-content-inner .sp-heading-item .sp-subheading {
+                                                    --sp-text-size: {{ setting.subheading_size_desktop }}px;
+                                                    --sp-text-letter-spacing: {{ setting.text_subheading_spacing }}px;
+                                                }
+
+                                                #sp-{{ section.id }} .sp-content-inner .sp-heading-item .sp-heading {
+                                                    --sp-text-size: {{ setting.heading_size_desktop }}px;
+                                                    --sp-text-letter-spacing: {{ setting.text_heading_spacing }}px;
+                                                }
+
+                                                #sp-{{ section.id }} .sp-content-inner .sp-heading-item .sp-description {
+                                                    --sp-text-size: {{ setting.description_size_desktop }}px;
+                                                    --sp-text-letter-spacing: {{ setting.text_description_spacing }}px;
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                    #sp-{{ section.id }} .sp-content-inner .sp-heading-item {
+                                                        --sp-text-gap: {{ setting.text_gap_mobile }}px;
+                                                    }
+
+                                                    #sp-{{ section.id }} .sp-content-inner .sp-heading-item .sp-heading {
+                                                        --sp-text-size: {{ setting.heading_size_mobile }}px;
+                                                    }
+
+                                                    #sp-{{ section.id }} .sp-content-inner .sp-heading-item .sp-description {
+                                                        --sp-text-size: {{ setting.description_size_mobile }}px;
+                                                    }
+                                                }
+                                            </style>
+                                            {% if setting.subheading != empty %}
+                                                <div class="sp-subheading sp-content-text-{{ setting.heading_alignment }}"
+                                                     data-text-style="{{ setting.subheading_text_style }}">{{ setting.subheading }}</div>
+                                            {% endif %}
+                                            {% if setting.heading != empty %}
+                                                <div class="sp-heading sp-content-text-{{ setting.heading_alignment }}"
+                                                     data-text-style="{{ setting.heading_text_style }}">{{ setting.heading }}</div>
+                                            {% endif %}
+                                            {% if setting.description != empty %}
+                                                <div class="sp-description sp-content-text-{{ setting.heading_alignment }}"
+                                                     data-text-style="{{ setting.description_text_style }}">{{ setting.description }}</div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                            <div class="sp-feature-image-mobile">
+                                {% if settings.featured_image != null %}
+                                    {{ settings.featured_image | image_url: width: 1920 | image_tag: class: 'sp-image' }}
+                                {% else %}
+                                    {{ 'image' | placeholder_svg_tag: "sp-placeholder-image-gray-100" }}
+                                {% endif %}
+                            </div>
+                            <sp-swiper>
+                                <div class="sp-feature-items sp-swiper-slides"
+                                     data-alignment="{{ settings.feature_item_content_position }}">
+                                    <div class="sp-feature-item sp-feature-image">
+                                        {% if settings.featured_image != null %}
+                                            {{ settings.featured_image | image_url: width: 1920 | image_tag: class: 'sp-image' }}
+                                        {% else %}
+                                            {{ 'image' | placeholder_svg_tag: "sp-placeholder-image-gray-100" }}
+                                        {% endif %}
+                                    </div>
+                                    {% assign feature_blocks = section.blocks | where: 'type', 'feature_item' %}
+                                    {% for block in feature_blocks %}
+                                        {% assign setting = block.settings %}
+                                        <div id="sp-{{ block.id }}"
+                                             class="sp-feature-item sp-feature-text sp-swiper-slide-item"
+                                             data-alignment="{{ setting.text_alignment }}"
+                                             style="grid-area: sm{{ forloop.index }}" {{ block.shopify_attributes }}>
+                                            <div class="sp-feature-item__image" data-item-hover="fly">
+                                                {% if setting.image != null %}
+                                                    {{ setting.image | image_url: width: 512 | image_tag: class: 'sp-image' }}
+                                                {% endif %}
+                                            </div>
+                                            {% if setting.title != empty %}
+                                                <div class="sp-feature-item__title sp-content-text-center"
+                                                     data-text-style="{{ settings.feature_item_title_text_style }}">{{ setting.title }}</div>
+                                            {% endif %}
+                                            {% if setting.description != empty %}
+                                                <div class="sp-feature-item__description sp-content-text-center"
+                                                     data-text-style="{{ settings.feature_item_description_text_style }}">{{ setting.description }}</div>
+                                            {% endif %}
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </sp-swiper>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+	"name": "🧩 Image With Text 5.2",
+	"tag": "section",
+	"class": "sp-image-with-text-5",
+	"settings": [
+		{
+			"type": "header",
+			"content": "Section settings"
+		},
+		{
+			"type": "image_picker",
+			"id": "featured_image",
+			"label": "Featured image"
+		},
+		{
+			"type": "range",
+			"id": "featured_image_max_width",
+			"min": 100,
+			"max": 1000,
+			"step": 10,
+			"unit": "px",
+			"label": "Featured image max-width (Desktop)",
+			"default": 530
+		},
+		{
+			"type": "range",
+			"id": "featured_image_max_width_mobile",
+			"min": 100,
+			"max": 1000,
+			"step": 10,
+			"unit": "px",
+			"label": "Featured image max-width (Mobile)",
+			"default": 530
+		},
+		{
+			"type": "range",
+			"id": "featured_image_radius",
+			"min": 0,
+			"max": 60,
+			"step": 1,
+			"unit": "px",
+			"label": "Featured image radius",
+			"default": 0
+		},
+		{
+			"type": "range",
+			"id": "featured_image_border_size",
+			"min": 0,
+			"max": 10,
+			"step": 1,
+			"unit": "px",
+			"label": "Featured image border size",
+			"default": 0
+		},
+		{
+			"type": "range",
+			"id": "item_gap",
+			"min": 0,
+			"max": 150,
+			"step": 2,
+			"unit": "px",
+			"label": "Items gap (Desktop)",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "item_gap_mobile",
+			"min": 0,
+			"max": 150,
+			"step": 2,
+			"unit": "px",
+			"label": "Items gap (Mobile)",
+			"default": 30
+		},
+		{
+			"type": "header",
+			"content": "Feature items settings"
+		},
+		{
+			"type": "range",
+			"id": "feature_item_image_max_width",
+			"min": 50,
+			"max": 300,
+			"step": 10,
+			"unit": "px",
+			"label": "Image max-width (Desktop)",
+			"default": 60
+		},
+		{
+			"type": "range",
+			"id": "feature_item_image_max_width_mobile",
+			"min": 50,
+			"max": 300,
+			"step": 10,
+			"unit": "px",
+			"label": "Image max-width (Mobile)",
+			"default": 60
+		},
+		{
+			"type": "range",
+			"id": "feature_item_image_radius",
+			"min": 0,
+			"max": 60,
+			"step": 1,
+			"unit": "px",
+			"label": "Image radius",
+			"default": 0
+		},
+		{
+			"type": "range",
+			"id": "feature_item_gap",
+			"min": 0,
+			"max": 150,
+			"step": 2,
+			"unit": "px",
+			"label": "Feature items gap",
+			"default": 50
+		},
+		{
+			"type": "select",
+			"id": "feature_item_content_position",
+			"label": "Content position",
+			"options": [
+				{
+					"label": "Center",
+					"value": "center"
+				},
+				{
+					"label": "Space around",
+					"value": "space_around"
+				}
+			],
+			"default": "space_around"
+		},
+		{
+			"type": "header",
+			"content": "Title Styling"
+		},
+		{
+			"type": "range",
+			"id": "feature_item_title_size_desktop",
+			"min": 8,
+			"max": 32,
+			"step": 1,
+			"unit": "px",
+			"label": "Title size (Desktop)",
+			"default": 16
+		},
+		{
+			"type": "range",
+			"id": "feature_item_title_size_mobile",
+			"min": 8,
+			"max": 32,
+			"step": 1,
+			"unit": "px",
+			"label": "Title size (Mobile)",
+			"default": 14
+		},
+		{
+			"type": "range",
+			"id": "feature_item_text_title_spacing",
+			"min": -10,
+			"max": 10,
+			"step": 0.2,
+			"unit": "px",
+			"label": "Title letter spacing",
+			"default": 0
+		},
+		{
+			"type": "select",
+			"id": "feature_item_title_text_style",
+			"label": "Text style",
+			"options": [
+				{
+					"label": "Normal",
+					"value": "normal"
+				},
+				{
+					"label": "Capitalize",
+					"value": "capitalize"
+				},
+				{
+					"label": "Uppercase",
+					"value": "uppercase"
+				},
+				{
+					"label": "Lowercase",
+					"value": "lowercase"
+				}
+			],
+			"default": "uppercase"
+		},
+		{
+			"type": "header",
+			"content": "Description Styling"
+		},
+		{
+			"type": "range",
+			"id": "feature_item_description_size_desktop",
+			"min": 8,
+			"max": 32,
+			"step": 1,
+			"unit": "px",
+			"label": "Description size (Desktop)",
+			"default": 14
+		},
+		{
+			"type": "range",
+			"id": "feature_item_description_size_mobile",
+			"min": 8,
+			"max": 32,
+			"step": 1,
+			"unit": "px",
+			"label": "Description size (Mobile)",
+			"default": 13
+		},
+		{
+			"type": "range",
+			"id": "feature_item_text_description_spacing",
+			"min": -10,
+			"max": 10,
+			"step": 0.2,
+			"unit": "px",
+			"label": "Description letter spacing",
+			"default": 0
+		},
+		{
+			"type": "select",
+			"id": "feature_item_description_text_style",
+			"label": "Text style",
+			"options": [
+				{
+					"label": "Normal",
+					"value": "normal"
+				},
+				{
+					"label": "Capitalize",
+					"value": "capitalize"
+				},
+				{
+					"label": "Uppercase",
+					"value": "uppercase"
+				},
+				{
+					"label": "Lowercase",
+					"value": "lowercase"
+				}
+			],
+			"default": "normal"
+		},
+		{
+			"type": "header",
+			"content": "Effects"
+		},
+		{
+			"type": "checkbox",
+			"id": "lazy_load",
+			"label": "Lazy load",
+			"default": true
+		},
+		{
+			"type": "header",
+			"content": "Section padding"
+		},
+		{
+			"type": "select",
+			"id": "section_width",
+			"label": "Content section width",
+			"options": [
+				{
+					"label": "Boxed",
+					"value": "boxed"
+				},
+				{
+					"label": "Full width",
+					"value": "full_width"
+				},
+				{
+					"label": "Full width no gap",
+					"value": "full_width_no_gap"
+				}
+			],
+			"default": "boxed"
+		},
+		{
+			"type": "range",
+			"id": "section_top_padding",
+			"min": 0,
+			"max": 150,
+			"step": 10,
+			"unit": "px",
+			"label": "Top padding (Desktop)",
+			"default": 100
+		},
+		{
+			"type": "range",
+			"id": "section_bottom_padding",
+			"min": 0,
+			"max": 150,
+			"step": 10,
+			"unit": "px",
+			"label": "Bottom padding (Desktop)",
+			"default": 100
+		},
+		{
+			"type": "range",
+			"id": "section_top_padding_mobile",
+			"min": 0,
+			"max": 150,
+			"step": 10,
+			"unit": "px",
+			"label": "Top padding (Mobile)",
+			"default": 50
+		},
+		{
+			"type": "range",
+			"id": "section_bottom_padding_mobile",
+			"min": 0,
+			"max": 150,
+			"step": 10,
+			"unit": "px",
+			"label": "Bottom padding (Mobile)",
+			"default": 50
+		},
+		{
+			"type": "checkbox",
+			"id": "section_border",
+			"label": "Separate section with border",
+			"default": false
+		},
+		{
+			"type": "header",
+			"content": "Section color"
+		},
+		{
+			"type": "color",
+			"id": "section_background_color",
+			"label": "Background color",
+			"default": "#ffffff"
+		},
+		{
+			"type": "color_background",
+			"id": "section_background_gradient_color",
+			"label": "Background gradient color"
+		},
+		{
+			"type": "color",
+			"id": "featured_image_border_color",
+			"label": "Featured image border color"
+		},
+		{
+			"type": "header",
+			"content": "Feature item color"
+		},
+		{
+			"type": "color",
+			"id": "feature_item_title_text_color",
+			"label": "Title text color",
+			"default": "#1e1e1e"
+		},
+		{
+			"type": "color",
+			"id": "feature_item_description_text_color",
+			"label": "Description text color",
+			"default": "#1e1e1e"
+		},
+		{
+			"type": "header",
+			"content": "Typography"
+		},
+		{
+			"type": "checkbox",
+			"id": "override_font",
+			"label": "Override fonts of the theme",
+			"default": true,
+			"info": "If you check this option, the fonts of the section will work"
+		},
+		{
+			"type": "font_picker",
+			"id": "heading_font",
+			"label": "Heading font",
+			"default": "tenor_sans_n4"
+		},
+		{
+			"type": "font_picker",
+			"id": "body_font",
+			"label": "Body font",
+			"default": "roboto_n4"
+		}
+	],
+	"blocks": [
+		{
+			"name": "Heading",
+			"type": "heading_item",
+			"limit": 1,
+			"settings": [
+				{
+					"type": "inline_richtext",
+					"id": "subheading",
+					"label": "Sub-heading",
+					"default": "FEATURES PRODUCT"
+				},
+				{
+					"type": "richtext",
+					"id": "heading",
+					"label": "Heading",
+					"default": "<p>Features Product</p>"
+				},
+				{
+					"type": "richtext",
+					"id": "description",
+					"label": "Description",
+					"default": "<p>The next-gen sweeping duo. Dotti Best Broom & Dustpan is carefully engineered with durable silicone bristles and a high-performance dustpan.</p>"
+				},
+				{
+					"type": "range",
+					"id": "heading_max_width",
+					"min": 300,
+					"max": 1200,
+					"step": 10,
+					"unit": "px",
+					"label": "Heading max-width",
+					"default": 760
+				},
+				{
+					"type": "range",
+					"id": "text_gap",
+					"min": 0,
+					"max": 50,
+					"step": 1,
+					"unit": "px",
+					"label": "Text gap (Desktop)",
+					"info": "Space between heading and description",
+					"default": 20
+				},
+				{
+					"type": "range",
+					"id": "text_gap_mobile",
+					"min": 0,
+					"max": 50,
+					"step": 1,
+					"unit": "px",
+					"label": "Text gap (Mobile)",
+					"info": "Space between heading and description",
+					"default": 20
+				},
+				{
+					"type": "select",
+					"id": "heading_position",
+					"label": "Heading position",
+					"options": [
+						{
+							"label": "Left",
+							"value": "left"
+						},
+						{
+							"label": "Center",
+							"value": "center"
+						},
+						{
+							"label": "Right",
+							"value": "right"
+						}
+					],
+					"default": "center"
+				},
+				{
+					"type": "select",
+					"id": "heading_alignment",
+					"label": "Heading alignment",
+					"options": [
+						{
+							"label": "Left",
+							"value": "left"
+						},
+						{
+							"label": "Center",
+							"value": "center"
+						},
+						{
+							"label": "Right",
+							"value": "right"
+						}
+					],
+					"default": "center"
+				},
+				{
+					"type": "header",
+					"content": "Heading Styling"
+				},
+				{
+					"type": "range",
+					"id": "heading_size_desktop",
+					"min": 18,
+					"max": 86,
+					"step": 1,
+					"unit": "px",
+					"label": "Heading size (Desktop)",
+					"default": 64
+				},
+				{
+					"type": "range",
+					"id": "heading_size_mobile",
+					"min": 18,
+					"max": 86,
+					"step": 1,
+					"unit": "px",
+					"label": "Heading size (Mobile)",
+					"default": 36
+				},
+				{
+					"type": "range",
+					"id": "text_heading_spacing",
+					"min": -10,
+					"max": 10,
+					"step": 0.2,
+					"unit": "px",
+					"label": "Text heading letter spacing",
+					"default": 0
+				},
+				{
+					"type": "select",
+					"id": "heading_text_style",
+					"label": "Text style",
+					"options": [
+						{
+							"label": "Normal",
+							"value": "normal"
+						},
+						{
+							"label": "Capitalize",
+							"value": "capitalize"
+						},
+						{
+							"label": "Uppercase",
+							"value": "uppercase"
+						},
+						{
+							"label": "Lowercase",
+							"value": "lowercase"
+						}
+					],
+					"default": "capitalize"
+				},
+				{
+					"type": "header",
+					"content": "Description Styling"
+				},
+				{
+					"type": "range",
+					"id": "description_size_desktop",
+					"min": 12,
+					"max": 32,
+					"step": 1,
+					"unit": "px",
+					"label": "Description size (Desktop)",
+					"default": 18
+				},
+				{
+					"type": "range",
+					"id": "description_size_mobile",
+					"min": 12,
+					"max": 32,
+					"step": 1,
+					"unit": "px",
+					"label": "Description size (Mobile)",
+					"default": 14
+				},
+				{
+					"type": "range",
+					"id": "text_description_spacing",
+					"min": -10,
+					"max": 10,
+					"step": 0.2,
+					"unit": "px",
+					"label": "Text description letter spacing",
+					"default": 0
+				},
+				{
+					"type": "select",
+					"id": "description_text_style",
+					"label": "Text style",
+					"options": [
+						{
+							"label": "Normal",
+							"value": "normal"
+						},
+						{
+							"label": "Capitalize",
+							"value": "capitalize"
+						},
+						{
+							"label": "Uppercase",
+							"value": "uppercase"
+						},
+						{
+							"label": "Lowercase",
+							"value": "lowercase"
+						}
+					],
+					"default": "normal"
+				},
+				{
+					"type": "header",
+					"content": "Sub-heading Styling"
+				},
+				{
+					"type": "range",
+					"id": "subheading_size_desktop",
+					"min": 8,
+					"max": 28,
+					"step": 1,
+					"unit": "px",
+					"label": "Sub-heading size (Desktop)",
+					"default": 16
+				},
+				{
+					"type": "range",
+					"id": "subheading_size_mobile",
+					"min": 8,
+					"max": 28,
+					"step": 1,
+					"unit": "px",
+					"label": "Sub-heading size (Mobile)",
+					"default": 16
+				},
+				{
+					"type": "range",
+					"id": "text_subheading_spacing",
+					"min": -10,
+					"max": 10,
+					"step": 0.2,
+					"unit": "px",
+					"label": "Sub-heading letter spacing",
+					"default": 0
+				},
+				{
+					"type": "select",
+					"id": "subheading_text_style",
+					"label": "Text style",
+					"options": [
+						{
+							"label": "Normal",
+							"value": "normal"
+						},
+						{
+							"label": "Capitalize",
+							"value": "capitalize"
+						},
+						{
+							"label": "Uppercase",
+							"value": "uppercase"
+						},
+						{
+							"label": "Lowercase",
+							"value": "lowercase"
+						}
+					],
+					"default": "normal"
+				},
+				{
+					"type": "header",
+					"content": "Color settings"
+				},
+				{
+					"type": "color",
+					"id": "heading_text_color",
+					"label": "Heading text color",
+					"default": "#1e1e1e"
+				},
+				{
+					"type": "color",
+					"id": "description_text_color",
+					"label": "Description text color",
+					"default": "#1e1e1e"
+				},
+				{
+					"type": "color",
+					"id": "subheading_text_color",
+					"label": "Sub-heading text color",
+					"default": "#1e1e1e"
+				}
+			]
+		},
+		{
+			"name": "Feature item",
+			"type": "feature_item",
+			"limit": 6,
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image/Icon"
+				},
+				{
+					"type": "richtext",
+					"id": "title",
+					"label": "Title",
+					"default": "<p>Removable</p>"
+				},
+				{
+					"type": "richtext",
+					"id": "description",
+					"label": "Description",
+					"default": "<p>High-durability soft-ride wheels. Made from premium-grade fiber-reinforced polymers</p>"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "🧩 Image With Text 5.2",
+			"settings": {
+				"featured_image": "shopify://shop_images/image-with-text-5-variant-2-image-1.png",
+				"featured_image_max_width": 530,
+				"featured_image_max_width_mobile": 530,
+				"featured_image_radius": 0,
+				"featured_image_border_size": 0,
+				"item_gap": 50,
+				"item_gap_mobile": 30,
+				"feature_item_image_max_width": 60,
+				"feature_item_image_max_width_mobile": 60,
+				"feature_item_image_radius": 0,
+				"feature_item_gap": 50,
+				"feature_item_content_position": "space_around",
+				"feature_item_title_size_desktop": 16,
+				"feature_item_title_size_mobile": 14,
+				"feature_item_text_title_spacing": 0,
+				"feature_item_title_text_style": "uppercase",
+				"feature_item_description_size_desktop": 14,
+				"feature_item_description_size_mobile": 13,
+				"feature_item_text_description_spacing": 0,
+				"feature_item_description_text_style": "normal",
+				"lazy_load": true,
+				"section_width": "boxed",
+				"section_top_padding": 100,
+				"section_bottom_padding": 100,
+				"section_top_padding_mobile": 50,
+				"section_bottom_padding_mobile": 50,
+				"section_border": false,
+				"section_background_color": "#ffffff",
+				"section_background_gradient_color": "",
+				"featured_image_border_color": "",
+				"feature_item_title_text_color": "#1e1e1e",
+				"feature_item_description_text_color": "#1e1e1e",
+				"override_font": true,
+				"heading_font": "tenor_sans_n4",
+				"body_font": "roboto_n4"
+			},
+			"blocks": [
+				{
+					"type": "heading_item",
+					"settings": {
+						"subheading": "",
+						"heading": "<p>Features Product</p>",
+						"description": "<p>The next-gen sweeping duo. Dotti Best Broom & Dustpan is carefully engineered with durable silicone bristles and a high-performance dustpan.</p>",
+						"heading_max_width": 760,
+						"text_gap": 20,
+						"text_gap_mobile": 20,
+						"heading_position": "center",
+						"heading_alignment": "center",
+						"heading_size_desktop": 64,
+						"heading_size_mobile": 36,
+						"text_heading_spacing": 0,
+						"heading_text_style": "capitalize",
+						"description_size_desktop": 18,
+						"description_size_mobile": 14,
+						"text_description_spacing": 0,
+						"description_text_style": "normal",
+						"subheading_size_desktop": 16,
+						"subheading_size_mobile": 16,
+						"text_subheading_spacing": 0,
+						"subheading_text_style": "normal",
+						"heading_text_color": "#1e1e1e",
+						"description_text_color": "#1e1e1e",
+						"subheading_text_color": "#1e1e1e"
+					}
+				},
+				{
+					"type": "feature_item",
+					"settings": {
+						"image": "shopify://shop_images/image-with-text-5-variant-2-icon-1.svg",
+						"title": "<p>VERSATILE & DURABLE</p>",
+						"description": "<p>Maximum product load: 20 kg / 44 lbs</p><p>Product weight: 6.7 kg / 14.77 lbs</p><p>Suitable for ages: 10 months - 3 years</p>"
+					}
+				},
+				{
+					"type": "feature_item",
+					"settings": {
+						"image": "shopify://shop_images/image-with-text-5-variant-2-icon-2.svg",
+						"title": "<p>SMART design</p>",
+						"description": "<p>This user-friendly design provides both comfort and versatility during your child's ride.</p>"
+					}
+				},
+				{
+					"type": "feature_item",
+					"settings": {
+						"image": "shopify://shop_images/image-with-text-5-variant-2-icon-3.svg",
+						"title": "<p>Adjustable pole length</p>",
+						"description": "<p>simplifying the process of placing the child inside the Doona i Car Seat & Stroller.</p>"
+					}
+				},
+				{
+					"type": "feature_item",
+					"settings": {
+						"image": "shopify://shop_images/image-with-text-5-variant-2-icon-4.svg",
+						"title": "<p>Removable</p>",
+						"description": "<p>High-durability soft-ride wheels. Made from premium-grade fiber-reinforced polymers</p>"
+					}
+				}
+			]
+		}
+	]
+}
+{% endschema %}
+
+{% style %}
+	#sp-{{section.id}} .sp-content-inner{row-gap:var(--sp-item-gap)}#sp-{{section.id}} .sp-content-inner .sp-heading-item{max-width:var(--sp-content-max-width)}#sp-{{section.id}} .sp-content-inner .sp-heading-item .sp-subheading{color:var(--sp-subheading-text-color);font-size:var(--sp-text-size);letter-spacing:var(--sp-text-letter-spacing)}#sp-{{section.id}} .sp-content-inner .sp-heading-item .sp-heading *{color:var(--sp-heading-text-color);font-size:var(--sp-text-size);letter-spacing:var(--sp-text-letter-spacing)}#sp-{{section.id}} .sp-content-inner .sp-heading-item .sp-heading+div{margin-top:var(--sp-text-gap)}#sp-{{section.id}} .sp-content-inner .sp-heading-item .sp-description *{color:var(--sp-description-text-color);font-size:var(--sp-text-size);letter-spacing:var(--sp-text-letter-spacing)}#sp-{{section.id}} .sp-content-inner .sp-feature-image-mobile{overflow:hidden}#sp-{{section.id}} .sp-content-inner .sp-feature-image-mobile img,#sp-{{section.id}} .sp-content-inner .sp-feature-image-mobile svg{max-width:var(--sp-featured-image-max-width);max-height:var(--sp-featured-image-max-width);border-radius:var(--sp-featured-image-radius);border:var(--sp-featured-image-border-size) solid var(--sp-featured-image-border-color)}#sp-{{section.id}} .sp-content-inner .sp-feature-items{grid-template-columns:1fr var(--sp-featured-image-max-width) 1fr;row-gap:var(--sp-item-gap);column-gap:var(--sp-column-desktop-padding)}#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-image{overflow:hidden}#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-image img,#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-image svg{max-width:var(--sp-featured-image-max-width);max-height:var(--sp-featured-image-max-width);border-radius:var(--sp-featured-image-radius);border:var(--sp-featured-image-border-size) solid var(--sp-featured-image-border-color)}#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__image img,#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__image svg{max-width:var(--sp-item-max-width);border-radius:var(--sp-image-radius)}#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__title *{color:var(--sp-text-color);font-size:var(--sp-text-size);letter-spacing:var(--sp-text-letter-spacing)}#sp-{{section.id}} .sp-content-inner .sp-feature-items .sp-feature-item.sp-feature-text .sp-feature-item__description *{color:var(--sp-text-color);font-size:var(--sp-text-size);letter-spacing:var(--sp-text-letter-spacing)}@media(max-width: 1199px){#sp-{{section.id}} .sp-content-inner .sp-feature-items{column-gap:var(--sp-column-tablet-padding);grid-template-columns:calc(33.3333% - var(--sp-column-tablet-padding)*2/3) calc(33.3333% - var(--sp-column-tablet-padding)*2/3) calc(33.3333% - var(--sp-column-tablet-padding)*2/3)}}
+{% endstyle %}
