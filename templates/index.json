@@ -131,7 +131,7 @@
         "liquid_ADBDeP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
+            "liquid": "<!-- Estrellas y reseñas --> \n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 reseñas)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
           }
         },
         "title_CMi6QX": {
@@ -207,107 +207,6 @@
         "buy_buttons_97dXJN",
         "image_WkR7hU",
         "pickup_availability_JVaXnJ"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "denseup®-hair-filler-powder",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "featured_product_XwmwVj": {
-      "type": "featured-product",
-      "blocks": {
-        "liquid_PPQkdn": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
-          }
-        },
-        "title_UgCaF4": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_PUzEgg": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_tqVtwt": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "liquid_icACHd": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
-          }
-        },
-        "kaching_bundles_app_block_k4qw8M": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
-        "rating_GJDFRR": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_TkTBVf": {
-          "type": "separator",
-          "settings": {}
-        },
-        "buy_buttons_G7A9Dq": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#f0c417",
-            "atc_button_text_color": "#1a1a1a",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "image_WRDD3n": {
-          "type": "image",
-          "settings": {
-            "alignment": "start",
-            "max_width": 500
-          }
-        },
-        "pickup_availability_CzX6xF": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "liquid_PPQkdn",
-        "title_UgCaF4",
-        "badges_PUzEgg",
-        "price_tqVtwt",
-        "liquid_icACHd",
-        "kaching_bundles_app_block_k4qw8M",
-        "rating_GJDFRR",
-        "separator_TkTBVf",
-        "buy_buttons_G7A9Dq",
-        "image_WRDD3n",
-        "pickup_availability_CzX6xF"
       ],
       "settings": {
         "full_width": true,
@@ -502,6 +401,107 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "featured_product_XwmwVj": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_PPQkdn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
+          }
+        },
+        "title_UgCaF4": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_PUzEgg": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_tqVtwt": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_icACHd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
+          }
+        },
+        "kaching_bundles_app_block_k4qw8M": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
+        "rating_GJDFRR": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_TkTBVf": {
+          "type": "separator",
+          "settings": {}
+        },
+        "buy_buttons_G7A9Dq": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "image_WRDD3n": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "pickup_availability_CzX6xF": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_PPQkdn",
+        "title_UgCaF4",
+        "badges_PUzEgg",
+        "price_tqVtwt",
+        "liquid_icACHd",
+        "kaching_bundles_app_block_k4qw8M",
+        "rating_GJDFRR",
+        "separator_TkTBVf",
+        "buy_buttons_G7A9Dq",
+        "image_WRDD3n",
+        "pickup_availability_CzX6xF"
+      ],
+      "settings": {
+        "full_width": true,
+        "product": "denseup®-hair-filler-powder",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "tabs_t4hLFM": {
