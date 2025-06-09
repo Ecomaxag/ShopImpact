@@ -284,6 +284,54 @@
         "logo_item_border": ""
       }
     },
+    "ia_section_video_1_HD3E67": {
+      "type": "ia-section-video-1",
+      "blocks": {
+        "video_iP36JC": {
+          "type": "video",
+          "settings": {
+            "video_url": "/https://cdn.shopify.com/videos/c/o/v/428983a1d6aa447ba3136b25214989a9.mp4",
+            "cover_image": "shopify://shop_images/avant_apres_video_3mp4.webp"
+          }
+        },
+        "video_6yKydk": {
+          "type": "video",
+          "settings": {
+            "video_url": "/",
+            "cover_image": "shopify://shop_images/avant_apres_video_2mp4.webp"
+          }
+        },
+        "video_PbH4zn": {
+          "type": "video",
+          "settings": {
+            "video_url": "/",
+            "cover_image": "shopify://shop_images/avant_apres_video_1mp4.webp"
+          }
+        },
+        "video_B7FCra": {
+          "type": "video",
+          "settings": {
+            "video_url": "/"
+          }
+        }
+      },
+      "block_order": [
+        "video_iP36JC",
+        "video_6yKydk",
+        "video_PbH4zn",
+        "video_B7FCra"
+      ],
+      "name": "IA - Videos #1",
+      "settings": {
+        "heading": "<p>Los resultados hablan por sí solos</p>",
+        "heading_font_size": 46,
+        "heading_color": "#000000",
+        "container_width": 100,
+        "padding_horizontal": 20,
+        "video_width": 240,
+        "aspect_ratio": "9:16"
+      }
+    },
     "rich_text_YiBVmW": {
       "type": "rich-text",
       "blocks": {
@@ -718,54 +766,6 @@
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "ia_section_video_1_HD3E67": {
-      "type": "ia-section-video-1",
-      "blocks": {
-        "video_iP36JC": {
-          "type": "video",
-          "settings": {
-            "video_url": "/",
-            "cover_image": "shopify://shop_images/avant_apres_video_3mp4.webp"
-          }
-        },
-        "video_6yKydk": {
-          "type": "video",
-          "settings": {
-            "video_url": "/",
-            "cover_image": "shopify://shop_images/avant_apres_video_2mp4.webp"
-          }
-        },
-        "video_PbH4zn": {
-          "type": "video",
-          "settings": {
-            "video_url": "/",
-            "cover_image": "shopify://shop_images/avant_apres_video_1mp4.webp"
-          }
-        },
-        "video_B7FCra": {
-          "type": "video",
-          "settings": {
-            "video_url": "/"
-          }
-        }
-      },
-      "block_order": [
-        "video_iP36JC",
-        "video_6yKydk",
-        "video_PbH4zn",
-        "video_B7FCra"
-      ],
-      "name": "IA - Videos #1",
-      "settings": {
-        "heading": "<p>Los resultados hablan por sí solos</p>",
-        "heading_font_size": 46,
-        "heading_color": "#000000",
-        "container_width": 100,
-        "padding_horizontal": 20,
-        "video_width": 240,
-        "aspect_ratio": "9:16"
       }
     }
   },
