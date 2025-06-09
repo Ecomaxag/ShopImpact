@@ -162,12 +162,6 @@
             "product": "{{section.settings.product}}"
           }
         },
-        "rating_Rx3PGa": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "separator_Ci4qqg": {
           "type": "separator",
           "settings": {}
@@ -202,7 +196,6 @@
         "price_P3VKnQ",
         "liquid_4CCcFJ",
         "kaching_bundles_app_block_wDFcTp",
-        "rating_Rx3PGa",
         "separator_Ci4qqg",
         "buy_buttons_97dXJN",
         "image_WkR7hU",
@@ -668,26 +661,6 @@
         "accordion_text_color": ""
       }
     },
-    "contact_rjYdrA": {
-      "type": "contact",
-      "settings": {
-        "full_width": true,
-        "subheading": "Nuestro servicio de atención al cliente está disponible los 7 días de la semana. Tiempo medio de respuesta: 24 h",
-        "title": "¿Tienes alguna pregunta?",
-        "content": "<p>Escríbenos a través del formulario a continuación y te responderemos lo antes posible.</p>",
-        "text_position": "center",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "1749500699c9151361": {
       "type": "apps",
       "blocks": {
@@ -708,6 +681,26 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "contact_rjYdrA": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Nuestro servicio de atención al cliente está disponible los 7 días de la semana. Tiempo medio de respuesta: 24 h",
+        "title": "¿Tienes alguna pregunta?",
+        "content": "<p>Escríbenos a través del formulario a continuación y te responderemos lo antes posible.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
