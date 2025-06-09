@@ -330,6 +330,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Camoufle_calvitie_page1_531e94d1-815e-4959-98e9-43f179fff37f.jpg",
+            "mobile_image": "shopify://shop_images/Camoufle_calvitie_page1_531e94d1-815e-4959-98e9-43f179fff37f.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -361,7 +362,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
