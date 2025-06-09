@@ -403,48 +403,48 @@
         "text_color": ""
       }
     },
-    "featured_product_XwmwVj": {
+    "featured_product_BWaWtt": {
       "type": "featured-product",
       "blocks": {
-        "liquid_PPQkdn": {
+        "liquid_df8F8L": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- Étoiles et avis -->\n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 avis)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
+            "liquid": "<!-- Estrellas y reseñas --> \n<div style=\"display: flex; align-items: center; gap: 6px; margin-bottom: 6px;\">\n  <div style=\"color: #00b14f; font-size: 16px; display: flex;\">\n    ★★★★★\n  </div>\n  <div style=\"font-size: 14px; color: #000000;\">\n    4.8 (589 reseñas)\n  </div>\n</div>\n\n<section id=\"produit\"></section>"
           }
         },
-        "title_UgCaF4": {
+        "title_QWWztG": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
-        "badges_PUzEgg": {
+        "badges_RzyDrD": {
           "type": "badges",
           "settings": {}
         },
-        "price_tqVtwt": {
+        "price_aeBPyA": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
         },
-        "liquid_icACHd": {
+        "liquid_R3LLtA": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\nEn stock – profitez-en avant qu’il ne soit trop tard !</div>"
+            "liquid": "<div style=\"background-color: #ffeaea; color: #b90000; display: inline-block; padding: 6px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; margin-bottom: 10px;\">\n  <span style=\"display: inline-block; width: 8px; height: 8px; background-color: red; border-radius: 50%; margin-right: 6px;\"></span>\n¡Últimas unidades!\n</div>"
           }
         },
-        "kaching_bundles_app_block_k4qw8M": {
+        "kaching_bundles_app_block_nbbDDc": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{section.settings.product}}"
           }
         },
-        "separator_TkTBVf": {
+        "separator_fK3RxB": {
           "type": "separator",
           "settings": {}
         },
-        "buy_buttons_G7A9Dq": {
+        "buy_buttons_jLrNtn": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
@@ -455,29 +455,36 @@
             "payment_button_text_color": ""
           }
         },
-        "image_WRDD3n": {
+        "liquid_gQtpxX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"payment-image-wrapper\" style=\"background-color: #ffffff; padding: 20px 0; text-align: center;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/PATCH_PAYMENT.jpg?v=1749501827\" \n    alt=\"Méthodes de paiement\" \n    style=\"max-width: 100%; height: auto;\" \n  />\n</div>\n\n<style>\n  @media screen and (max-width: 768px) {\n    .payment-image-wrapper img {\n      width: 100%;\n      height: auto;\n    }\n  }\n\n  @media screen and (min-width: 769px) {\n    .payment-image-wrapper img {\n      max-width: 600px;\n    }\n  }\n</style>"
+          }
+        },
+        "image_nVdt3L": {
           "type": "image",
           "settings": {
             "alignment": "start",
             "max_width": 500
           }
         },
-        "pickup_availability_CzX6xF": {
+        "pickup_availability_wAybxF": {
           "type": "pickup_availability",
           "settings": {}
         }
       },
       "block_order": [
-        "liquid_PPQkdn",
-        "title_UgCaF4",
-        "badges_PUzEgg",
-        "price_tqVtwt",
-        "liquid_icACHd",
-        "kaching_bundles_app_block_k4qw8M",
-        "separator_TkTBVf",
-        "buy_buttons_G7A9Dq",
-        "image_WRDD3n",
-        "pickup_availability_CzX6xF"
+        "liquid_df8F8L",
+        "title_QWWztG",
+        "badges_RzyDrD",
+        "price_aeBPyA",
+        "liquid_R3LLtA",
+        "kaching_bundles_app_block_nbbDDc",
+        "separator_fK3RxB",
+        "buy_buttons_jLrNtn",
+        "liquid_gQtpxX",
+        "image_nVdt3L",
+        "pickup_availability_wAybxF"
       ],
       "settings": {
         "full_width": true,
@@ -730,7 +737,7 @@
     "custom_liquid_XnRFPd",
     "custom_liquid_fceJ8V",
     "custom_liquid_zdMaER",
-    "featured_product_XwmwVj",
+    "featured_product_BWaWtt",
     "custom_liquid_MY3xLk",
     "tabs_t4hLFM",
     "faq_KNNWxz",
