@@ -433,12 +433,6 @@
             "product": "{{section.settings.product}}"
           }
         },
-        "rating_GJDFRR": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "separator_TkTBVf": {
           "type": "separator",
           "settings": {}
@@ -473,7 +467,6 @@
         "price_tqVtwt",
         "liquid_icACHd",
         "kaching_bundles_app_block_k4qw8M",
-        "rating_GJDFRR",
         "separator_TkTBVf",
         "buy_buttons_G7A9Dq",
         "image_WRDD3n",
