@@ -504,19 +504,6 @@
         "input_text_color": ""
       }
     },
-    "custom_liquid_MY3xLk": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"payment-image-wrapper\" style=\"background-color: #ffffff; padding: 20px 0; text-align: center;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/PATCH_PAYMENT.jpg?v=1749501827\" \n    alt=\"Méthodes de paiement\" \n    style=\"max-width: 100%; height: auto;\" \n  />\n</div>\n\n<style>\n  @media screen and (max-width: 768px) {\n    .payment-image-wrapper img {\n      width: 100%;\n      height: auto;\n    }\n  }\n\n  @media screen and (min-width: 769px) {\n    .payment-image-wrapper img {\n      max-width: 600px;\n    }\n  }\n</style>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "tabs_t4hLFM": {
       "type": "tabs",
       "blocks": {
@@ -738,7 +725,6 @@
     "custom_liquid_fceJ8V",
     "custom_liquid_zdMaER",
     "featured_product_BWaWtt",
-    "custom_liquid_MY3xLk",
     "tabs_t4hLFM",
     "faq_KNNWxz",
     "1749500699c9151361",
