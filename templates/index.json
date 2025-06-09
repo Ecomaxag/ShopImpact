@@ -632,34 +632,6 @@
             "title": "¿Qué pasa si no estoy satisfecho?",
             "content": "<p>Ofrecemos una <strong>garantía de satisfacción</strong>. Si no estás contento con los resultados, puedes solicitar el reembolso según nuestra política de devoluciones.</p>"
           }
-        },
-        "item_mUw8Tp": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_L6849Q": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_XEkkKr": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
-        },
-        "item_3NjzGY": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
-          }
         }
       },
       "block_order": [
@@ -672,11 +644,7 @@
         "item_hHVmtb",
         "item_U8pJir",
         "item_yR7yhT",
-        "item_E4xaAE",
-        "item_mUw8Tp",
-        "item_L6849Q",
-        "item_XEkkKr",
-        "item_3NjzGY"
+        "item_E4xaAE"
       ],
       "settings": {
         "full_width": true,
@@ -704,9 +672,9 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
-        "title": "Une question?",
-        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>",
+        "subheading": "Nuestro servicio de atención al cliente está disponible los 7 días de la semana. Tiempo medio de respuesta: 24 h",
+        "title": "¿Tienes alguna pregunta?",
+        "content": "<p>Escríbenos a través del formulario a continuación y te responderemos lo antes posible.</p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",
