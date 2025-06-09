@@ -162,12 +162,6 @@
             "product": "{{section.settings.product}}"
           }
         },
-        "rating_Rx3PGa": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "separator_Ci4qqg": {
           "type": "separator",
           "settings": {}
@@ -202,7 +196,6 @@
         "price_P3VKnQ",
         "liquid_4CCcFJ",
         "kaching_bundles_app_block_wDFcTp",
-        "rating_Rx3PGa",
         "separator_Ci4qqg",
         "buy_buttons_97dXJN",
         "image_WkR7hU",
@@ -224,6 +217,19 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "custom_liquid_n7HnXq": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"payment-image-wrapper\" style=\"background-color: #ffffff; padding: 20px 0; text-align: center;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0936/5772/7306/files/PATCH_PAYMENT.jpg?v=1749501827\" \n    alt=\"Méthodes de paiement\" \n    style=\"max-width: 100%; height: auto;\" \n  />\n</div>\n\n<style>\n  @media screen and (max-width: 768px) {\n    .payment-image-wrapper img {\n      width: 100%;\n      height: auto;\n    }\n  }\n\n  @media screen and (min-width: 769px) {\n    .payment-image-wrapper img {\n      max-width: 600px;\n    }\n  }\n</style>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "logo_list_qB4fMH": {
@@ -440,12 +446,6 @@
             "product": "{{section.settings.product}}"
           }
         },
-        "rating_GJDFRR": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "separator_TkTBVf": {
           "type": "separator",
           "settings": {}
@@ -480,7 +480,6 @@
         "price_tqVtwt",
         "liquid_icACHd",
         "kaching_bundles_app_block_k4qw8M",
-        "rating_GJDFRR",
         "separator_TkTBVf",
         "buy_buttons_G7A9Dq",
         "image_WRDD3n",
@@ -730,6 +729,7 @@
     "image_with_text_overlay_QfzrA7",
     "rich_text_LzBaBP",
     "featured_product_QE3WFb",
+    "custom_liquid_n7HnXq",
     "logo_list_qB4fMH",
     "rich_text_YiBVmW",
     "custom_liquid_y6YjUY",
