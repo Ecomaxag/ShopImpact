@@ -1,4 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
+  "404": {
+    "general": {
+      "title": "Puslapis nerastas",
+      "continue_shopping": "Tęsti apsipirkimą"
+    }
+  },
   "general": {
     "page": "{{ page }} psl.",
     "home": "Pagrindinis",
@@ -86,7 +101,7 @@
       "view_in_space": "Peržiūrėkite savo erdvėje",
       "taxes_included": "Į kainą įtrauktas mokestis.",
       "taxes_excluded": "Mokestis į kainą neįtrauktas.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos apskaičiuojamos<\/a> pateikiant užsakymą",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos apskaičiuojamos</a> pateikiant užsakymą",
       "size_chart": "Dydžių lentelė",
       "available_colors_count": {
         "one": "Parduodama {{ count }} spalvos",
@@ -328,9 +343,9 @@
       "view_cart": "Peržiūrėti krepšelį",
       "checkout": "Pateikti užsakymą",
       "we_accept": "Priimame",
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\" class=\"link\">siuntimo išlaidos<\/a> apskaičiuojami pateikiant užsakymą",
+      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\" class=\"link\">siuntimo išlaidos</a> apskaičiuojami pateikiant užsakymą",
       "taxes_included_but_shipping_at_checkout": "Į kainą įtrauktas mokestis ir siuntimo išlaidos apskaičiuojami pateikiant užsakymą",
-      "taxes_included_and_shipping_policy_html": "Į kainą įtrauktas mokestis. <a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos<\/a> apskaičiuojamos pateikiant užsakymą.",
+      "taxes_included_and_shipping_policy_html": "Į kainą įtrauktas mokestis. <a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos</a> apskaičiuojamos pateikiant užsakymą.",
       "taxes_and_shipping_at_checkout": "Mokesčiai ir siuntimo išlaidos apskaičiuojami pateikiant užsakymą"
     },
     "order": {
@@ -357,12 +372,6 @@
       "one_result": "Jūsų adresui taikomas vienas siuntimo tarifas:",
       "multiple_results": "Jūsų adresui taikomi keli siuntimo tarifai:",
       "error": "Nuskaitant siuntimo tarifus įvyko viena arba daugiau klaidų:"
-    }
-  },
-  "404": {
-    "general": {
-      "title": "Puslapis nerastas",
-      "continue_shopping": "Tęsti apsipirkimą"
     }
   },
   "search": {
@@ -436,6 +445,140 @@
         "one": "Gautas {{ count }} atsiliepimas apie prekę.",
         "other": "Gauta atsiliepimų apie prekę: {{ count }}."
       }
+    }
+  },
+  "shinepages": {
+    "general": {
+      "view_all": "View all",
+      "load_more": "Load more",
+      "read_more": "READ MORE",
+      "link": "Copy link",
+      "link_copied": "Copied",
+      "search": {
+        "search": "Search"
+      },
+      "cart": {
+        "cart_heading": "Cart",
+        "cart_empty": "Your cart is empty",
+        "continue_shopping": "Continue shopping",
+        "remove": "Remove",
+        "estimated_total": "Total",
+        "note": "Add order note",
+        "taxes_and_shipping_policy_at_checkout_html": "Taxes, Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+        "taxes_included_but_shipping_at_checkout": "Tax included and shipping and discounts calculated at checkout",
+        "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> and discounts calculated at checkout.",
+        "taxes_and_shipping_at_checkout": "Taxes, discounts and shipping calculated at checkout",
+        "save_note": "Save note",
+        "cart_error": "There was an error while updating your cart. Please try again.",
+        "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
+        "checkout": "Checkout",
+        "view_cart": "View cart",
+        "free_shipping_spend_html": "Spend <strong>{{ spend }}</strong> more and get free shipping!",
+        "free_shipping": "You are eligible for free shipping."
+      }
+    },
+    "customer": {
+      "account_fallback": "Account",
+      "log_in": "Log in"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "pinterest": "Pinterest",
+      "tumblr": "Tumblr"
+    },
+    "form": {
+      "field_required": "{{ field }} is required",
+      "field_invalid": "{{ field }} is invalid",
+      "error_required": "is required",
+      "error_invalid": "is invalid",
+      "form_error": "An error occurred, please check the information and resubmit.",
+      "form_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+      "input_error": "Subscribe failed",
+      "input_success": "Subscribe successes",
+      "name_label": "Your name",
+      "email_label": "Your email",
+      "phone_label": "Your phone",
+      "message_label": "Your message"
+    },
+    "product": {
+      "product_title_default": "Example product title",
+      "add_to_cart": "Add to cart",
+      "choose_options": "Choose Options",
+      "cart_added": "Cart added!",
+      "cart_failed": "Add cart failed",
+      "sold_out": "Sold out",
+      "sale_html": "Save {{ price }}",
+      "no_products": "No products",
+      "from_price_html": "From {{ price }}",
+      "unit_price": "Unit price",
+      "unit_price_separator": "per",
+      "unavailable": "Unavailable",
+      "value_unavailable": "{{ option_value }} - Unavailable",
+      "rating_count": {
+        "zero": "",
+        "one": "{{ count }} review",
+        "other": "{{ count }} reviews"
+      },
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity Input"
+      },
+      "sku": "SKU",
+      "inventory_in_stock": "In stock",
+      "inventory_in_stock_show_count": "{{ quantity }} in stock",
+      "inventory_low_stock": "Low stock",
+      "inventory_low_stock_show_count": "Low stock: {{ quantity }} left",
+      "inventory_out_of_stock": "Out of stock",
+      "inventory_out_of_stock_continue_selling": "In stock"
+    },
+    "collection_product": {
+      "clear_all": "Clear All",
+      "product_count": {
+        "one": "{{ count }} Result",
+        "other": "{{ count }} Results"
+      },
+      "apply": "APPLY",
+      "filters": "Filters",
+      "instock_text": "In stock only",
+      "from_to_text": "To"
+    },
+    "contact": {
+      "form": {
+        "error_heading": "Please adjust the following:"
+      }
+    },
+    "recipient": {
+      "form": {
+        "checkbox": "I want to send this as a gift",
+        "expanded": "Gift card recipient form expanded",
+        "collapsed": "Gift card recipient form collapsed",
+        "email_label": "Recipient email",
+        "email_label_optional_for_no_js_behavior": "Recipient email (optional)",
+        "email": "Email",
+        "name_label": "Recipient name (optional)",
+        "name": "Name",
+        "message_label": "Message (optional)",
+        "message": "Message",
+        "max_characters": "{{ max_chars }} characters max",
+        "send_on": "YYYY-MM-DD",
+        "send_on_label": "Send on (optional)"
+      }
+    },
+    "templates": {
+      "search": {
+        "suggestions": "Suggestions",
+        "products": "Products",
+        "collections": "Collections",
+        "blog": "Blogs",
+        "search_for": "Search for “{{ terms }}”"
+      }
+    },
+    "localization": {
+      "country_label": "Country/region",
+      "language_label": "Language",
+      "update_language": "Update language",
+      "update_country": "Update country/region"
     }
   }
 }

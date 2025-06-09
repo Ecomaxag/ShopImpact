@@ -1,4 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
+  "404": {
+    "general": {
+      "title": "페이지를 찾을 수 없습니다",
+      "continue_shopping": "쇼핑 계속하기"
+    }
+  },
   "general": {
     "page": "페이지 {{ page }}",
     "home": "홈",
@@ -7,7 +22,7 @@
       "pagination": "페이지 매김 탐색",
       "go_to_page": "페이지 {{ index }}(으)로 이동",
       "go_to_item": "아이템 {{ index }}(으)로 이동",
-      "item_nth_of_count": "아이템 {{ index }}\/{{ count }}",
+      "item_nth_of_count": "아이템 {{ index }}/{{ count }}",
       "drag": "끌기",
       "close": "닫기",
       "next": "다음",
@@ -27,7 +42,7 @@
       "share_email": "이메일로 공유"
     },
     "rating": {
-      "info": "별점 {{ rating_value }}\/{{ rating_max }}"
+      "info": "별점 {{ rating_value }}/{{ rating_max }}"
     },
     "newsletter": {
       "email": "이메일",
@@ -86,7 +101,7 @@
       "view_in_space": "사용자 공간에서 보기",
       "taxes_included": "세금 포함.",
       "taxes_excluded": "세금 별도.",
-      "shipping_policy_html": "체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료 계산<\/a>",
+      "shipping_policy_html": "체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료 계산</a>",
       "size_chart": "사이즈 차트",
       "available_colors_count": {
         "one": "{{ count }}개 색상 가능",
@@ -95,7 +110,7 @@
     },
     "gallery": {
       "close": "갤러리 닫기",
-      "zoom": "확대\/축소",
+      "zoom": "확대/축소",
       "error": "사진을 불러 올 수 없습니다"
     },
     "price": {
@@ -296,7 +311,7 @@
       "phone": "전화번호",
       "address1": "주소 1",
       "address2": "주소 2",
-      "city": "시\/군\/구",
+      "city": "시/군/구",
       "zip": "우편번호",
       "country": "국가",
       "province": "도",
@@ -321,9 +336,9 @@
       "view_cart": "장바구니 보기",
       "checkout": "체크아웃",
       "we_accept": "결제 방법:",
-      "taxes_and_shipping_policy_at_checkout_html": "체크아웃 시 세금과 <a href=\"{{ link }}\" class=\"link\">배송료<\/a> 계산",
+      "taxes_and_shipping_policy_at_checkout_html": "체크아웃 시 세금과 <a href=\"{{ link }}\" class=\"link\">배송료</a> 계산",
       "taxes_included_but_shipping_at_checkout": "세금 포함 및 체크아웃 시 배송료 계산",
-      "taxes_included_and_shipping_policy_html": "세금 포함. 체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료<\/a> 계산.",
+      "taxes_included_and_shipping_policy_html": "세금 포함. 체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료</a> 계산.",
       "taxes_and_shipping_at_checkout": "체크아웃 시 세금과 배송료 계산"
     },
     "order": {
@@ -350,12 +365,6 @@
       "one_result": "귀하의 주소에는 한 가지 배송 옵션이 있습니다:",
       "multiple_results": "귀하의 주소에는 여러 개의 배송 옵션이 있습니다:",
       "error": "배송 옵션을 불러오던 중 한 개 이상의 오류가 발생했습니다:"
-    }
-  },
-  "404": {
-    "general": {
-      "title": "페이지를 찾을 수 없습니다",
-      "continue_shopping": "쇼핑 계속하기"
     }
   },
   "search": {
@@ -389,7 +398,7 @@
     },
     "issued": {
       "remaining_amount": "남은 금액",
-      "out_of_html": "\/{{ initial_value }}",
+      "out_of_html": "/{{ initial_value }}",
       "redeem_instructions": "이 코드로 체크아웃 시 기프트 카드 사용:",
       "code": "기프트 카드 코드",
       "expires_on": "만료: {{ expires_on }}",
@@ -421,13 +430,147 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "이 상품의 평점은 별점 {{ rating_value }}\/{{ rating_max }}입니다.",
+      "review_info": "이 상품의 평점은 별점 {{ rating_value }}/{{ rating_max }}입니다.",
       "leave_review": "리뷰 남기기",
       "review_count": {
         "zero": "이 상품은 아직 리뷰가 없습니다.",
         "one": "{{ count }}개의 리뷰가 있습니다.",
         "other": "{{ count }}개의 리뷰가 있습니다."
       }
+    }
+  },
+  "shinepages": {
+    "general": {
+      "view_all": "View all",
+      "load_more": "Load more",
+      "read_more": "READ MORE",
+      "link": "Copy link",
+      "link_copied": "Copied",
+      "search": {
+        "search": "Search"
+      },
+      "cart": {
+        "cart_heading": "Cart",
+        "cart_empty": "Your cart is empty",
+        "continue_shopping": "Continue shopping",
+        "remove": "Remove",
+        "estimated_total": "Total",
+        "note": "Add order note",
+        "taxes_and_shipping_policy_at_checkout_html": "Taxes, Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+        "taxes_included_but_shipping_at_checkout": "Tax included and shipping and discounts calculated at checkout",
+        "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> and discounts calculated at checkout.",
+        "taxes_and_shipping_at_checkout": "Taxes, discounts and shipping calculated at checkout",
+        "save_note": "Save note",
+        "cart_error": "There was an error while updating your cart. Please try again.",
+        "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
+        "checkout": "Checkout",
+        "view_cart": "View cart",
+        "free_shipping_spend_html": "Spend <strong>{{ spend }}</strong> more and get free shipping!",
+        "free_shipping": "You are eligible for free shipping."
+      }
+    },
+    "customer": {
+      "account_fallback": "Account",
+      "log_in": "Log in"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "pinterest": "Pinterest",
+      "tumblr": "Tumblr"
+    },
+    "form": {
+      "field_required": "{{ field }} is required",
+      "field_invalid": "{{ field }} is invalid",
+      "error_required": "is required",
+      "error_invalid": "is invalid",
+      "form_error": "An error occurred, please check the information and resubmit.",
+      "form_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+      "input_error": "Subscribe failed",
+      "input_success": "Subscribe successes",
+      "name_label": "Your name",
+      "email_label": "Your email",
+      "phone_label": "Your phone",
+      "message_label": "Your message"
+    },
+    "product": {
+      "product_title_default": "Example product title",
+      "add_to_cart": "Add to cart",
+      "choose_options": "Choose Options",
+      "cart_added": "Cart added!",
+      "cart_failed": "Add cart failed",
+      "sold_out": "Sold out",
+      "sale_html": "Save {{ price }}",
+      "no_products": "No products",
+      "from_price_html": "From {{ price }}",
+      "unit_price": "Unit price",
+      "unit_price_separator": "per",
+      "unavailable": "Unavailable",
+      "value_unavailable": "{{ option_value }} - Unavailable",
+      "rating_count": {
+        "zero": "",
+        "one": "{{ count }} review",
+        "other": "{{ count }} reviews"
+      },
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity Input"
+      },
+      "sku": "SKU",
+      "inventory_in_stock": "In stock",
+      "inventory_in_stock_show_count": "{{ quantity }} in stock",
+      "inventory_low_stock": "Low stock",
+      "inventory_low_stock_show_count": "Low stock: {{ quantity }} left",
+      "inventory_out_of_stock": "Out of stock",
+      "inventory_out_of_stock_continue_selling": "In stock"
+    },
+    "collection_product": {
+      "clear_all": "Clear All",
+      "product_count": {
+        "one": "{{ count }} Result",
+        "other": "{{ count }} Results"
+      },
+      "apply": "APPLY",
+      "filters": "Filters",
+      "instock_text": "In stock only",
+      "from_to_text": "To"
+    },
+    "contact": {
+      "form": {
+        "error_heading": "Please adjust the following:"
+      }
+    },
+    "recipient": {
+      "form": {
+        "checkbox": "I want to send this as a gift",
+        "expanded": "Gift card recipient form expanded",
+        "collapsed": "Gift card recipient form collapsed",
+        "email_label": "Recipient email",
+        "email_label_optional_for_no_js_behavior": "Recipient email (optional)",
+        "email": "Email",
+        "name_label": "Recipient name (optional)",
+        "name": "Name",
+        "message_label": "Message (optional)",
+        "message": "Message",
+        "max_characters": "{{ max_chars }} characters max",
+        "send_on": "YYYY-MM-DD",
+        "send_on_label": "Send on (optional)"
+      }
+    },
+    "templates": {
+      "search": {
+        "suggestions": "Suggestions",
+        "products": "Products",
+        "collections": "Collections",
+        "blog": "Blogs",
+        "search_for": "Search for “{{ terms }}”"
+      }
+    },
+    "localization": {
+      "country_label": "Country/region",
+      "language_label": "Language",
+      "update_language": "Update language",
+      "update_country": "Update country/region"
     }
   }
 }
