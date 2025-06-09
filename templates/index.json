@@ -284,6 +284,33 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_YiBVmW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zUXnra": {
+          "type": "heading",
+          "settings": {
+            "text": "Los resultados hablan por sí solos",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_zUXnra"
+      ],
+      "custom_css": [],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_y6YjUY": {
       "type": "custom-liquid",
       "settings": {
@@ -658,6 +685,7 @@
     "rich_text_LzBaBP",
     "featured_product_QE3WFb",
     "logo_list_qB4fMH",
+    "rich_text_YiBVmW",
     "custom_liquid_y6YjUY",
     "custom_liquid_hkNgWq",
     "custom_liquid_zdMaER",
