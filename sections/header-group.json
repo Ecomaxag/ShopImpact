@@ -17,28 +17,28 @@
         "message_kTUWfE": {
           "type": "message",
           "settings": {
-            "text": "Offre limitée -50%",
+            "text": "Oferta limitada: -50 %",
             "url": ""
           }
         },
         "message_eVdi4J": {
           "type": "message",
           "settings": {
-            "text": "Livraison gratuite à domicile",
+            "text": "Envío gratuito a domicilio",
             "url": ""
           }
         },
         "message_pcCg87": {
           "type": "message",
           "settings": {
-            "text": "Paiement 100% sécurisé",
+            "text": "Pago 100 % seguro",
             "url": ""
           }
         },
         "message_JTHw9a": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé",
+            "text": "Satisfecho o reembolsado",
             "url": ""
           }
         }
