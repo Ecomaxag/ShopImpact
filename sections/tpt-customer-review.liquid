@@ -1,0 +1,523 @@
+
+
+
+
+
+
+{% comment %} Section layout style {% endcomment %}
+{{ 'tpt-section.css' | asset_url | stylesheet_tag }}
+
+{% comment %} Section configuration {% endcomment %}
+{%- render 'tpt-section-setting', section: section -%}
+
+{%- if section.index and section.settings.section_lazyload -%}
+  <script src="{{ 'tpt-section-lazyload.js' | asset_url }}" defer="defer"></script>
+
+  <tpt-section-lazyload data-url="?section_id={{ section.id }}">
+    <div data-lazyload-element></div>
+    <span class="tpt-section_loader"></span>
+  </tpt-section-lazyload>
+{%- else -%}
+  {% comment %} Current section style {% endcomment %}
+  {{ 'tpt-customer-review.css' | asset_url | stylesheet_tag }}
+
+  <div class="tpt-section_container">
+    <div class="tpt-section_content">
+      {% comment %} Section header {% endcomment %}
+      {%- render 'tpt-section-header', section: section -%}
+
+      <div class="tpt-section-body tpt-customer-review-container">
+        {% comment %} Section body {% endcomment %}
+        <div class="tpt-customer-review-grid" style="--item-border-radius: {{ section.settings.border_radius }}px; --achievement-icon-bg-color: {{ section.settings.achievement_icon_bg_color }}; --stars-color: {{ section.settings.stars_color }}; --mobile-column: {{ section.settings.mobile_columns }}; --tablet-column: {{ section.settings.tablet_columns }}; --desktop-column: {{ section.settings.desktop_columns }}">
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {% when 'achievement' %}
+                <div class="tpt-customer-review-item" {{ block.shopify_attributes }}>
+                  <div class="tpt-customer-review-achievement">
+                    <div class="tpt-customer-review-achievement-icon">
+                      {%- if block.settings.icon_image != blank -%}
+                        {% if block.settings.image_preload %}
+                          {% assign loading = 'eager' %}
+                        {% else %}
+                          {% assign loading = 'lazy' %}
+                        {% endif %}
+                        <img src="{{ block.settings.icon_image | img_url: '40x40', crop: 'center' }}" 
+                             alt="{{ block.settings.label | escape }}" 
+                             width="24" 
+                             height="24" 
+                             loading="{{ loading }}">
+                      {%- else -%}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                      {%- endif -%}
+                    </div>
+                    <div class="tpt-customer-review-achievement-content">
+                      <div class="tpt-customer-review-achievement-label">{{ block.settings.label }}</div>
+                      <div class="tpt-customer-review-achievement-description">{{ block.settings.content }}</div>
+                    </div>
+                  </div>
+                </div>
+              {% when 'review' %}
+                <div class="tpt-customer-review-item" {{ block.shopify_attributes }}>
+                  <div class="tpt-customer-review-customer">
+                    <div class="tpt-customer-review-name">{{ block.settings.name }}</div>
+                    <div class="tpt-customer-review-country">{{ block.settings.country }}</div>
+                  </div>
+                  <div class="tpt-customer-review-content">{{ block.settings.content }}</div>
+                  <div class="tpt-customer-review-stars">
+                    {%- case block.settings.stars -%}
+                      {%- when 1 -%}
+                        ★☆☆☆☆
+                      {%- when 2 -%}
+                        ★★☆☆☆
+                      {%- when 3 -%}
+                        ★★★☆☆
+                      {%- when 4 -%}
+                        ★★★★☆
+                      {%- when 5 -%}
+                        ★★★★★
+                    {%- endcase -%}
+                  </div>
+                </div>
+            {% endcase %}
+          {%- endfor -%}
+        </div>
+        {% comment %} End section body {% endcomment %}
+      </div>
+
+      {% comment %} Section footer {% endcomment %}
+      {%- render 'tpt-section-footer', section: section -%}
+    </div>
+  </div>
+{%- endif -%}{%- unless content_for_header contains 'tapita-section-script-tags' -%}{% style %}#shopify-section-{{ section.id }}{display: none !important;}{% endstyle %}{%- endunless -%}
+{% schema %}
+{
+  "name": "Tpt - Customer review",
+  "class": "section tpt-section tpt-customer-review",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "What people are saying",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        {
+          "value": "h4",
+          "label": "Small"
+        },
+        {
+          "value": "h2",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "label": "Sub-heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "text",
+      "id": "top_button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "top_button_link",
+      "label": "Button link"
+    },
+    
+    {
+      "type": "header",
+      "content": "Section body"
+    },
+    {
+      "type": "color",
+      "id": "achievement_icon_bg_color",
+      "label": "Achievement icon background color",
+      "default": "#FF7043"
+    },
+    {
+      "type": "color",
+      "id": "stars_color",
+      "label": "Stars color",
+      "default": "#FFB74D"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "label": "Border radius",
+      "default": 10
+    },
+
+    {
+      "type": "range",
+      "id": "desktop_columns",
+      "min": 0,
+      "max": 3,
+      "step": 1,
+      "label": "Desktop columns",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "tablet_columns",
+      "min": 0,
+      "max": 3,
+      "step": 1,
+      "label": "Tablet columns",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "mobile_columns",
+      "min": 0,
+      "max": 3,
+      "step": 1,
+      "label": "Mobile columns",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Section footer"
+    },
+    {
+      "type": "text",
+      "id": "bottom_button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "bottom_button_link",
+      "label": "Button link"
+    },
+    
+    {
+      "type": "header",
+      "content": "Section layout"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_full_width",
+      "label": "Section full width",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "section_max_width",
+      "min": 1200,
+      "max": 1900,
+      "step": 20,
+      "unit": "px",
+      "label": "Section max width",
+      "default": 1600
+    },
+    {
+      "type": "checkbox",
+      "id": "content_full_width",
+      "label": "Content full width",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 800,
+      "max": 1900,
+      "step": 20,
+      "unit": "px",
+      "label": "Content max width",
+      "default": 1440
+    },
+    {
+      "type": "range",
+      "id": "padding_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding desktop",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_tablet_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding tablet, mobile",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_desktop",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin desktop",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "margin_tablet_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin tablet, mobile",
+      "default": 40
+    },
+    
+    {
+      "type": "header",
+      "content": "Section color"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient_color",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "foreground_color",
+      "label": "Foreground",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "input_button_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Input, button radius",
+      "default": 0
+    },
+    
+    {
+      "type": "header",
+      "content": "Section optimize"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_lazyload",
+      "label": "Section lazyload",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "achievement",
+      "name": "Achievement Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon image"
+        },
+        {
+          "type": "checkbox",
+          "id": "image_preload",
+          "label": "Preload image",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "4.9 ★"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "label": "Content",
+          "default": "Reviews from customers"
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "name": "Review Card",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "default": "Customer Name"
+        },
+        {
+          "type": "text",
+          "id": "country",
+          "label": "Country",
+          "default": "United States"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Review content",
+          "default": "This is an example review content. The customer shares their experience with your product or service."
+        },
+        {
+          "type": "range",
+          "id": "stars",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Rating (stars)",
+          "default": 5
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tpt - Customer review",
+      "blocks": [
+        {
+          "type": "achievement",
+          "settings": {
+            "label": "4.9 ★",
+            "content": "Reviews from customers"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "name": "TheSannieStore",
+            "country": "Finland",
+            "content": "Omg, they are the best! I just started SEO analyzing my site and there were so many errors, but supportive came to help right away as I asked them. I've got very nice advicing and as a customer I can say I will surely come back if I got any problems with SEO problems. Five stars!",
+            "stars": 5
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "name": "Peekyboo",
+            "country": "Australia", 
+            "content": "I've tried so many seo app over more than 10 year and this on is the best so far, and by far. The support is super helpful as well. definitely worth the investment. Recommend 100%",
+            "stars": 5
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "name": "Shirdell.se",
+            "country": "Sweden",
+            "content": "I highly recommend Tapita to all website owners. It has significantly improved mywebpage speed, and I am extremely satisfied with the value I receive for my money. Real value! Thank you, Tapita Team!.",
+            "stars": 5
+          }
+        },
+        {
+          "type": "achievement",
+          "settings": {
+            "label": "500+",
+            "content": "messages exchanged so far"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "name": "Lake And Laurel Company",
+            "country": "United States",
+            "content": "Tapita has been such a help to our small business! We looked at hiring other firms to guide us through SEO and website improvements, but Tapita has worked diligently with us to accomplish these things for a much smaller budget. As a small business, Tapita is a lifesaver!",
+            "stars": 5
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "name": "By Baano",
+            "country": "United States",
+            "content": "I want to extend my gratitude to the Tapita Team for their exceptional support and assistance. Thanks to their expertise and guidance, my website has been performing exceptionally well. I am confident that with their continued help, my site will reach its full potential and achieve the success I have envisioned.",
+            "stars": 5
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "name": "Forever Frozen",
+            "country": "South Africa",
+            "content": "We've tried to manage SEO ourselves and have paid various consultants, we even tried some other Shopify Apps. None of these really worked for us. SEO is consistently changing and any business taking E-Commerce seriously, particularly if online paid ads are part of your marketing strategy, cannot afford to get this wrong. Tapita SEO & Speed does the job. The support is quick, knowledgable and professional. Recommended.",
+            "stars": 5
+          }
+        },
+        {
+          "type": "achievement",
+          "settings": {
+            "label": "Merchants globally",
+            "content": "Reviews from customers"
+          }
+        }
+      ]
+    }
+  ]
+} 
+{% endschema %}
