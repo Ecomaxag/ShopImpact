@@ -618,6 +618,48 @@
             "title": "¿Cuánto dura un envase?",
             "content": "<p>Un envase de DenseUp® suele durar entre <strong>4 y 6 semanas</strong>, dependiendo del uso diario y de la superficie a cubrir.</p>"
           }
+        },
+        "item_yR7yhT": {
+          "type": "item",
+          "settings": {
+            "title": "¿Es fácil de transportar?",
+            "content": "<p>Sí. DenseUp® tiene un diseño compacto con espejo incorporado, ideal para llevarlo en el bolso o de viaje.</p>"
+          }
+        },
+        "item_E4xaAE": {
+          "type": "item",
+          "settings": {
+            "title": "¿Qué pasa si no estoy satisfecho?",
+            "content": "<p>Ofrecemos una <strong>garantía de satisfacción</strong>. Si no estás contento con los resultados, puedes solicitar el reembolso según nuestra política de devoluciones.</p>"
+          }
+        },
+        "item_mUw8Tp": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_L6849Q": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_XEkkKr": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_3NjzGY": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
         }
       },
       "block_order": [
@@ -628,7 +670,13 @@
         "item_xQnrjK",
         "item_pCfKtx",
         "item_hHVmtb",
-        "item_U8pJir"
+        "item_U8pJir",
+        "item_yR7yhT",
+        "item_E4xaAE",
+        "item_mUw8Tp",
+        "item_L6849Q",
+        "item_XEkkKr",
+        "item_3NjzGY"
       ],
       "settings": {
         "full_width": true,
